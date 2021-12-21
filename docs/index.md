@@ -1,31 +1,67 @@
-# Welcome to the physics learning and teaching resource hub
+# Welcome to POLUS: the physics lab portal
 
-This site exists to provide a one-stop shop for all things learning and teaching within physics at UTAS.
+POLUS, in addition to being the [titan of rational intelligence](https://en.wikipedia.org/wiki/Coeus), is a central location for resources pertinent to the undergraduate laboratory program at UTAS. At this moment in time, it is very much a work in progress, but it is envisaged that this will be a one-stop shop for lab materials and the first port of call for additional resources.
 
-![](images/index-header.jpg)
+![](images/header.jpg)
 
 ---
-## What is the PL&T hub?
 
-### From where does it come?
+## A home for experimental physics at UTAS
 
-The creation of this site came about from my first teaching experience in semester two, 2021, whereby I was thrust into a teaching role but with little detail about what exactly the role involved, in that there was no documentation outlining expectations around both teaching and content, no timeline of activities, no list of methods or resources, rather everything runs on institutional knowledge. As someone from outside the institution, and a desire to streamline procedures and disseminate information, this site is an ever-expanding resource of things that I have learned, a repository to detail how things are currently done, and provide resources to aid with navigation of the system.
+The [raison d'être](https://en.wikipedia.org/wiki/Raison_d%27%C3%AAtre) of POLUS consists of four principle motivations, outlined below.
 
-### What is here?
+### Experimental content
 
-In the first instance, the bulk of materials are items that are pertinent to teaching a course when one has never previously taught at UTAS, but beyond this, I want to have a space for documenting systems and tools that have proven worthwhile in my teaching adventures.
+<!-- [<i class="fas fa-atom fa-5x"></i>](#){ .md-button .md-button--primary class="text-center" style="margin-left: 45%"} -->
 
-### How do I use what is here?
+[<i class="fas fa-dice-one fa-5x"></i>](partI/index.md){ .md-button .md-button--primary class="text-center" style="margin-left: 30%"}
+[<i class="fas fa-dice-two fa-5x"></i>](partII/index.md){ .md-button .md-button--primary class="text-center" style="margin-left: 7.5%"}
+[<i class="fas fa-dice-three fa-5x"></i>](partIII/index.md){ .md-button .md-button--primary class="text-center" style="margin-left: 7.5%"}
 
-Information on course structure, what are expectations, and how to be navigate specific problems should be consumed in a piecemeal fashion, that is to say as needed; however, there is a fair bit of content relating to developing teaching materials and practises, which are probably best used through example. To expand, it is probably best to see a demonstration a tool or method, either through in-person discussion or linked examples, and then treat the content here as a "how-to" guide. There is also a resource library, which can be scanned for ideas and inspiration.
+This site hosts the notes for experiments, in addition to their source files, which can be downloaded and used both as a reference and as an educational resource. Additional material will also be added as it is developed, including computational resources and extension projects..
 
-!!! warning "Salt advised"
+### Reference material
 
-    <figure markdown>
-    ![](images/index-salt.jpg){width="500" : .center}
-    <figcaption>A large chunk of (Mongolian) rock salt. Image courtesy of あおもりくま, taken from <a href=https://commons.wikimedia.org/wiki/    File:Mongol_rock_salt_Edit.jpg>Wikimedia Commons</a> licensed under the <a href=https://creativecommons.org/licenses/by-sa/3.0/deed.en>CC-BY-SA-3.0</a> licence.</figcaption>
-    </figure>
+[<i class="fas fa-book-open fa-5x"></i>](reference/index.md){ .md-button .md-button--primary class="text-center" style="margin-left: 44%"}
 
-    This site is written, curated, and supported by [me](mailto:andrew.mcculloch@utas.edu.au) and consequently, it is chock-full of my anecdotal experience, my biases, and opinions. I hope the site is a useful resource, but given I have taken the time to prepare it, please refrain from non-constructive complaints about its content. I would encourage anyone to provide ideas, feedback, and corrections. Moreover, I am all about using and following best-practise educational tools and techniques, but ensure to prepare a decent case in order to challenge my thinking when it comes to methods about which I have spent much time researching and developing.
+A library of curated content that is pertinent to experimental physics and experimentation more generally is provided to help develop knowledge in the area. Content ranges from equipment operating manuals through to example reports with commentary.
+
+### Safety resources
+
+[<i class="fas fa-skull-crossbones fa-5x"></i>](safety/index.md){ .md-button .md-button--primary class="text-center" style="margin-left: 45%"}
+
+Navigating workplace health and safety in the physics lab should not be a chore. On the site, detailed information on how to work safely and also how to develop an understanding of the safety framework are presented.
+
+### User-generated content
+
+[<i class="fas fa-user-astronaut fa-5x"></i>](playhouse/index.md){ .md-button .md-button--primary class="text-center" style="margin-left: 45%"}
+
+Science is a community-based endeavour. Content created by the physics community that is of interest to the physics community is both welcomed and encouraged. Please get in contact if you would like to share some of your content!
+
+---
+
+## External resources
+
+This site is dedicated to hosting content pertinent to experimental physics at UTAS, but related useful content can be found in other locations:
+
+<figure markdown>
+<a href="https://www.utas.edu.au/natural-sciences/physics">![UTAS](images/UTAS.jpg){width="125" align=left}</a>
+<figcaption>The official site for the discipline of physics at UTAS. Here one can find course information along with details about research undertaken at the university</figcaption>
+</figure>
+
+<figure markdown>
+<a href="https://www.utas.edu.au/natural-sciences/physics">![UTAS](images/MAPS.jpg){width="125" align=left}</a>
+<figcaption>The group page of the UTAS Mathematics and Physics Society. The group provides support and runs activities to make life as a student in maths and/or physics more enjoyable</figcaption>
+</figure>
+
+<figure markdown>
+<a href="https://aip.org.au/">![UTAS](images/AIP.jpg){width="125" align=left}</a>
+<figcaption>The official site for the Australian Institute of Physics. The AIP is the chief body in Australia dedicated to promoting the role of physics in all aspects of society</figcaption>
+</figure>
+
+---
+
+!!! bug "Gotta catch 'em all"
+    This site is developed and maintained by the facilities manager for physics. If you come across mistakes, bugs, or have ideas for content or any other quality-of-life improvements, [please get in contact](mailto:physics.labs@utas.edu.au)!
 
 --8<-- "includes/abbreviations.md"

@@ -1,93 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://pi-master/PLT/</loc>
-         <lastmod>2021-12-16</lastmod>
+         <loc>https://utasphys.cloud.edu.au/POLUS/</loc>
+         <lastmod>2021-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://pi-master/PLT/administration/</loc>
-         <lastmod>2021-12-16</lastmod>
+         <loc>https://utasphys.cloud.edu.au/POLUS/partI/</loc>
+         <lastmod>2021-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://pi-master/PLT/administration/bureaucracy/</loc>
-         <lastmod>2021-12-16</lastmod>
+         <loc>https://utasphys.cloud.edu.au/POLUS/partII/</loc>
+         <lastmod>2021-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://pi-master/PLT/administration/enrolments/</loc>
-         <lastmod>2021-12-16</lastmod>
+         <loc>https://utasphys.cloud.edu.au/POLUS/partIII/</loc>
+         <lastmod>2021-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://pi-master/PLT/assessment/</loc>
-         <lastmod>2021-12-16</lastmod>
+         <loc>https://utasphys.cloud.edu.au/POLUS/playhouse/</loc>
+         <lastmod>2021-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://pi-master/PLT/assessment/assignments/</loc>
-         <lastmod>2021-12-16</lastmod>
+         <loc>https://utasphys.cloud.edu.au/POLUS/reference/</loc>
+         <lastmod>2021-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://pi-master/PLT/assessment/examination/</loc>
-         <lastmod>2021-12-16</lastmod>
+         <loc>https://utasphys.cloud.edu.au/POLUS/safety/</loc>
+         <lastmod>2021-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://pi-master/PLT/assessment/guidelines/</loc>
-         <lastmod>2021-12-16</lastmod>
+         <loc>https://utasphys.cloud.edu.au/POLUS/safety/inductions/</loc>
+         <lastmod>2021-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://pi-master/PLT/resources/</loc>
-         <lastmod>2021-12-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://pi-master/PLT/resources/faqs/</loc>
-         <lastmod>2021-12-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://pi-master/PLT/resources/software/</loc>
-         <lastmod>2021-12-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://pi-master/PLT/teaching/</loc>
-         <lastmod>2021-12-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://pi-master/PLT/teaching/computation/</loc>
-         <lastmod>2021-12-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://pi-master/PLT/teaching/demonstrations/</loc>
-         <lastmod>2021-12-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://pi-master/PLT/teaching/lms/</loc>
-         <lastmod>2021-12-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://pi-master/PLT/teaching/mkdocs/</loc>
-         <lastmod>2021-12-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://pi-master/PLT/teaching/practicalities/</loc>
-         <lastmod>2021-12-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://pi-master/PLT/teaching/website/</loc>
-         <lastmod>2021-12-16</lastmod>
+         <loc>https://utasphys.cloud.edu.au/POLUS/safety/labsafety/</loc>
+         <lastmod>2021-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

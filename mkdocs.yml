@@ -1,31 +1,25 @@
-site_name: PL&T - Physics Learning and Teaching
-site_url: https://pi-master/PLT
-repo_url: https://github.com/Andy-UTAS/PhysicsL-T
-repo_name:  Andy-UTAS/PhysicsL&T
+site_name: POLUS - UTAS physics
+site_url: https://utasphys.cloud.edu.au/POLUS/
+repo_url: https://github.com/Andy-UTAS/POLUS
+repo_name:  Andy-UTAS/POLUS
 edit_uri: ""
 
 nav:
     - Home: index.md
-    - 'Teaching':
-      - teaching/index.md
-      - teaching/practicalities.md
-      - teaching/lms.md
-      - teaching/website.md
-      - teaching/mkdocs.md
-      - teaching/computation.md
-      - teaching/demonstrations.md
-    - 'Assessment':
-      - assessment/index.md
-      - assessment/guidelines.md
-      - assessment/assignments.md
-      - assessment/examination.md
-    - 'Administration':
-      - administration/index.md
-      - administration/bureaucracy.md
-      - administration/enrolments.md
-    - 'Resources':
-      - resources/index.md
-      - resources/faqs.md
+    - 'Part I':
+      - partI/index.md
+    - 'Part II':
+      - partII/index.md
+    - 'Part III':
+      - partIII/index.md
+    - 'Safety':
+      - safety/index.md
+      - safety/labsafety.md
+      - safety/inductions.md
+    - 'Reference material':
+      - reference/index.md
+    - 'The playhouse':
+      - playhouse/index.md
 
 theme:
   name: material
@@ -75,6 +69,7 @@ markdown_extensions:
       permalink: True
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.highlight:
       linenums: true # Enabeles line numbers in code
       linenums_style: pymdownx-inline # Makes the line numbers in code not shit (renders properly and copies well)
