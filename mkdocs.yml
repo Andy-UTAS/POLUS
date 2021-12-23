@@ -8,6 +8,7 @@ nav:
     - Home: index.md
     - 'Part I':
       - partI/index.md
+      - partI/s1e04.md
     - 'Part II':
       - partII/index.md
     - 'Part III':
@@ -16,9 +17,12 @@ nav:
       - safety/index.md
       - safety/labsafety.md
       - safety/inductions.md
-    - 'Reference material':
+    - 'Reference':
       - reference/index.md
-    - 'The playhouse':
+      - reference/hardware.md
+      - reference/software.md
+      - reference/coding.md
+    - 'Playhouse':
       - playhouse/index.md
 
 theme:
@@ -74,6 +78,9 @@ markdown_extensions:
       linenums: true # Enabeles line numbers in code
       linenums_style: pymdownx-inline # Makes the line numbers in code not shit (renders properly and copies well)
       anchor_linenums: True
+  - def_list # For definition lists
+  - pymdownx.tasklist: # For lists with checkboxes
+      custom_checkbox: true
   - pymdownx.inlinehilite
   - pymdownx.tabbed # Enabeles content tabs
   - pymdownx.superfences # Enables nesting of code and content in tabs

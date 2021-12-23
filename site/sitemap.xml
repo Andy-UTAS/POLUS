@@ -2,47 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://utasphys.cloud.edu.au/POLUS/</loc>
-         <lastmod>2021-12-21</lastmod>
+         <lastmod>2021-12-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://utasphys.cloud.edu.au/POLUS/partI/</loc>
-         <lastmod>2021-12-21</lastmod>
+         <lastmod>2021-12-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://utasphys.cloud.edu.au/POLUS/partI/s1e04/</loc>
+         <lastmod>2021-12-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://utasphys.cloud.edu.au/POLUS/partII/</loc>
-         <lastmod>2021-12-21</lastmod>
+         <lastmod>2021-12-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://utasphys.cloud.edu.au/POLUS/partIII/</loc>
-         <lastmod>2021-12-21</lastmod>
+         <lastmod>2021-12-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://utasphys.cloud.edu.au/POLUS/playhouse/</loc>
-         <lastmod>2021-12-21</lastmod>
+         <lastmod>2021-12-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://utasphys.cloud.edu.au/POLUS/reference/</loc>
-         <lastmod>2021-12-21</lastmod>
+         <lastmod>2021-12-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://utasphys.cloud.edu.au/POLUS/reference/coding/</loc>
+         <lastmod>2021-12-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://utasphys.cloud.edu.au/POLUS/reference/experiment/</loc>
+         <lastmod>2021-12-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://utasphys.cloud.edu.au/POLUS/reference/hardware/</loc>
+         <lastmod>2021-12-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://utasphys.cloud.edu.au/POLUS/reference/software/</loc>
+         <lastmod>2021-12-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://utasphys.cloud.edu.au/POLUS/safety/</loc>
-         <lastmod>2021-12-21</lastmod>
+         <lastmod>2021-12-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://utasphys.cloud.edu.au/POLUS/safety/inductions/</loc>
-         <lastmod>2021-12-21</lastmod>
+         <lastmod>2021-12-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://utasphys.cloud.edu.au/POLUS/safety/labsafety/</loc>
-         <lastmod>2021-12-21</lastmod>
+         <lastmod>2021-12-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

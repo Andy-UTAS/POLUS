@@ -1,45 +1,27 @@
-# Part I labs
+# Reference material
 
-The part I labs are associated with 100-level subjects. Emphasis is placed on assisted learning and investigating systems which are core to understanding the physical world, with much time devoted to understanding what constitutes making a measurement, and how to quantify the precision of measurements. Topics investigated include from Newtonian mechanics, electronic systems, wave mechanics, and optical physics.
+Experimental physics requires a broad range of skills and an expansive knowledge base. Such things do not simply materialise from a vacuum, but rather content must be learned and skills honed. It is intended that this page be a starting point on this journey, with materials provided to both aid with specific labs and with experimental technique more generally.
 
-![](images/index-header.jpg)
+![](header.jpg)
 
 ---
 
-## Structure
+## Why experimental physics?
 
-Lab work is undertaken as part of subjects [KYA101](https://www.utas.edu.au/courses/cse/units/kya101-physics-1a) *Physics 1A* and [KYA102](https://www.utas.edu.au/courses/cse/units/kya102-physics-1b) *Physics 1B* which run in semesters one and two respectively. In both cases, lab work accounts for 15% of the subject mark and 12/16 hours of laboratory time is allocated for the semester. In practical terms, experiments are run every two weeks with a duration of two hours. Experiments are conducted in collaboration with another student, but the program is designed to foster collaboration and to cultivate a collegiate environment amongst all participants.
+### Interrogating the universe
 
-## Experiments
+It might seem like hyperbole to justify doing experiments because they allow us understand the universe, but this really is the cash value of experimentation. All too often we find ourselves learning how things work, rarely stopping to ask "why is it that this thing works in this particular way?". Science is the undertaking to document and enhance our understanding of how the universe functions, with testable predications and explanations the sole form of accepted currency. The purpose of laboratory-based inquiry is to explore the playground of nature: to use the theoretical skills and knowledge which have been developed in other educational media to probe our understanding of controlled phenomena.
 
-=== KYA101
+<p style="text-align:center; border:3px; border-style:solid; border-color:#EF5653; padding: 1em;">The goal is to laboratory-based experimentation is to develop quantitative critical thinking skills, defined as the ability to use data to test and evaluate models, explanations, and methods.</p>
 
-    | Experiment | Branch(es) of physics |
-    | :-----: | :-----|
-    | S1E01: Measurement | Newtonian mechanics |
-    | S1E02: Hit the target |	Newtonian mechanics |
-    | S1E03: Bungee egg	| Newtonian mechanics |
-    | S1E04: Collisions	| Newtonian mechanics |
-    | S1E05: Rotational motion | Newtonian mechanics |
-    | S1E06: Voltage dividers	| Electronics |
+It is important to highlight that the term *critical thinking* is bandied about very loosely, and it should not be conflated with dispassionate evaluation and analysis, but rather recognising that it encapsulates curiosity and the application of logic to interpreting systems and phenomena. It is not simply a process that is to be used to arrive at an answer, but a mode of cognition which is nourished by asking questions such as "how?", and "what if?". In the context of natural philosophy, this practiced train of reasoning is often referred to as *thinking like a physicist*, with the core facets [having been described as](https://physicstoday.scitation.org/doi/10.1063/PT.3.3816):
 
-=== KYA102
+> Those aspects relate to the process of scientific experimentation, such as formulating hypotheses and testing them by collecting data, figuring out how to improve the quality of data, using data to evaluate the validity of models, and deciding on suitable criteria for such evaluation.
 
-    | Experiment | Branch(es) of physics |
-    | :-----: | :-----|
-    | S2E01: Measurement | Newtonian mechanics |
-    | S2E02: Hit the target | Newtonian mechanics |
-    | S2E03: Bungee egg | Newtonian mechanics |
-    | S2E04: Collisions |	Newtonian mechanics |
-    | S2E05: Rotational motion | Newtonian mechanics |
-    | S2E06: Voltage dividers |	Newtonian mechanics |
-    | S2E07: Voltage dividers |	Newtonian mechanics |
-    | S2E08: Voltage dividers |	Newtonian mechanics |
+### Tools for interrogating the universe
 
-## Assessment
-As part of each experiment, you will be expected to complete an experiment worksheet which is to be submitted at, and give a short presentation about your experiment to your peers. Additionally, once per semester you are required to prepare a formal report on one experiment, which will include a peer assessment process.
+In addition to the experimentation being the lifeblood of the scientific endeavour, a core component of a laboratory program is also the cultivation of technical skills, and technical understanding, along with building competency in experimental technique. Whilst these skills may sound esoteric, the formation which is sought ranges from learning about and establishing command over experimental tools and equipment, to the valid collection and analysis of data, along with developing an understanding of uncertainties and how to meaningfully evaluate results, though to the communication of one's findings.
 
-## Practicalities
-Labs take place in the first-year lab (room 236) in the [mathematics and physics building](https://www.openstreetmap.org/way/23959304) located on the Sandy Bay campus.
+The key outcome of the entire endeavour is experimental design and execution: if a problem is posed, or a question is asked, experimental science provides the methods and tools best placed to provide an answer, and the study of experimentation is the gateway to these utilities.
 
 --8<-- "includes/abbreviations.md"

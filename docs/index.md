@@ -50,7 +50,7 @@ This site is dedicated to hosting content pertinent to experimental physics at U
 </figure>
 
 <figure markdown>
-<a href="https://www.utas.edu.au/natural-sciences/physics">![UTAS](images/MAPS.jpg){width="125" align=left}</a>
+<a href="https://www.facebook.com/mapsutas/">![UTAS](images/MAPS.png){width="125" align=left}</a>
 <figcaption>The group page of the UTAS Mathematics and Physics Society. The group provides support and runs activities to make life as a student in maths and/or physics more enjoyable</figcaption>
 </figure>
 

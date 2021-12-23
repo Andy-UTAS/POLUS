@@ -3,10 +3,12 @@
 *[CMS]: Content Management System
 *[DoF]: Degrees of Freedom
 *[DoS]: Density of States
+*[GHS]: Globally Harmonized System
 *[HTML]: HyperText Markup Language
 *[ILO]: Intended Learning Outcome
 *[LCAO]: Linear Combination of Atomic Orbitals
 *[LMS]: Learning Management System
+*[MSDS]: Material Safety Data Sheet
 *[NMR]: Nuclear Magnetic Resonance
 *[ODE]: Ordinary-Differential Equation
 *[PBL]: Problem-Based Learning
