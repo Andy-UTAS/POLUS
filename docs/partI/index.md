@@ -1,8 +1,8 @@
-# Part I labs
+# Home
+
+![](header.jpg){: .center}
 
 The part I labs are associated with 100-level subjects. Emphasis is placed on assisted learning and investigating systems which are core to understanding the physical world, with much time devoted to understanding what constitutes making a measurement, and how to quantify the precision of measurements. Topics investigated include from Newtonian mechanics, electronic systems, wave mechanics, and optical physics.
-
-![](images/index-header.jpg)
 
 ---
 
@@ -19,7 +19,7 @@ Lab work is undertaken as part of subjects [KYA101](https://www.utas.edu.au/cour
     | S1E01: Measurement | Newtonian mechanics |
     | S1E02: Hit the target |	Newtonian mechanics |
     | S1E03: Bungee egg	| Newtonian mechanics |
-    | S1E04: Collisions	| Newtonian mechanics |
+    | [S1E04: Collisions](s1e04)	| Newtonian mechanics |
     | S1E05: Rotational motion | Newtonian mechanics |
     | S1E06: Voltage dividers	| Electronics |
 

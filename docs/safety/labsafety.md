@@ -35,7 +35,7 @@ The university's prescribed risk management process is documented [elsewhere](ht
 ??? abstract "UTAS risk assessment procedure"
     The formal procedure for risk assessment is carried out by the [facilities manager](mailto:physics.facilities@utas.edu.au) and the unit coordinator. A risk assessment is carried out as specified by the relevant policy document ([Risk Management Procedure](https://www.utas.edu.au/__data/assets/pdf_file/0020/1370045/Project-Task-Risk-Management-Procedure-UNDER-REVIEW.pdf)) and must be endorsed by the relevant body depending on the level of risk. The risk assessments for each year can be accessed below:
 
-    - [Part I labs](Risk Assessment - First Year Labs.pdf)
+    - [Part I labs](labsafety/Risk Assessment - First Year Labs.pdf)
     - Part II labs
     - Part III labs
 
@@ -45,7 +45,7 @@ In an effort to make the content less terse, less didactic, less abstract, and m
 
 ### Electrical
 
-![Discharge](discharge.jpg){width="250" align=right} The most common hazard in the lab is electricity, in the form of mains power, but also electrical components and equipment. Given the ubiquity and importance of electrical energy, we spend much time investigating how it generated, transported, and used. We also study how voltages and currents can be manipulated to perform all manner of tasks, notably for the purpose of computation and measurement which explicitly involves the construction of electrical circuits and the usage of test equipment.
+![Discharge](labsafety/discharge.jpg){width="250" align=right} The most common hazard in the lab is electricity, in the form of mains power, but also electrical components and equipment. Given the ubiquity and importance of electrical energy, we spend much time investigating how it generated, transported, and used. We also study how voltages and currents can be manipulated to perform all manner of tasks, notably for the purpose of computation and measurement which explicitly involves the construction of electrical circuits and the usage of test equipment.
 
 There is no situation where one would be intentionally exposed to electrical hazards, but you should ensure that you do not connect or power on systems without understanding what they are, or what they are doing. When working with electrical components or circuits, try to avoid unintentional touching or shorting of contacts; in our study of electronics, it is unlikely an individual component will pose severe danger to your safety, but component damage or failure can lead to bad outcomes, for example, very stinky labs! It should also be emphasised that conduction pathways other than wires (e.g. water) and electricity do not mix: so when working with both fluids and electric equipment, one should remain extremely vigilant.
 
@@ -60,11 +60,11 @@ There is no situation where one would be intentionally exposed to electrical haz
     |  UserName  |  EVERYONE  |
     |  Password  |  everyone  |
 
-![AlBr](albr.jpg){width="250" align=left} The use of chemical agents is not confined to chemistry, on the contrary, the study and use of chemicals is core to many areas physics. Consequently, chemicals are commonplace in labs, although for the most part will consist of common solvents (e.g. isopropyl alcohol or acetone) but certain labs involve investigating the physical properties of more exotic substances. Any experiment which requires the use of hazardous compounds will detail the risks posed and the procedures to be followed for risk mitigation. In all cases, it is worthwhile following best-practice techniques for handling hazardous substances, namely not handling anything about which you do not know its composition or provenance, using appropriate protective equipment, and following the handling of *any* substance one should undertake a thorough washing of hands.
+![AlBr](labsafety/albr.jpg){width="250" align=left} The use of chemical agents is not confined to chemistry, on the contrary, the study and use of chemicals is core to many areas physics. Consequently, chemicals are commonplace in labs, although for the most part will consist of common solvents (e.g. isopropyl alcohol or acetone) but certain labs involve investigating the physical properties of more exotic substances. Any experiment which requires the use of hazardous compounds will detail the risks posed and the procedures to be followed for risk mitigation. In all cases, it is worthwhile following best-practice techniques for handling hazardous substances, namely not handling anything about which you do not know its composition or provenance, using appropriate protective equipment, and following the handling of *any* substance one should undertake a thorough washing of hands.
 
 Chemical hazards are labelled using pictograms governed under the *Globally Harmonized System of Classification and Labelling of Chemicals*, abbreviated GHS which are shown below:
 
-![GHS](ghs_pictograms_signs.jpg){width=500 : .center}
+![GHS](labsafety/ghs_pictograms_signs.jpg){width=500 : .center}
 
 ### Radiation
 
@@ -72,19 +72,19 @@ Whilst the usage of radiation is not unique to physics, the study of its origins
 
 #### Nuclear radiation
 
-![Radiation](radiation.jpg){width="250" align=right} Nuclear materials are widely seen as the boogie man of the material world, which is largely because they are poorly understood. It is important that the study of radiation and nuclear materials not be conflated with the genuine existential risk posed to humankind by nuclear weapons, and indeed, we want a world with the most radiation-literate people so these risks can be assessed in proportion. The sources that are commonplace in the lab are "weak" sources, in that they do not pose a direct safety concern when appropriately handled. Importantly, safe handling of radioactive materials requires one to know what is the material: do not handle unknown substances. It is also critical that when handling sources of either $\alpha$ or $\beta$ radiation that you do not have any open wounds, or facilitate entry of the material into your body by other means (e.g. inhalation, ingestion, or eye contact) as whilst these sources can be innocuous externally, they can cause serious problems internally. Radioactive materials are controlled substances, and as such they will be managed by your demonstrator, and only handle the radioactive sources when they are required, act reasonably to minimise exposure, and wash your hands thoroughly with nonabrasive soap immediately after handling the source.
+![Radiation](labsafety/radiation.jpg){width="250" align=right} Nuclear materials are widely seen as the boogie man of the material world, which is largely because they are poorly understood. It is important that the study of radiation and nuclear materials not be conflated with the genuine existential risk posed to humankind by nuclear weapons, and indeed, we want a world with the most radiation-literate people so these risks can be assessed in proportion. The sources that are commonplace in the lab are "weak" sources, in that they do not pose a direct safety concern when appropriately handled. Importantly, safe handling of radioactive materials requires one to know what is the material: do not handle unknown substances. It is also critical that when handling sources of either $\alpha$ or $\beta$ radiation that you do not have any open wounds, or facilitate entry of the material into your body by other means (e.g. inhalation, ingestion, or eye contact) as whilst these sources can be innocuous externally, they can cause serious problems internally. Radioactive materials are controlled substances, and as such they will be managed by your demonstrator, and only handle the radioactive sources when they are required, act reasonably to minimise exposure, and wash your hands thoroughly with nonabrasive soap immediately after handling the source.
 
 <figure markdown>
-![radiation-safety](radiation-safety.png){width="200" : .center}
+![radiation-safety](labsafety/radiation-safety.png){width="200" : .center}
 <figcaption>The presence of nuclear material is indicated using the trefoil symbol</figcaption>
 </figure>
 
 #### Lasers
 
-![laser](laser.jpg){width="250" align=left} There is no single device more emblematic to the modern world than the laser, perhaps other than the transistor. In any case, they form the backbone of our communication network, lie on the forefront of medical treatment, and everything in-between. Because lasers have so many applications, they come in many flavours, but all share the same property: without the appropriate respect, they can cause serious injury. In most environments, the primary concern is the possibility of injury to the eye, although thermal injuries and internal (DNA) injuries are increasingly of concern with the development of ever more powerful systems. The systems one is likely to encounter pose minimal risk; however, one must never operate a laser whilst wearing anything reflective (e.g. jewellery, especially watches) and never look directly into the path of a laser beam. When aligning optics, beam paths should be contained and one should be aware of any stray reflections. Whilst it is not mandated that eye protection be worn all lasers, it is good practice to wear safety goggles at all times.
+![laser](labsafety/laser.jpg){width="250" align=left} There is no single device more emblematic to the modern world than the laser, perhaps other than the transistor. In any case, they form the backbone of our communication network, lie on the forefront of medical treatment, and everything in-between. Because lasers have so many applications, they come in many flavours, but all share the same property: without the appropriate respect, they can cause serious injury. In most environments, the primary concern is the possibility of injury to the eye, although thermal injuries and internal (DNA) injuries are increasingly of concern with the development of ever more powerful systems. The systems one is likely to encounter pose minimal risk; however, one must never operate a laser whilst wearing anything reflective (e.g. jewellery, especially watches) and never look directly into the path of a laser beam. When aligning optics, beam paths should be contained and one should be aware of any stray reflections. Whilst it is not mandated that eye protection be worn all lasers, it is good practice to wear safety goggles at all times.
 
 <figure markdown>
-![laser-safety](laser-safety.png){width="200" : .center}
+![laser-safety](labsafety/laser-safety.png){width="200" : .center}
 <figcaption>Hazardous optical radiation is demarcated using the Laser radiation symbol. Information on laser classification can be found on <a href="https://en.wikipedia.org/wiki/Laser_safety#Revised_system">Wikipedia</a>.</figcaption>
 </figure>
 

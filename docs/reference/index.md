@@ -1,8 +1,8 @@
 # Reference material
 
-Experimental physics requires a broad range of skills and an expansive knowledge base. Such things do not simply materialise from a vacuum, but rather content must be learned and skills honed. It is intended that this page be a starting point on this journey, with materials provided to both aid with specific labs and with experimental technique more generally.
-
 ![](header.jpg)
+
+Experimental physics requires a broad range of skills and an expansive knowledge base. Such things do not simply materialise from a vacuum, but rather content must be learned and skills honed. It is intended that this page be a starting point on this journey, with materials provided to both aid with specific labs and with experimental technique more generally.
 
 ---
 

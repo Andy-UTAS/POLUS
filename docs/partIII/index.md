@@ -1,8 +1,8 @@
-# Part III labs
+# Home
+
+![](header.jpg){: .center}
 
 The part III labs are associated with 300-level subjects. Emphasis is placed on self-directed learning and solving problems in the context of an extended investigation. Topics of investigation include atomic physics, nuclear & particle physics, electromagnetism, and optics.
-
-![](images/index-header.jpg)
 
 ---
 
@@ -20,15 +20,15 @@ Over the course of the two subjects, it is expected that you will complete five 
 | Microwave waveguides |	Electromagnetism |
 | Nuclear magnetic resonance |	Atomic physics, quantum mechanics |
 | The production and characterisation of X-rays | 	Atomic physics |
-| Scattering of α radiation | 	Nuclear physics |
+| Scattering of $\alpha$ radiation | 	Nuclear physics |
 | Solar spectroscopy | 	Astrophysics, optics |
-| γ-ray spectroscopy |	Nuclear physics |
+| [$γ$-ray spectroscopy](gamma) |	Nuclear physics |
 | The Zeeman effect in Mercury |	Atomic physics, optics, quantum mechanics |
 
 ## Assessment
 As part of each experiment, you will be expected to keep a logbook and give a short presentation about your experiment to your peers. Additionally, once per semester you are required to prepare a formal report on one experiment, which will include a peer assessment process.
 
 ## Practicalities
-Labs take place in the part III lab (room 232) in the [mathematics and physics building](https://www.openstreetmap.org/way/23959304) located on the Sandy Bay campus.
+Labs take place in one of the part III labs (rooms 140, 231, 233) in the [mathematics and physics building](https://www.openstreetmap.org/way/23959304) located on the Sandy Bay campus. Common sessions will be held in the part II/III lab (233) which you are welcome to attend (and encouraged to attend) at your leisure.
 
 --8<-- "includes/abbreviations.md"

@@ -25,7 +25,7 @@
 
 ## Part II
 
-[Induction](Second-year induction.pdf)
+[Induction](inductions/Second-year induction.pdf)
 
 ## Part III
 

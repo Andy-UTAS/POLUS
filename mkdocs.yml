@@ -11,17 +11,24 @@ nav:
       - partI/s1e04.md
     - 'Part II':
       - partII/index.md
+      - partII/adiabatic.md
+      - partII/ediffraction.md
+      - partII/TDR.md
+      - partII/ultrasound.md
     - 'Part III':
       - partIII/index.md
+      - partIII/gamma.md
     - 'Safety':
       - safety/index.md
       - safety/labsafety.md
       - safety/inductions.md
     - 'Reference':
       - reference/index.md
+      - reference/experiment.md
       - reference/hardware.md
       - reference/software.md
-      - reference/coding.md
+      - reference/computation.md
+      - reference/faqs.md
     - 'Playhouse':
       - playhouse/index.md
 

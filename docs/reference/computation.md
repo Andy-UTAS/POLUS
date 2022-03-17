@@ -1,6 +1,6 @@
-# Coding
+# Computation
 
-![](images/index-header.jpg)
+![](computation/header.jpg){: .center}
 
 ---
 
