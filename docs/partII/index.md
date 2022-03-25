@@ -12,14 +12,14 @@ Lab work is undertaken as part of subjects [KYA211](https://www.utas.edu.au/cour
 
 ## Experiments
 
-Over the course of the two subjects, it is expected that you will complete five experiments. It is suggested that you pick experiments which interest you, but also across of range of subjects to ensure exposure to diverse content.
+Over the course of the two subjects, it is expected that you will complete seven experiments. It is suggested that you pick experiments which interest you, but also across of range of subjects to ensure exposure to diverse content.
 
 === "KYA211: waves and kinetic theory"
 
     | Experiment | Branch(es) of physics | Summary | Difficulty  |
     | :-----: | :-----| :----- | :-----: |
     | [Adiabatic index of gasses](adiabatic) |	Kinetic theory | The period of a ball bearing undergoing lightly-damped, forced oscillations due to pressure variations in a gas reservoir is observed as a way to evaluate the adiabatic index $\gamma$ of the gas. $\gamma$ is a fundamental thermodynamic property of gases that according to theory must take values equal to the ratio of two integers for mono-, di-, and tri-atomic gases. Argon, dry air (O$_2$ $+$ N$_2$), and CO$_2$ are used as examples of the three types. $\gamma$ is related to the compressibility, the sound speed, and the heat capacity of a gas. | :material-star: :material-star: :material-star-outline: |
-    | [Electron diffraction](ediffraction) | Wave mechanics, Quantum physics | A thin piece of highly-ordered material is considered as a diffraction screen with aperture spacings determined by the atomic spacings in the sample. Observations of the patterns that result when electrons accelerated through several kilovolts hit a chip of graphite can be used to prove that electrons can exhibit wave behaviour in accordance with de~Broglie's hypothesis, and to probe the spacing and arrangement of graphite atoms on scales $\lesssim$10$^{-9}$ m. | :material-star: :material-star-half-full: :material-star-outline: |
+    | [Electron diffraction](ediffraction) | Wave mechanics, Quantum physics | A thin piece of highly-ordered material is considered as a diffraction screen with aperture spacings determined by the atomic spacings in the sample. Observations of the patterns that result when electrons accelerated through several kilovolts hit a chip of graphite can be used to prove that electrons can exhibit wave behaviour in accordance with deBroglie's hypothesis, and to probe the spacing and arrangement of graphite atoms on scales $\lesssim$10$^{-9}$ m. | :material-star: :material-star-half-full: :material-star-outline: |
     | [Time-domain reflectometry](TDR) |	Wave mechanics, Electromagnetism | The properties of waveforms travelling through cables with different characteristic impedances are investigated. The behaviour of reflected waves from boundaries of high, low, and matched impedance is observed and related to the wave equation, and the characteristic impedance and speed of pulses in a cable are used to compare the cable inductance and capacitance to theoretically calculated values. | :material-star: :material-star-outline: :material-star-outline: |
     | [Ultrasonic ranging](ultrasound) | Wave mechanics | This experiment looks into some of the problems involved in using ultrasonic sound waves to measure the distance of an object from an ultrasonic transmitter. | :material-star: :material-star-half-full: :material-star-outline: |
 
@@ -41,11 +41,12 @@ Over the course of the two subjects, it is expected that you will complete five 
     | The Mach-Zehnder interferometer | Wave mechanics, Optics | | :material-star-outline: :material-star-outline: :material-star-outline: |
     | Holography |	Wave mechanics, Optics | | :material-star-outline: :material-star-outline: :material-star-outline: |
 
-The period of a ball bearing undergoing lightly-damped, forced oscillations due to pressure variations in a gas reservoir is observed as a way to evaluate the adiabatic index $\gamma$ of the gas. $\gamma$ is a fundamental thermodynamic property of gases that according to theory must take values equal to the ratio of two integers for mono-, di-, and tri-atomic gases. Argon, dry air (O$_2$ $+$ N$_2$), and CO$_2$ are used as examples of the three types. $\gamma$ is related to the compressibility, the sound speed, and the heat capacity of a gas.
-
-
 ## Assessment
-As part of each experiment, you will be expected to maintain an experimental logbook upon which you will be assessed. Once per semester, you will be required to select one of the completed experiments and prepare a formal report and to give a short group presentation. Details on how to prepare and what is expected for a log, a report and a presentation can be found in the [reference section of the site](../reference/experiment/#communication).
+As part of each experiment, you will be expected to maintain an experimental logbook upon which you will be assessed. Log books are to be written _during_ practical sessions, with the expectation that the vast majority - ideally the entirety - of the work will be completed during the allocated classes. Reports are required to be submitted by 1300 the day after your final lab session for a given experiment. Your logbook will be returned prior to your next experiment, and part of your assessment will be based upon how you address your markers comments.
+
+In addition to your logbook, once per semester you will be required to select one of the completed experiments and prepare a formal report and to give a short group presentation.
+
+Information on how to prepare, and what is expected for a log, a report and a presentation can be found in the [reference section of POLUS](../reference/experiment/#communication).
 
 ## Practicalities
 Labs take place in the part II lab (room 233) in the [mathematics and physics building](https://www.openstreetmap.org/way/23959304) located on the Sandy Bay campus.
