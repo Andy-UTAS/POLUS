@@ -2,7 +2,7 @@
 
 ![](ediffraction/header.jpg){: .center}
 
-The period of a ball bearing undergoing lightly-damped, forced oscillations due to pressure variations in a gas reservoir is observed as a way to evaluate the adiabatic index $\gamma$ of the gas. $\gamma$ is a fundamental thermodynamic property of gases that according to theory must take values equal to the ratio of two integers for mono-, di-, and tri-atomic gases. Argon, dry air (O$_2$ $+$ N$_2$), and CO$_2$ are used as examples of the three types. $\gamma$ is related to the compressibility, the sound speed, and the heat capacity of a gas. | :material-star: :material-star: :material-star-outline:
+A thin piece of highly-ordered material is considered as a diffraction screen with aperture spacings determined by the atomic spacings in the sample. Observations of the patterns that result when electrons accelerated through several kilovolts hit a chip of graphite can be used to prove that electrons can exhibit wave behaviour in accordance with deBroglie's hypothesis, and to probe the spacing and arrangement of graphite atoms on scales $\lesssim$10$^{-9}$ m.
 
 ---
 
