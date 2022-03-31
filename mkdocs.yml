@@ -9,6 +9,7 @@ nav:
     - 'Part I':
       - partI/index.md
       - partI/s1e04.md
+      - partI/s2e02.md
     - 'Part II':
       - partII/index.md
       - partII/adiabatic.md
@@ -18,6 +19,13 @@ nav:
     - 'Part III':
       - partIII/index.md
       - partIII/gamma.md
+      - partIII/muon.md
+      - partIII/waveguides.md
+      - partIII/nmr.md
+      - partIII/xray.md
+      - partIII/alpha.md
+      - partIII/solar.md
+      - partIII/zememan.md
     - 'Safety':
       - safety/index.md
       - safety/labsafety.md
@@ -28,6 +36,7 @@ nav:
       - reference/hardware.md
       - reference/software.md
       - reference/computation.md
+      - reference/computing.md
       - reference/faqs.md
     - 'Playhouse':
       - playhouse/index.md

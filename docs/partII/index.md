@@ -41,6 +41,8 @@ Over the course of the two subjects, it is expected that you will complete seven
     | The Mach-Zehnder interferometer | Wave mechanics, Optics | | :material-star-outline: :material-star-outline: :material-star-outline: |
     | Holography |	Wave mechanics, Optics | | :material-star-outline: :material-star-outline: :material-star-outline: |
 
+Prior to performing any experiments, it is a requirement that you have completed the [lab induction](../safety/inductions/).
+
 ## Assessment
 As part of each experiment, you will be expected to maintain an experimental logbook upon which you will be assessed. Log books are to be written _during_ practical sessions, with the expectation that the vast majority - ideally the entirety - of the work will be completed during the allocated classes. Reports are required to be submitted by 1300 the day after your final lab session for a given experiment. Your logbook will be returned prior to your next experiment, and part of your assessment will be based upon how you address your markers comments.
 

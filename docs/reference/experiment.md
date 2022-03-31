@@ -136,8 +136,16 @@ The presentation of a log is not the most important thing, but it should not be 
 
 One of the purposes of a log is to provide a vehicle for the development of ideas, so if something strikes you, embrace it. Do you have an idea for something that could be done better? Write it down. Unsure of one particular aspect of a theory? Write it down. Can you think of a complementary way to measure the same or similar phenomenon? Write it down. Insightful comments and/or discussions which arise from a comprehensive understanding of a given topic and command over the relevant adjacent materials are the true currency of a log, and science more broadly.  
 
-
 Logs are individual. Despite that physics rightly is undertaken in collaboration with others, each person should be maintaining an individual log. Feel free to use whichever medium makes the most sense for you, with both physical log books and digital logs (OneNote, Evernote, etc.) being equally accepted and both with their own pros and cons.
+
+##### Model log book
+
+An example log book is provided below as a guide for the kind of logbook that might be produced. Hopefully the text above has convinced you that there is no single _right_ way to create a log, so you should do what works for you, whilst building on the principles which undergird rigorous scientific investigation.
+
+<figure markdown>
+[<i class="fas fa-solid fa-book fa-5x"></i>](model_log.pdf){ .md-button .md-button--primary class="text-center" style="margin-left: 0%"}
+<figcaption>Example log book</figcaption>
+</figure>
 
 #### Assessment
 
@@ -147,9 +155,15 @@ In addition, a mandatory "reflections" section provides a pathway to improving o
 
 ### Reports
 
-The purpose of a report is communicate your findings to others.
+The purpose of a report is to concisely communicate your findings to an audience in a structured document; in science, reports are often flavoured as commissioned pieces of research (for example, a study of the feasibility of _microgrids for remote communities_) or academic research (for example, journal articles).
+
+_Report resources coming soon_
 
 ### Presentations
+
+On of the most important - and often overlooked - skills in science is the ability to communicate complex results and ideas succinctly. It is therefore of critical importance that this skill is developed and practiced.
+
+_Presentation resources coming soon_
 
 [^1]: G. L. Squires, _[Practical physics](https://archive.org/details/practicalphysics00squi)_, (Cambridge university press, Cambridge, 2001).
 [^2]: J. R. Taylor, _[An Introduction to Error Analysis: The Study of Uncertainties in Physical Measurements](https://archive.org/details/introductiontoer00tayl)_, ( ‎ University Science Books, Melville, 1997).

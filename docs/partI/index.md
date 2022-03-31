@@ -27,14 +27,13 @@ Lab work is undertaken as part of subjects [KYA101](https://www.utas.edu.au/cour
 
     | Experiment | Branch(es) of physics |
     | :-----: | :-----|
-    | S2E01: Measurement | Newtonian mechanics |
-    | S2E02: Hit the target | Newtonian mechanics |
-    | S2E03: Bungee egg | Newtonian mechanics |
-    | S2E04: Collisions |	Newtonian mechanics |
-    | S2E05: Rotational motion | Newtonian mechanics |
-    | S2E06: Voltage dividers |	Newtonian mechanics |
-    | S2E07: Voltage dividers |	Newtonian mechanics |
-    | S2E08: Voltage dividers |	Newtonian mechanics |
+    | S2E01: Elasticity | Newtonian mechanics |
+    | [S2E02: Frequency dependent circuits](s2e02) | Electromagnetism, electronics |
+    | S2E03: Resonance | Wave mechanics |
+    | S2E04: Diffraction |	Wave mechanics, optics |
+    | S2E05: The photoelectric effect | Quantum mechanics |
+    | S2E06: Spectroscopy |	Quantum mechanics, optics |
+    | S2E07: Optics |	Optics |
 
 ## Assessment
 As part of each experiment, you will be expected to complete an experiment worksheet which is to be submitted at, and give a short presentation about your experiment to your peers. Additionally, once per semester you are required to prepare a formal report on one experiment, which will include a peer assessment process.

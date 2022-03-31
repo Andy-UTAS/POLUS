@@ -1,4 +1,4 @@
-# The adiabatic index
+# The adiabatic index of gasses
 
 ![](adiabatic/header.jpg){: .center}
 
@@ -21,7 +21,7 @@ Gas cylinders and air compressor; "Ruchhardt apparatus" for measuring adiabatic 
 ### Principal Data Taken
 
 * Mean period of oscillation of the system for 3 different gases. For each gas, 6 different volumes are tested, and the relationship between period and system volume yields an estimate of $\gamma$.
-* item The atmospheric pressure P$_0$. The adiabatic index you derive will depend inversely on the pressure in the system. There is a mercury barometer at the front of the room to make this measurement.
+* The atmospheric pressure $P_0$. The adiabatic index you derive will depend inversely on the pressure in the system. There is a mercury barometer at the front of the room to make this measurement.
 
 #### Apparatus data
 | Property | Value |
@@ -34,7 +34,7 @@ Gas cylinders and air compressor; "Ruchhardt apparatus" for measuring adiabatic 
 ### Things to Watch Out For
 
 * Gas flow into the system maintains the oscillations against the light damping. The inflow is regulated by a pressure reduction valve on the cylinder and a bleed-cock valve on the Ruchhardt manifold. The gas flow should be kept low and adjusted carefully since high flow rates will cause the ball bearing to be ejected from the apparatus, possibly damaging the lights, the ceiling, or the students.
-* CO$_2$ has a very strong deviation from ideal gas beahviour that causes it to cool upon expansion. This strong cooling can make the valve on the cylinder's pressure regulator ice up and flutter, giving irregular flow and making it impossible to measure the oscillations accurately. Use the smallest possible flow rate of CO$_2$ to avoid this.
+* CO$_2$ has a very strong deviation from ideal gas behaviour that causes it to cool upon expansion. This strong cooling can make the valve on the cylinder's pressure regulator ice up and flutter, giving irregular flow and making it impossible to measure the oscillations accurately. Use the smallest possible flow rate of CO$_2$ to avoid this.
 * Make sure you understand the operation of the gate valves and capillary tubes connecting the flasks to the manifold. It is essential that the valves are properly set to first allow the flushing of the system, and then to allow a fixed volume of gas to be maintained during the experiment.
 
 
@@ -110,11 +110,12 @@ This is the equation for a force acting on the ball that is linearly proportiona
 
 Fortunately, the period of a constant amplitude, forced oscillation is almost negligibly different from the undamped period as long as the damping is light. Forced oscillations are established by drilling a small hole in the side of the tube. This hole allows a small amount of gas to escape when the displacement of the ball is larger than the height of the hole. Hence the motion of the ball interacts with the gas inflow to produce an additional oscillatory force that acts to sustain the oscillation of the ball about an equilibrium position at the location of the hole.
 
-{\bf For your lab report:} Write out the differential equation of motion (i.e., an expression for $\ddot{y}$), including a term for the frictional losses, and show that it describes a damped oscillator with period T given by
+!!! example "Discuss the following in your report"
+    Write out the differential equation of motion (i.e., an expression for $\ddot{y}$), including a term for the frictional losses, and show that it describes a damped oscillator with period $T$ given by
 
-\[ \label{eqn:period}
-T \approx 2\pi\left(\frac{mV}{\gamma PA^2}\right)^{1/2}
-\]
+    \[ \label{eqn:period}
+    T \approx 2\pi\left(\frac{mV}{\gamma PA^2}\right)^{1/2}
+    \]
 
 Rearranging this equation shows that
 
@@ -140,21 +141,20 @@ Repeat the measurements for each of the possible values of V, and each of the ga
 
 ## Calculations
 
-Use the method of least squares to plot the relationship between period and volume. Is there any indication of a departure from the relationship in Equation~\ref{eqn:period}? If yes, suggest possible reasons. Use the parameters from your equation of the line of best fit to calculate the value of $\gamma$ and the standard error $\sigma_{\gamma}$ from your data.
+Use the method of least squares to plot the relationship between period and volume. Is there any indication of a departure from the expected period $T$ as derived?
+If yes, suggest possible reasons. Use the parameters from your equation of the line of best fit to calculate the value of $\gamma$ and the standard error $\sigma_{\gamma}$ from your data.
 
-A table of the adiabatic index $\gamma$ of common gases at a 20 $^{\circ}$C.
+??? info "A table of the adiabatic index $\gamma$ of common gases at a 20$^{\circ}$C"
+    | Gas | Structure | $\gamma$ |
+    | :-----: | :-----: | :-----: |
+    | Argon | Ar, Monatomic | 1.670 |
+    | Nitrogen | N$_2$, Diatomic | 1.403 |
+    | Oxygen | O$_2$, Diatomic | 1.400 |
+    | Carbon dioxide | CO$_2$, Triatomic | 1.300 |
 
-| Gas | Structure | $\gamma$ |
-| :-----: | :-----: | :-----: |
-| Argon | Ar, Monatomic | 1.670 |
-| Nitrogen | N$_2$, Diatomic | 1.403 |
-| Oxygen | O$_2$, Diatomic | 1.400 |
-| Carbon dioxide | CO$_2$, Triatomic | 1.300 |
+    The commonly accepted values for $\gamma$ are taken from Kohler [^5]. Note that these are not identical to the values from the most simplistic application of classical kinetic theory, partly due to non-ideal gas effects, and partly due to quantum effects.
 
-The commonly accepted values for $\gamma$ are taken from Kohler [^5] and are given in Table~5.2. %\ref{tab:gammas}.
-Note that these are not identical to the values from the most simplistic application of classical kinetic theory, partly due to non-ideal gas effects, and partly due to quantum effects.
-
-Are your values for $\gamma$ significantly different from the accepted values for argon, air, and CO$_2$? Recall that differences of $\pm$1$\sigma$ are expected to occur just due to random experimental variation about 32\% of the time, while $\pm$2$\sigma$ differences are expected only 5\% of the time.  If significant differences are found, consider the theoretical background and experimental apparatus to suggest possible sources of systematic error.
+Are your values for $\gamma$ significantly different from the accepted values for argon, air, and CO$_2$? Recall that differences of $\pm$1$\sigma$ are expected to occur just due to random experimental variation about 32% of the time, while $\pm$2$\sigma$ differences are expected only 5% of the time.  If significant differences are found, consider the theoretical background and experimental apparatus to suggest possible sources of systematic error.
 
 [^1]: C. J. Adkins, _Equilibrium Thermodynamics_, (McGraw-Hill, London, 1968), p. 43.
 [^2]: E. Fermi, _Thermodynamics_, (Dover, New York, 1956), p. 20.

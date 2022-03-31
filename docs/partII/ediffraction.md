@@ -40,7 +40,7 @@ On the other hand, if the electrons can behave as waves, then if the spacing bet
 
 For this experiment, graphite has been deposited on a screen as a target. In this form, it is a poly-crystal with micro crystals oriented in many random directions, and we can therefore sample many angles of incidence without needing to vary the direction of the electron beam or the orientation of the target. If the wavelength of the incident light (or particle) is of the order of the separation between the atomic planes in the crystal, the planes will act as a three- dimensional grating.
 
-!!! info "Discuss the following in your report"
+!!! example "Discuss the following in your report"
     * The de Broglie wavelength of a particle is given by
         \[ \label{eqn:debroglie}
         \lambda = h/p
@@ -50,7 +50,7 @@ For this experiment, graphite has been deposited on a screen as a target. In thi
 
     * Make an _estimate_ of the spacing between atoms in a piece of graphite. Start by recalling that 12 grams of carbon-12 contain 6.022$\times$10$^{23}$ atoms, and the density of graphite is measured to be $\rho$ = 2.2 g$\cdot$cm$^{-3}$. This is only a rough estimate because the packing of individual layers of graphite into a solid varies greatly from sample to sample. State any assumptions you must make to derive your result.
 
-Assuming you have found that the spacing between graphite atoms is of the correct order of magnitude to demonstrate diffraction of an $\approx$3~keV electron beam, we can try to predict where we will see intensity maxima in the diffraction pattern, as a function of deflection angle and electron energy.
+Assuming you have found that the spacing between graphite atoms is of the correct order of magnitude to demonstrate diffraction of an $\approx$3 keV electron beam, we can try to predict where we will see intensity maxima in the diffraction pattern, as a function of deflection angle and electron energy.
 
 Shown below is a simplified version of diffraction from a crystal lattice. The basic equations for scattering in a crystal were derived by Bragg to describe the interaction of high-energy radiation with matter, and Bragg's Law gives us the means to test de Broglie's hypothesis.
 
@@ -64,7 +64,6 @@ For constructive interference to occur, the path-length difference $\Delta$s tra
 \begin{equation} \label{eqn:bragg}
 2d\sin\theta = n\lambda
 \end{equation}
-
 $\theta$ may not be easy to measure (in this case, because the target is held at/near the centre of a sealed, evacuated chamber, but for planar geometry it is simply related to the deflection angle $\alpha$ between the undeviated beam path and the scattered electron path:
 
 \begin{equation}
@@ -74,7 +73,7 @@ $\theta$ may not be easy to measure (in this case, because the target is held at
 $\alpha$ can be determined by measuring the linear diameter of a the diffraction ring projected onto a screen combined with knowledge of the dimensions of the TEL-555 diffraction tube apparatus (see Procedure, below).
 Thus a measure of the diffraction ring diameter is tantamount to a measure of the electron wavelength.
 
-!!! info "For your lab report"
+!!! example "For your lab report"
     Relate the electron wavelength to the accelerating voltage in the device by rewriting the de Broglie relation as a function of the charge $q$ and mass $m$ of the electron and the accelerating voltage V. Use the relativistic momentum formula
 
     \[
@@ -148,7 +147,5 @@ We can now evaluate de Broglie's hypothesis on the wave nature of electrons by c
 
 ### Electron Diffraction Tube
 [:material-web: Manufacturer's website](https://www.3bscientific.com/au/electron-diffraction-tube-d-1013885-u191711-3b-scientific-teltron,p_661_24352.html) // [:material-file-pdf-box: Manual](ediffraction/1013885_EN1.pdf)
-
-[^1]: N. A. me, _Title_, (Publisher, location, year) [page]
 
 --8<-- "includes/abbreviations.md"
