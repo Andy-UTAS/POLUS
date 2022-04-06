@@ -102,6 +102,7 @@ markdown_extensions:
   - pymdownx.superfences # Enables nesting of code and content in tabs
   - pymdownx.snippets # Allows for a global list of acronyms
   - pymdownx.caret
+  - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
 

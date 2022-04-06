@@ -120,7 +120,7 @@ Do the following calculations for both cables tested:
 \end{itemize}
 \end{enumerate}
 
-## Bonus Section}
+## Bonus Section
 
 For a couple of extra marks, derive Equations~\ref{eqn:twisted1} and \ref{eqn:twisted2} using the definitions of capacitance and inductance together with the geometry in Figure~\ref{fig:twisted}.
 \vspace{18pt}
