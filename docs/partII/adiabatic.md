@@ -156,6 +156,26 @@ If yes, suggest possible reasons. Use the parameters from your equation of the l
 
 Are your values for $\gamma$ significantly different from the accepted values for argon, air, and CO$_2$? Recall that differences of $\pm$1$\sigma$ are expected to occur just due to random experimental variation about 32% of the time, while $\pm$2$\sigma$ differences are expected only 5% of the time.  If significant differences are found, consider the theoretical background and experimental apparatus to suggest possible sources of systematic error.
 
+## Additional resources
+
+<figure markdown>
+<a href = 'Barometer notes.pdf'> <i class="fas fa-book fa-3x"></i> </a>
+    <figcaption>Usage note for the barometer
+    </figcaption>
+</figure>
+
+<figure markdown>
+<a href = 'https://jove2021.cloud.edu.au/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FAndy-UTAS%2FPOLUS&urlpath=tree%2FPOLUS%2Fdocs%2FpartII%2Fadiabatic%2FBarometer.ipynb&branch=master'> <i class="fab fa-python fa-3x"></i> </a>
+    <figcaption>Run a `Juptyter` notebook to aid with pressure measurement on <a href='../../reference/computation/#cloud-usage'>Jove</a>
+    </figcaption>
+</figure>
+
+<figure markdown>
+<a href = 'https://github.com/Andy-UTAS/POLUS/blob/master/docs/partII/adiabatic/Barometer.ipynb'> <i class="fas fa-code-branch fa-3x"></i> </a>
+    <figcaption>A link to the `Jupyter` notebook code as hosted on Gitub
+    </figcaption>
+</figure>
+
 [^1]: C. J. Adkins, _Equilibrium Thermodynamics_, (McGraw-Hill, London, 1968), p. 43.
 [^2]: E. Fermi, _Thermodynamics_, (Dover, New York, 1956), p. 20.
 [^3]: C. J. Adkins, _Equilibrium Thermodynamics_, (McGraw-Hill, London, 1968), p. 119.

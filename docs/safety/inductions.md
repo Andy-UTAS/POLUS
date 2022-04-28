@@ -72,11 +72,13 @@ As the university's safety plan pertains to conducting laboratory work:
 * Social distancing should be implemented as much as is practicable
 
 ### Part I
+The part I lab induction will be delivered in the first class of the year with a refresher provided in semester two for anyone that missed that did not attend the semester one session.
 
 ### Part II
-[Induction](inductions/Second-year induction.pdf)
+The part II lab induction will be undertaken during the first lab session of the year, with a refresher provided in semester two for anyone that missed that did not attend the semester one session.
 
 ### Part III
+The part III lab induction will take place during the first "common session" of the year, the week following computation physics laboratories.
 
 ---
 

@@ -9,6 +9,7 @@ nav:
     - 'Part I':
       - partI/index.md
       - partI/s1e04.md
+      - partI/s1e05.md
       - partI/s2e02.md
     - 'Part II':
       - partII/index.md
@@ -25,7 +26,7 @@ nav:
       - partIII/xray.md
       - partIII/alpha.md
       - partIII/solar.md
-      - partIII/zememan.md
+      - partIII/zeeman.md
     - 'Safety':
       - safety/index.md
       - safety/labsafety.md

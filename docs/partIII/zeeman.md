@@ -1,6 +1,6 @@
 # The Zeeman effect in Mercury
 
-This experiment explores $\gamma$ radiation, investigating the interaction between $\gamma$ rays and matter, and applying this understanding to the identification of unknown materials.
+The anomalous Zeeman splitting of the green line of mercury is observed using a Fabry-Perot Interferometer. The value of the Bohr magneton is obtained and the polarization of the line is studied. The experiment complements the lectures on the Zeeman effect and gives experience in the measurement of magnetic fields and in high-resolution spectroscopy.
 
 !!! info "Practicalities"
 
@@ -8,20 +8,20 @@ This experiment explores $\gamma$ radiation, investigating the interaction betwe
 
         | Taste | Rating |
         | ----------- | :------------------------------------: |
-        | Electronics, signal processing, etc. | :material-star: :material-star: :material-star-outline: |
+        | Electronics, signal processing, etc. | :material-star-outline: :material-star-outline: :material-star-outline: |
         | Computation: simulation, analysis, etc. | :material-star: :material-star-half-full: :material-star-outline: |
-        | Dexterous experimentation | :material-star: :material-star-outline: :material-star-outline: |
+        | Dexterous experimentation | :material-star: :material-star: :material-star-outline: |
 
     === "Academic contact"
 
         <figure markdown>
-        <a href="mailto:physics.albs@utas.edu.au"><i class="fas fa-at fa-5x"></i></a>
-        <figcaption><a href="https://www.utas.edu.au/profiles/staff/cose-natural-sciences-physics/">TBD</a></figcaption>
+        <a href="mailto:anya.reading@utas.edu.au"><i class="fas fa-at fa-5x"></i></a>
+        <figcaption><a href="https://www.utas.edu.au/profiles/staff/cose-natural-sciences-physics/anya-reading">Anya Reading</a></figcaption>
         </figure>
 
     === "Location"
 
-        The experiment takes place in the Part III lab (Room 233, Physics building SB.AU.14, Sandy Bay)
+        The experiment takes place in the optics lab (Room 140, Physics building SB.AU.14, Sandy Bay)
 
 ![](header.jpg)
 

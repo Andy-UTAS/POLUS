@@ -23,10 +23,19 @@ This experiment explores $\gamma$ radiation, investigating the interaction betwe
 
         The experiment takes place in the Part III lab (Room 233, Physics building SB.AU.14, Sandy Bay)
 
-![](header.jpg)
+![](gamma/header.jpg)
 
 ---
 
+<figure markdown>
+<a href = 'Gamma notes.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
+    <figcaption>Lab notes
+    </figcaption>
+</figure>
+
+
 ## Content
+
+## Additional resources
 
 --8<-- "includes/abbreviations.md"

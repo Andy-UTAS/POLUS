@@ -18,24 +18,26 @@ Over the course of the two subjects, it is expected that you will complete five 
 
     | Experiment | Branch(es) of physics | Summary |
     | :-----: | :-----| :----- |
-    | [$γ$-ray spectroscopy](gamma) |	Nuclear physics |
-    | [The lifetime of the muon](muon) |	Particle physics |
-    | [Microwave waveguides](waveguides) |	Electromagnetism |
-    | [Nuclear magnetic resonance](nmr) |	Atomic physics, quantum mechanics |
-    | [The production and characterisation of X-rays](xray) | 	Atomic physics |
-    | [Scattering of $\alpha$ radiation](alpha) | 	Nuclear physics |
-    | [Solar spectroscopy](solar) | 	Astrophysics, optics |
-    | [The Zeeman effect in Mercury](zeeman) |	Atomic physics, optics, quantum mechanics |
+    | [$γ$-ray spectroscopy](gamma) |	Nuclear physics | This experiment explores $\gamma$ radiation, investigating the interaction between $\gamma$ rays and matter, and applying this understanding to the identification of unknown materials. |
+    | [The lifetime of the muon](muon) |	Particle physics | Muons are naturally occurring subatomic particles that originate from the interaction between cosmic rays and atmospheric nuclei. In this experiment muons are captured into an absorber, and then the rate of muon radioactive decay is measured using a scintillation detector. From the rate of decays, the half-life of the muon can be determined. |
+    | [Microwave waveguides](waveguides) |	Electromagnetism | The aim of this experiment is to measure the characteristics of a section of waveguide and subsequently examine the reflection, transmission and adsorption due to an obstacle placed in the guide. |
+    | [Nuclear magnetic resonance](nmr) |	Atomic physics, quantum mechanics | Magnetic Resonance Imaging (MRI) is a powerful tool in modern healthcare. This experiment examines the underlying physics, allowing students to investigate the magnetic field characteristics required, and measure the spin relaxation times of a sample (mineral oil). |
+    | [The production and characterisation of X-rays](xray) | Atomic physics | Atoms bombarded by electrons with energies on the order of 10-100 keV are observed to produce X-rays by the Bremsstrahlung mechanism, and also through ionization from inner shell energy levels. In this experiment a Geiger-Müller tube is used to detect the characteristic X-rays produced by a copper sample. Scattering these X-rays through a lithium fluoride crystal allows the student to measure the energy dispersion of these X-rays. |
+    | [Scattering of $\alpha$ radiation](alpha) | 	Nuclear physics | Students test the angular dependence of scattering for gold, silver and aluminium foil. They may also measure the energy distribution of pulses from the silicon semiconductor detector in order to investigate the source spectrum and energy resolution of the detector. The experiment provides an introduction to the techniques of energy measurement for fast charged particles, the use of pulse height analysis and vacuum systems. It also increases awareness of statistical problems associated with nuclear measurements. |
+    | [Solar spectroscopy](solar) | 	Astrophysics, optics | Students obtain digital Solar spectra through the whole visual region and use these to identify all strong lines and their species, together with undertaking a particular study of the violet resonance lines of ionized calcium to estimate the calcium abundance in the Sun. |
+    | [The Zeeman effect in Mercury](zeeman) |	Atomic physics, optics, quantum mechanics | The anomalous Zeeman splitting of the green line of mercury is observed using a Fabry-Perot Interferometer. The value of the Bohr magneton is obtained and the polarization of the line is studied. The experiment complements the lectures on the Zeeman effect and gives experience in the measurement of magnetic fields and in high-resolution spectroscopy. |
 
 === "Experiments under development"
     | Experiment | Branch(es) of physics | Summary |
     | :-----: | :-----| :----- |
-    | Atomic force microscopy | Quantum mechanics, Optics |
+    | [Atomic force microscopy](afm) | Quantum mechanics, Optics |
     | Optical tweezers | Optics, statistical mechanics |
 
 ### Experiment selection
 
 The selection process is a combination of research, that is, having a look through the experiments as they are listed above (especially at the flavour profiles as listed on the experiment pages) and also attending the first common lab session, during which time we will discuss practicalities of the lab program, but you will also be able to have a look at the experiments and informally discuss with the academics responsible for the labs over energy dense foods. Details will be circulated about the event near the commencement of labs.
+
+Once you have decided on your preference for experiments, get in contact with the coordinating academic (listed on individual experiment webpages) and they will coordinate things from there, providing you with information about the running of the experiment and conducting an individual experiment induction. Before you undertake your experiment, ensure that you have completed the [induction checklist](../safety/inductions/#checklist)
 
 ## Assessment
 As part of each experiment, you will be expected to maintain an experimental logbook upon which you will be assessed. There is also a hurdle requirement that for each experiment you will give a short "whiteboard" presentation to your peers about your experiment to your peers. Additionally, once per semester you are required to prepare a formal report on one experiment, which will include a peer assessment process.
