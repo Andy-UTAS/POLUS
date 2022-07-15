@@ -93,7 +93,7 @@ This is best done by using a computer (or some graphics calculators). Statistics
 
 ## Communication
 
-### Log books
+### Logbooks
 
 It is likely that in any study that you have undertaken which involves project work that you have been encouraged in to keep a log book. In many instances, these can often appear as a collection of scribbles: a date, a few measurements, maybe a table of raw data, but rarely is there a formal structure or in reality, anything that will remain useful. This is unfortunate, as in practice, logbooks are a cornerstone of rigorous and efficient work. The realisation that this is the case typically comes after some extended period of working on a complex project, where it is simply too difficult to recall minor technical details or re-tread a train of thought, which leaves you wondering "what on Earth was I thinking/doing?". It is in this context the we seek to embed the practice of careful, reasoned, and useful log-book keeping.
 
@@ -136,16 +136,24 @@ The presentation of a log is not the most important thing, but it should not be 
 
 One of the purposes of a log is to provide a vehicle for the development of ideas, so if something strikes you, embrace it. Do you have an idea for something that could be done better? Write it down. Unsure of one particular aspect of a theory? Write it down. Can you think of a complementary way to measure the same or similar phenomenon? Write it down. Insightful comments and/or discussions which arise from a comprehensive understanding of a given topic and command over the relevant adjacent materials are the true currency of a log, and science more broadly.  
 
-Logs are individual. Despite that physics rightly is undertaken in collaboration with others, each person should be maintaining an individual log. Feel free to use whichever medium makes the most sense for you, with both physical log books and digital logs (OneNote, Evernote, etc.) being equally accepted and both with their own pros and cons.
+Logs are individual. Despite that physics rightly is undertaken in collaboration with others, each person should be maintaining an individual log. It is strongly recommended that logbooks be produced digitally, ideally prepared within a [Jupyter notebook](https://utasphys.cloud.edu.au/POLUS/reference/computation/#using-python). For part III labs, this in mandatory, and in Part II labs it is encouraged, but not required.
 
 ##### Model log book
 
 An example log book is provided below as a guide for the kind of logbook that might be produced. Hopefully the text above has convinced you that there is no single _right_ way to create a log, so you should do what works for you, whilst building on the principles which undergird rigorous scientific investigation.
 
 <figure markdown>
-[<i class="fas fa-solid fa-book fa-5x"></i>](experiment/model_log.pdf){ .md-button .md-button--primary class="text-center" style="margin-left: 0%"}
-<figcaption>Example log book</figcaption>
+  [<i class="fas fa-solid fa-book fa-5x"></i>](https://github.com/Andy-UTAS/POLUS/blob/master/docs/reference/experiment/model_log/examplelog.ipynb){ .md-button .md-button--primary class="text-center" style="margin-left: 0%"}
+  <figcaption>An example logbook prepared as a jupyter notebook</figcaption>
 </figure>
+
+<figure markdown>
+<a href = 'https://jove2021.cloud.edu.au/user/andy/notebooks/POLUS/docs/reference/experiment/model_log/examplelog.ipynb'> <i class="fab fa-python fa-5x"></i> </a>
+    <figcaption>An executable version of the example notebook above. This is one of the major advantages of using jupyter notebooks!</a>
+    </figcaption>
+</figure>
+
+Additional resources to aid with the production of jupyter notebooks will be forthcoming, but in the meantime, please consult with your demonstrator should you have any questions or problems.
 
 #### Assessment
 
