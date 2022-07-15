@@ -1,0 +1,13 @@
+% Saved 2022-03-22 T 13:43:57 +1100
+% Moku:Go Oscilloscope
+% Channel A (Input 1) - DC coupling, 1 x probe attenuation
+% Channel B (Output 1) - DC coupling, 1 x probe attenuation
+% Time span 808.2 us, time offset 0.000 s, Normal acquisition mode, no averaging
+% Edge trigger: Channel B, level 188.8 mV, Auto mode, Rising edge, Auto sensitivity, noise reject off, HF reject off
+% Output 1 - Sine, 20.000 000 000 kHz, 1.000 0 Vpp, offset 0.000 0 V, phase 0.000 deg
+% Output 2 - Ramp, 50.000 000 000 kHz, 500.0 mVpp, offset 0.000 0 V, phase 0.000 deg, symmetry 90.00 %
+Ch A Amplitude (V), 7.445521e-01
+Ch A - Ch B Phase (deg), -3.172017e+01
+Ch A Frequency (Hz), 1.999596e+04
+Ch B Amplitude (V), 9.966416e-01
+
