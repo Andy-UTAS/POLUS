@@ -104,6 +104,38 @@ From here, a notebook session should be spawned upon logging in. It is worth not
 
     Cloud computing is a phrase that is bandied around with little care or thought, but it is not magic: if you are running code on "the cloud", the code is not being executed on your machine, but it is being executed on someone else's machine. In this case, it is a server allocated to physics from [TPAC](https://www.tpac.org.au/) (for which were are appreciative) and is maintained by the [facilities manager in physics](mailto:physics.facilities@utas.edu.au). If you have used any other cloud instance of `Jupyter`, you will appreciate the experience offered by `Jove`, and if you haven't, well, take it on faith that using them isn't always a positive experience. With that in mind, please treat to resource with respect lest it need be canned.
 
+## Markdown
+
+### Images
+
+ and can be imported via
+
+```
+![image][path/to/image.svg]
+```
+
+#### Captions
+
+```
+<figure>
+    <img src="path/to/image.svg">
+    <figcaption> Caption </figcaption>
+</figure>
+```
+
+### Equations
+
+#### Alignment
+
+```
+$$
+\begin{align}
+V_{in} & =V_C+V_R \\
+& = \frac{q}{C} + IR
+\end{align}
+$$
+```
+
 ## Additional resources
 
 There are no shortage of amazing computational resources to be found both on- and off-line, and these listed below are just a few resources which may prove useful:

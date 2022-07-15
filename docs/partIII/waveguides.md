@@ -23,10 +23,16 @@ The aim of this experiment is to measure the characteristics of a section of wav
 
         The experiment takes place in the Part III lab (Room 233, Physics building SB.AU.14, Sandy Bay)
 
-![](waveguides/header.jpg)
+![](waveguides/header.jpg){: .center}
 
 ---
 
-## Content
+<figure markdown>
+<a href = 'waveguide_description.pdf'><i class="fas fa-file-pdf fa-3x"></i> </a>
+    <figcaption>Lab notes
+    </figcaption>
+</figure>
+
+## Additional resources
 
 --8<-- "includes/abbreviations.md"

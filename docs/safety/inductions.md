@@ -55,7 +55,7 @@ One should also be familiar with the local facilities. Laboratory work primarily
 3. A first-aid kit is located in room 235, which is accessed through the door at the front of the laboratory
 4. A defibrillator can be found in the "lobby" area of the building (room 201)
 
-![](labmap.svg)
+![](inductions/labmap.svg)
 
 #### Lab-specific safety
 Individual experiments can pose specific risks, and these are identified in the notes provided for the individual labs.

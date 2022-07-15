@@ -12,7 +12,41 @@ An often overlooked skill in science and other disciplines which concentrate on 
 
 Where possible, device manuals as prepared by the manufactures have been sourced; whilst usually very thorough, they are often terse. As a remedy to this, usage notes have been prepared to provide a succinct discussion of devices in the context of their deployment and usage at UTAS. Support materials, usually in the form of python code and sample data are also provided where relevant.
 
-### List of devices and uses
+### List of analogue devices and uses
+
+=== "Part I"
+
+    | Device | Purpose |
+    | :-----: | :----- |
+    | Callipers | Precise measurement |
+
+=== "Part II"
+
+    | Device | Purpose |
+    | :-----: | :----- |
+    | Callipers | Precise measurement |
+    | Barometer | Atmospheric pressure measurement |
+    | Regulator | Pressure regulation of high-pressure gases |
+
+=== "Part III"
+
+    | Device | Purpose |
+    | :-----: | :----- |
+    | Callipers | Precise measurement |
+
+### Analogue devices
+
+#### Barometer
+
+<figure markdown>
+<a href = 'Barometer notes.pdf'> <i class="fas fa-book fa-3x"></i> </a>
+    <figcaption>Barometer usage note
+    </figcaption>
+</figure>
+
+---
+
+### List of digital devices and uses
 
 Different devices with different levels of sophistication are used across the different years and consequently they are best indexed by the level of study
 
@@ -27,18 +61,19 @@ Different devices with different levels of sophistication are used across the di
 
     | Device | Model | Description |
     | :-----: | :-----: | :----- |
-    | Digital (storage) oscilloscope | Rigol DS2102E | Electronic test instrument,  advanced measurement device |
-    | Arbitrary waveform generator | Rigol DG1032Z | Signal generator |
-    | Data logger | Pico Technology ADC20 and 2000 | Measurement device |
+    | Digital (storage) oscilloscope | [Rigol DS2102E](#rigol-ds2102e-oscilloscope) | Electronic test instrument,  advanced measurement device |
+    | Arbitrary waveform generator | [Rigol DG1032Z](#rigol-dg1032z-signal-generator) | Signal generator |
+    | Data logger | [Pico Technology ADC20 and 2000](#pico-technology-adc20-and-2000) | Measurement device |
 
 === "Part III"
 
     | Device | Model | Description |
     | :-----: | :-----: | :----- |
-    | Digital (storage) oscilloscope | Rigol DS2102E | Electronic test instrument,  advanced measurement device |
-    | Arbitrary waveform generator | Rigol DG1032Z | Signal generator |
-    | Data logger | Pico Technology ADC20 and 2000 | Measurement device |
-    | Single-channel analyser | Spectrum Techniques UCS30 | Measurement device |
+    | Digital (storage) oscilloscope | [Rigol DS2102E](#rigol-ds2102e-oscilloscope) | Electronic test instrument,  advanced measurement device |
+    | Arbitrary waveform generator | [Rigol DG1032Z](#rigol-dg1032z-signal-generator) | Signal generator |
+    | Data logger | [Pico Technology ADC20 and 2000](#pico-technology-adc20-and-2000) | Measurement device |
+    | Single-channel analyser | [Spectrum Techniques UCS30](#spectrum-techniques-ucs-30) | Measurement device |
+    | Software-defined instrument | [Moku:Lab](#mokulab) | Multipurpose device |
 
 ### Devices
 
@@ -70,18 +105,18 @@ The available software defined instruments are listed below, along with specific
 | Device | Usage |
 | :-----: | :----- |
 | Oscilloscope | An oscilloscope to measure time-varying signals |
-| Spectrum Analyzer | A spectrum analyser to determine the frequencies present in a singal |
+| Spectrum Analyzer | A spectrum analyser to determine the frequencies present in a signal |
 | Waveform Generator | A waveform generator best suited to producing simple periodic signals |
-| PID controller | A control system used to stabalise an external system using measurement and feedback |
+| PID controller | A control system used to stabilise an external system using measurement and feedback |
 | Data Logger | A data logger to measure and record input signals over a defined period |
 | Frequency Response Analyzer | A tool used to measure the frequency response of a system |
-| Abitrary Waveform | A waveform generator suited to creating complex (abitrary) signals |
+| Arbitrary Waveform | A waveform generator suited to creating complex (arbitrary) signals |
 | Logic Analyzer | A tool for the analysis of digital communication protocols |
 | [Power supply](#power-supply) | Used to power systems |
 
 ##### Power supply
 
-Power supplies are used to power devices, and provide current or voltage to a circuit. Each `Moku:Go` has 4 power supply outputs, with the channels 1-4 running from left to right on the back of the device. Diffent channels are capable of different output currents/voltages, and the specifications are listed in the table below.
+Power supplies are used to power devices, and provide current or voltage to a circuit. Each `Moku:Go` has 4 power supply outputs, with the channels 1-4 running from left to right on the back of the device. Different channels are capable of different output currents/voltages, and the specifications are listed in the table below.
 
 | Channel | Voltage | Current |
 | :-----: | :-----: | :-----: |
@@ -106,9 +141,51 @@ Power supplies are used to power devices, and provide current or voltage to a ci
 
 #### Pico Technology ADC20 and 2000
 
-#### Rigol DG1032Z (oscilloscope)
+<figure markdown>
+<a href = 'PicoLogger notes.pdf'> <i class="fas fa-book fa-3x"></i> </a>
+    <figcaption>PicoScope usage note
+    </figcaption>
+</figure>
 
-#### Rigol DS2102E (signal generator)
+#### Rigol DS2102E (oscilloscope)
+
+<figure markdown>
+<a href = 'DS2102E notes.pdf'> <i class="fas fa-book fa-3x"></i> </a>
+    <figcaption>DS2102E usage note
+    </figcaption>
+</figure>
+
+<figure markdown>
+<a href = 'ds2000e-userguide.pdf'> <i class="fas fa-book fa-3x"></i> </a>
+    <figcaption>DS2102E user guide (instruction manual)
+    </figcaption>
+</figure>
+
+![](hardware/DSO-aliasing.gif){width="800" : .center}
+
+![](hardware/DSO-triggered.gif){width="800" : .center}
+
+#### Rigol DG1032Z (signal generator)
+
+<figure markdown>
+<a href = 'DG1000Z User's Guide.pdf'> <i class="fas fa-book fa-3x"></i> </a>
+    <figcaption>DG1000Z user guide (instruction manual)
+    </figcaption>
+</figure>
+
+#### Spectrum techniques UCS-30
+
+<figure markdown>
+<a href = 'UCS30 notes.pdf'> <i class="fas fa-book fa-3x"></i> </a>
+    <figcaption>UCS30 usage note
+    </figcaption>
+</figure>
+
+<figure markdown>
+<a href = 'UCS30-Manual.pdf'> <i class="fas fa-book fa-3x"></i> </a>
+    <figcaption>UCS30 user guide (instruction manual)
+    </figcaption>
+</figure>
 
 #### Vernier LabPro
 
@@ -128,80 +205,6 @@ The radiation monitor (Vernier VRM-BTD) detects $\alpha$, $\beta$, $\gamma$, and
   ![RadiationMonitorSetup](hardware/RadiationMonitorSetup.gif)
   <figcaption>Setting up the radiation detector in Logger Pro</figcaption>
 </figure>
-
-## Legacy
-
-<div class="table-wrapper">
-                                        <table>
-                                            <thead>
-                                                <tr>
-                                                    <th>Equipment</th>
-                                                    <th>Content</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>
-                                                        <b>Digital (storage) oscilloscope</b><br/>
-                                                        Rigol DS2102E
-                                                    </td>
-                                                    <td>
-                                                        <ul class="actions">
-                                                            <li><a href="Content/Reference/ds2000e-userguide.pdf" class="button icon solid fa-download">Manual</a></li>
-                                                            <li><a href="Content/Reference/DS2102E notes.pdf" class="button icon far fa-file-pdf">Usage note</a></li>
-                                                            <li><a href="Content/Reference/DSO.zip" class="button icon solid fa-code">Support material</a></li>
-                                                        </ul>
-                                                        <ul class="actions">
-                                                            <li><a href="images/Additional content/DSO-aliasing.gif" class="button icon solid fa-photo-video">DSO animation: aliasing</a></li>
-                                                            <li><a href="images/Additional content/DSO-triggered.gif" class="button icon solid fa-photo-video">DSO animation: triggered</a></li>
-                                                        </ul>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <b>Arbitrary waveform generator</b><br/>
-                                                        Rigol DG1032Z
-                                                    </td>
-                                                    <td>
-                                                        <ul class="actions">
-                                                            <li><a href="https://beyondmeasure.rigoltech.com/acton/attachment/1579/f-0450/0/-/-/-/-/file.pdf" class="button icon solid fa-download">Manual</a></li>
-                                                            <li><a href="#" class="button icon far fa-file-pdf">Usage note</a></li>
-                                                            <li><a href="#" class="button icon solid fa-code">Support material</a></li>
-                                                        </ul>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <b>Data logger</b><br/>
-                                                        Pico Technology ADC20 and 2000
-                                                    </td>
-                                                    <td>
-                                                        <ul class="actions">
-                                                            <li><a href="https://www.picotech.com/download/datasheets/adc20-adc24-high-resolution-data-logger-users-guide.pdf" class="button icon solid fa-download">ADC20 manual</a></li>
-                                                            <li><a href="Content/Reference/PicoLogger notes.pdf" class="button icon far fa-file-pdf">Usage note</a></li>
-                                                            <li><a href="Content/Reference/Pico.zip" class="button icon solid fa-code">Support material</a></li>
-                                                        </ul>
-                                                        <ul class="actions">
-                                                            <li><a href="https://www.picotech.com/download/datasheets/picoscope-2000-series-data-sheet.pdf" class="button icon solid fa-download">PicoScope manual</a></li>
-                                                        </ul>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <b>Single-channel analyser</b><br/>
-                                                        Spectrum Techniques UCS30
-                                                    </td>
-                                                    <td>
-                                                        <ul class="actions">
-                                                            <li><a href="http://www.spectrumtechniques.com/wp-content/uploads/2016/12/UCS30-Manual.pdf" class="button icon solid fa-download">Manual</a></li>
-                                                            <li><a href="Content/Reference/UCS30 notes.pdf" class="button icon far fa-file-pdf">Usage note</a></li>
-                                                            <li><a href="Content/Reference/UCS30.zip" class="button icon solid fa-code">Support material</a></li>
-                                                        </ul>
-                                                    </td>
-                                                </tr>    
-                                            </tbody>
-                                        </table>
-                                    </div>
 
 ## Advanced/extension content
 

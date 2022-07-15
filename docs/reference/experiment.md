@@ -143,7 +143,7 @@ Logs are individual. Despite that physics rightly is undertaken in collaboration
 An example log book is provided below as a guide for the kind of logbook that might be produced. Hopefully the text above has convinced you that there is no single _right_ way to create a log, so you should do what works for you, whilst building on the principles which undergird rigorous scientific investigation.
 
 <figure markdown>
-[<i class="fas fa-solid fa-book fa-5x"></i>](model_log.pdf){ .md-button .md-button--primary class="text-center" style="margin-left: 0%"}
+[<i class="fas fa-solid fa-book fa-5x"></i>](experiment/model_log.pdf){ .md-button .md-button--primary class="text-center" style="margin-left: 0%"}
 <figcaption>Example log book</figcaption>
 </figure>
 
@@ -157,7 +157,85 @@ In addition, a mandatory "reflections" section provides a pathway to improving o
 
 The purpose of a report is to concisely communicate your findings to an audience in a structured document; in science, reports are often flavoured as commissioned pieces of research (for example, a study of the feasibility of _microgrids for remote communities_) or academic research (for example, journal articles).
 
-_Report resources coming soon_
+#### Preparing a report
+Reports must be set out in the nature of a scientific paper with sections outlining the theory, experimental procedure, results and analysis, and conclusions. Each of those sections should carry the appropriate heading. All reports must have a brief abstract at the beginning and a list of references at the end. The crucial questions to ask yourself on completing a first draft of your report are
+
+1. Could someone else read this, and duplicate the experiment to reproduce my results?
+2. If someone else had written this and given it to me to read, would I believe it?
+
+If unfamiliar with this structure, it is advisable to have a have a look at existing reports, for example, articles which appear in any of the [_Physical Review_ publications](https://journals.aps.org/) are likely to be worth emulating. Note that some of the more general-coverage publications such as _New Scientist_ or _Scientific American_ employ their own styles which are aimed at a general audience and should not be taken as examples of a research report (but may be emulated in the case of a [popular-science pitch](#popular-science-pitch)). The exact layout of a report will depend on the nature of the experiment, but a typical paper would have the following sections:
+
+1. [Abstract](#Abstract)
+2. [Introduction](#Introduction)
+3. [Theory](#Theory)
+4. [Experimental procedure](#experimental-procedure)
+5. [Results and analysis](#results-and-analysis)
+6. [Conclusion](#Conclusion)
+7. [References](#References)
+
+##### Abstract
+
+The purpose of the abstract is to summarise the subject and findings of your work in one short paragraph. Typically, scientists will want to check several journals in a few minutes to see if any contain reports of interest to them in their field. They will check the contents page and then read the abstracts of those reports that may be of interest. Increasingly, scientists subscribe to services that email a list of abstracts in their field, a dozen or more per day. The abstract is your only chance of catching the attention of the people you want to read your report. If your abstract is not concise and to the point, then no one will read the report. It should contain a few words (normally less than about 50) outlining what has been done, what is new or interesting about the method you have used, the results and conclusions. It should include numerical results obtained where this was an aim of the experiment, and their standard error. If the results are significantly different from accepted values, this should be commented on. You are strongly advised to look at some examples in journals in the library or online (often, these are best found on [https://journals.aps.org/prl/](journal landing pages)), or flatter your demonstrator by asking to see one they’ve written.
+
+##### Introduction
+
+If the abstract has caught the attention of a reader, their next step will be to read the introduction. The introduction should not just repeat the contents of the abstract, but should assume the abstract has been read, and expand on it. In particular, it should give the object of the experiment and a general outline of the theory and method. It will probably include an outline of previous related measurements and attempt to show how the experiment contributes to the store of information on the subject. Appropriate comparisons may be made here with alternative methods, and the historical significance of the experiment may be commented on if this is relevant.
+
+##### Theory
+
+The theory underlying the experiment should be given. Where the script for the experiment describes the mathematics in detail, there is a conflict between the requirements of a bona fide original research report in which relevant theory is often skimmed over and a result given with citation to the appropriate works in the literature, and the requirements of a marked report in which your marker is looking for evidence that you have worked through the maths yourself and understood what you were doing. From the marking point of view, there is no point in copying out a slab of theory verbatim from the experiment notes. In this case you should summarise the notes in your own words, in a manner that makes it clear that you understand the process. In any case, you should refer to this handbook, giving page numbers and equation numbers where relevant, and the major steps in the theory should be written up. Where the script asks students to prove certain statements or equations, this should be done and described in the report. If the theory is descriptive and short, it may be appropriate to include it in the introduction.
+
+##### Experimental procedure
+
+Describe the procedure and apparatus used, with diagrams, to the extent that they are relevant to your results. Do not include detailed descriptions of equipment which cannot reasonably have affected the outcome of the experiment. Discuss difficulties encountered and methods used to overcome them.
+
+##### Results and analysis
+
+Final results should either be tabulated or displayed as graphs, as appropriate. If you use graphs, then the numerical results should be included in an appendix for marking purposes, referred to in the text by table or figure number. Each table and graph or diagram should have a table or figure number and brief caption describing it. Methods of analysis should be given but detailed calculations and measurements leading up to these results are not normally included in a scientific paper. It should go without saying that graphs must be clearly labelled with a legend, with clear distinction between data points and any theoretical or numerical curves or fits, and clear axis labels. Any information necessary to interpret the graph should be included in a brief caption.
+
+Error limits should be given for all numerical results and for all intermediate quantities which make a significant contribution to the accuracy of the final result. This is especially important in the abstract and the final conclusions. The error should always be quoted to the same power of ten as the result itself, and to the same significant figure, e.g. $1.67 \times 10^{-19} \pm 2 \times 10^{-21}$ and $(1.67 \pm 0.0234) \times 10^{-19}$ should be replaced by $(1.67 \pm 0.02) \times 10^{-19}$.
+
+Error bars should be attached to data points on graphs unless they are too small, in which case a comment should be attached to that effect. The method of calculation of errors should be indicated in the text. You should also discuss possible systematic errors, and if you can, possible ways of increasing the precision of the measurements. The goal of an experiment is to answer a question (e.g., is this theory true or false?). Without a clear discussion of the experimental uncertainties associated with a given numerical value, it is impossible to safely assign any credence to the value, or use it to answer the question.
+
+There is often a conflict between the way a scientist would lay out his/her report in a genuine research situation, and the requirements of a marker reading a student report in order to decide whether the student has understood the work and used appropriate experimental techniques, in order to attach a mark. If the scientist is demonstrating a relation between two variables, the result will be expressed in graphical form, or as an equation if it is possible to fit a relation. The reader will not be interested in the fine details of the calculation, but will assume that they have been done with care, and will assume that the error calculations have been done correctly. Hence calculations will normally be omitted from a research report unless there is something interesting or unusual to which the author wishes to draw attention. On the other hand, your demonstrator has to mark your report and will want to both see the raw data and to know how you did the calculations. He will also want a readable report – not one that is broken up by slabs of arithmetic. How you handle this problem will depend on the experiment and the nature of your calculations, but unless the calculations are very short, they should be put in an appendix.
+
+Every table should have a ‘table’ number, and every graph, diagram or photograph should be given a ‘figure’ number, together with a short title or description. (If a reader has read the abstract and introduction, but is still not sure whether he/she wants to read the complete report, the next step will be to glance at the graphs and diagrams. If they have no titles, they will be meaningless.) Every reference to a table or figure in the text should be through the appropriate number.
+
+##### Conclusion
+
+This summarises briefly what has been achieved and gives numerical results. It may include recommendations for relevant new experiments or alterations to the present one.
+
+##### References
+
+These should be given in detail, i.e., author, title of book or journal, page and chapter or volume number, year of publication, publisher and place of publication of a book. It is important that references are identified at the relevant point in the text. It is not sufficient to quote the book in the list of references at the end of the report without stating explicitly where it has been used. It is also important the references be accurately cited, and for a full description of citation style, refer to the [style guide for Physical Review](experiment/styleguide-pr.pdf).
+
+#### General comments
+
+Finally, some general comments:
+* Organise your report before you start writing it. Jot down the above headings on a scrap sheet of paper and list under each heading the topics that you need to discuss or describe. Decide on the best order for the topics under each heading. Decide which items are best relegated to appendices. Your aim is to have a smooth flow of ideas and concepts from the introduction to the conclusion. Anything that breaks that flow should probably be merely mentioned in the text and relegated to an appendix.
+* Be brief. Having decided what you want to say, say it clearly and concisely. Long waffly sentences and paragraphs mean your report won’t be read. A research report will normally assume that readers are competent physicists, and if the paper is in a specialised field, then the readers will already be competent in that field. In your case, we ask that you assume your report will be read by fellow students with a similar background to your own. It is up to you to explain what you did in terms that will be understood by your peers.
+
+#### Additional resources
+The article [_Scientific Writing Made Easy: A Step-by-Step Guide to Undergraduate Writing in the Biological Sciences_](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/bes2.1258) which appeared in the [_Bulletin of the Ecological Society of America_](https://esajournals.onlinelibrary.wiley.com/journal/23276096) is a useful resource, albeit in the context of biological sciences. It can be accessed directly from the publisher, or downloaded [here](experiment/Bulletin Ecologic Soc America - 2016 - Turbek - Scientific Writing Made Easy A Step‐by‐Step Guide to Undergraduate Writing.pdf)
+
+### Popular-science pitch
+
+Scientific communication is difficult, and perhaps increasingly so with incessant demand for ever-smaller chunks of communicable content. However, the worst reaction to this would be to "pull the pin" and say that it can't be done. There are excellent examples of people/teams of people who create and curate highly complex and nuanced content in broadly understandable ways, and increasingly this is a viable pathway for education. It should therefore come as no surprise that this is something that you should practice!
+
+You will select one experiment, and produce a `popular-science pitch`. This is not a pitch in the sense of stating what you want to do, but rather a pitch to others for why they should care about your work. Consequently, the content might be an interesting result from part of the work, an interesting aspect of the apparatus, or simply the context of the work, it is totally up to you. The task is deliberately broad, but the `pitch` should satisfy the following criteria:
+* less than one page
+* suitable to be distributed to a non-scientist
+
+#### Example pitch
+
+Below one can find an example of a popular science pitch for an extremely esoteric experiment: [Pound–Rebka experiment](https://en.wikipedia.org/wiki/Pound%E2%80%93Rebka_experiment). By design, this is a rigorous, technical experiment which has had the detailed barnacles stripped off, leaving just the bare physics concepts to be communicated.
+
+<figure markdown>
+[<i class="fas fa-solid fa-file-pdf fa-5x"></i>](experiment/Pop-science example.pdf){ .md-button .md-button--primary class="text-center" style="margin-left: 0%"}
+<figcaption>Example pitch</figcaption>
+</figure>
+
+Moreover, countless examples of popular-science abound, from dedicated science platforms to news websites to social media, and content runs the gamut from glorious to drivel - and vaguely correlated with the listed sources. For near-guaranteed quality content, try [Scientific American](https://www.scientificamerican.com/).
 
 ### Presentations
 
@@ -166,7 +244,7 @@ On of the most important - and often overlooked - skills in science is the abili
 _Presentation resources coming soon_
 
 [^1]: G. L. Squires, _[Practical physics](https://archive.org/details/practicalphysics00squi)_, (Cambridge university press, Cambridge, 2001).
-[^2]: J. R. Taylor, _[An Introduction to Error Analysis: The Study of Uncertainties in Physical Measurements](https://archive.org/details/introductiontoer00tayl)_, ( ‎ University Science Books, Melville, 1997).
+[^2]: J. R. Taylor, _[An Introduction to Error Analysis: The Study of Uncertainties in Physical Measurements](https://archive.org/details/introductiontoer00tayl)_, (University Science Books, Melville, 1997).
 [^3]: P. R. Bevington and D. K. Robinson, _[Data Reduction and Error Analysis in the Physical Sciences](https://archive.org/details/datareductionerr0000bevi)_, (McGraw-Hill, Inc., New York, 1992).
 
 --8<-- "includes/abbreviations.md"
