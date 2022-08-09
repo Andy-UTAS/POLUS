@@ -15,8 +15,8 @@ Magnetic Resonance Imaging (MRI) is a powerful tool in modern healthcare. This e
     === "Academic contact"
 
         <figure markdown>
-        <a href="mailto:physics.labs@utas.edu.au"><i class="fas fa-at fa-5x"></i></a>
-        <figcaption><a href="https://www.utas.edu.au/profiles/staff/cose-natural-sciences-physics/">TBD</a></figcaption>
+        <a href="mailto:Krzysztof.Bolejko@utas.edu.au"><i class="fas fa-at fa-5x"></i></a>
+        <figcaption><a href="https://www.utas.edu.au/profiles/staff/cose-natural-sciences-physics/">Krzysztof Bolejko</a></figcaption>
         </figure>
 
     === "Location"
@@ -30,7 +30,7 @@ Magnetic Resonance Imaging (MRI) is a powerful tool in modern healthcare. This e
 ## Content
 
 <figure markdown>
-<a href = 'nmr notes.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
+<a href = 'NMRnotes.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
     <figcaption>Lab notes
     </figcaption>
 </figure>

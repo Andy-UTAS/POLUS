@@ -15,8 +15,8 @@ The aim of this experiment is to measure the characteristics of a section of wav
     === "Academic contact"
 
         <figure markdown>
-        <a href="mailto:Simon.Ellingsen@utas.edu.au"><i class="fas fa-at fa-5x"></i></a>
-        <figcaption><a href="https://www.utas.edu.au/profiles/staff/cose-natural-sciences-physics/simon-ellingsen">Simon Ellingsen</a></figcaption>
+        <a href="mailto:tiegem@utas.edu.au"><i class="fas fa-at fa-5x"></i></a>
+        <figcaption><a href="https://www.utas.edu.au/profiles/staff/natural-sciences/tiege-mccarthy">Tiege McCarthy</a></figcaption>
         </figure>
 
     === "Location"
@@ -28,8 +28,14 @@ The aim of this experiment is to measure the characteristics of a section of wav
 ---
 
 <figure markdown>
-<a href = 'waveguide_description.pdf'><i class="fas fa-file-pdf fa-3x"></i> </a>
+<a href = 'waveguide-pIII.pdf'><i class="fas fa-file-pdf fa-3x"></i> </a>
     <figcaption>Lab notes
+    </figcaption>
+</figure>
+
+<figure markdown>
+<a href = 'waveguide-image.pdf'> <i class="fas fa-image fa-3x"></i> </a>
+    <figcaption>Image of apparatus
     </figcaption>
 </figure>
 

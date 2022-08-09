@@ -82,13 +82,13 @@ Over the course of the two subjects, it is expected that you will complete seven
 
 === "KYA212: electromagnetism and thermodynamics"
 
-    | Experiment | Branch(es) of physics | Difficulty |
-    | :-----: | :-----| :-----: |
-    | Charge-to-mass ration of the electron |	Electromagnetism | :material-star: :material-star-half-full: :material-star-outline: |
-    | Entropy change in a rubber band |	Thermal physics | :material-star: :material-star-half-full: :material-star-outline: |
-    | Hysteresis of iron |	Electromagnetism | :material-star: :material-star-half-full: :material-star-outline: |
-    | Induction and the Earth's magnetic field |	Electromagnetism | :material-star: :material-star-half-full: :material-star-outline: |
-    | The Michelson interferometer |	Wave mechanics, optics | :material-star: :material-star-half-full: :material-star-outline: |
+    | Experiment | Branch(es) of physics | Summary | Difficulty  |
+    | :-----: | :-----| :----- | :-----: |
+    | [Charge-to-mass ration of the electron](eonm) |	Electromagnetism | This experiment uses a kinematic analysis of the helical path followed by electrons deflected by a magnetic field to determine the ratio of the electric charge $e$ to the mass $m_e$. The ratio is determined by measuring the change in magnetic field required to keep an electron beam focused on a CRT screen as a function of different accelerating voltages (also known as Hoag's method). |:material-star: :material-star-half-full: :material-star-outline: |
+    | [Entropy change in a rubber band](entropy) |	Thermal physics | The relation between work, temperature, and entropy is explored by testing the amount of work required to stretch a rubber band at different temperatures. | :material-star: :material-star: :material-star-outline: |
+    | [Hysteresis of iron](hysteresis) |	Electromagnetism | Hysteresis in a physical system arises when the internal state of the system depends on the past history of external forces applied, i.e., the system does not return to its lowest-energy or equilibrium state in the absence of an applied force. This happens during the magnetisation of ferromagnetic material in an external field. In this experiment magnetic hysteresis in iron is explored as a function of the size of the magnetising current, and the energy dissipation due to hysteresis losses is explored. | :material-star: :material-star: :material-star-half-full: |
+    | [Induction and the Earth's magnetic field](induction) |	Electromagnetism | A changing magnetic flux creates a measurable electric current in a loop of wire. One way of creating a change in magnetic flux is by changing the orientation of a coil with respect to a constant magnetic field $\mathbf{B}$. In this experiment, the strength and orientation of the Earth's magnetic field is measured by observing the electrical response produced during a $180^{\circ}$ rotation of a coil of wire (colloquially known as the _$\pi$-flipper_). | :material-star: :material-star-half-full: :material-star-outline: |
+    | [The Michelson interferometer](michelson) |	Wave mechanics, optics | The wave nature of light at visible wavelengths is demonstrated by use of a dual-beam interferometer of the sort pioneered by Michelson. By altering the optical path length of one beam relative to the other, interference effects are used to measure the index of refraction of mica and of air over a range of pressures.| :material-star: :material-star-half-full: :material-star-outline: |
 
 === "KYA---: under development"
     | Experiment | Branch(es) of physics | Summary | Difficulty  |
