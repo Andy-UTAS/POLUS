@@ -78,6 +78,14 @@
     </div>
     <div data-md-component="announce">
       
+        <aside class="md-announce">
+          <div class="md-announce__inner md-grid md-typeset">
+            
+  Get excited: POLUS is getting a comment system! To comment, you require a <a href="https://github.com/">GitHub account</a> <i class="fa-brands fa-github"></i> 
+
+          </div>
+        </aside>
+      
     </div>
     
       <header class="md-header" data-md-component="header">
@@ -319,9 +327,7 @@
   
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="POLUS - UTAS physics" class="md-nav__button md-logo" aria-label="POLUS - UTAS physics" data-md-component="logo">
       
@@ -494,6 +500,66 @@
     <li class="md-nav__item">
       <a href="../../partII/ediffraction/" class="md-nav__link">
         Electron diffraction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partII/entropy/" class="md-nav__link">
+        Disorder measurement: entropy changes of a rubber band
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partII/eonm/" class="md-nav__link">
+        Charge-to-mass ratio of the electron
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partII/hysteresis/" class="md-nav__link">
+        Hysteresis of iron
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partII/induction/" class="md-nav__link">
+        Induction and the Earth's magnetic field
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partII/michelson/" class="md-nav__link">
+        The Michelson interferometer
       </a>
     </li>
   
@@ -1216,10 +1282,321 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#uncertainties" class="md-nav__link">
+    Uncertainties
+  </a>
+  
+    <nav class="md-nav" aria-label="Uncertainties">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estimating-uncertainty" class="md-nav__link">
+    Estimating uncertainty
+  </a>
+  
+    <nav class="md-nav" aria-label="Estimating uncertainty">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-single-direct-measurement" class="md-nav__link">
+    A single, direct measurement
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-derived-quantity" class="md-nav__link">
+    A derived quantity
+  </a>
+  
+    <nav class="md-nav" aria-label="A derived quantity">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#error-in-a-sum-or-difference" class="md-nav__link">
+    Error in a sum or difference
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-in-a-product-or-quotient" class="md-nav__link">
+    Error in a product or quotient
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#errors-in-quantities-raised-to-powers" class="md-nav__link">
+    Errors in quantities raised to powers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#errors-in-evaluations-of-functions" class="md-nav__link">
+    Errors in evaluations of functions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-quantity-measured-many-times" class="md-nav__link">
+    A quantity measured many times
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#significance-of-the-result" class="md-nav__link">
+    Significance of the result
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#least-squares-fit-to-a-straight-line" class="md-nav__link">
+    Least-squares fit to a straight line
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#warnings" class="md-nav__link">
+    Warnings
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#communication" class="md-nav__link">
+    Communication
+  </a>
+  
+    <nav class="md-nav" aria-label="Communication">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#logbooks" class="md-nav__link">
+    Logbooks
+  </a>
+  
+    <nav class="md-nav" aria-label="Logbooks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-general-idea" class="md-nav__link">
+    The general idea
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-log-mantra" class="md-nav__link">
+    The log mantra
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hints" class="md-nav__link">
+    Hints
+  </a>
+  
+    <nav class="md-nav" aria-label="Hints">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#model-log-book" class="md-nav__link">
+    Model log book
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assessment" class="md-nav__link">
+    Assessment
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reports" class="md-nav__link">
+    Reports
+  </a>
+  
+    <nav class="md-nav" aria-label="Reports">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#preparing-a-report" class="md-nav__link">
+    Preparing a report
+  </a>
+  
+    <nav class="md-nav" aria-label="Preparing a report">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#abstract" class="md-nav__link">
+    Abstract
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory" class="md-nav__link">
+    Theory
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#experimental-procedure" class="md-nav__link">
+    Experimental procedure
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#results-and-analysis" class="md-nav__link">
+    Results and analysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    Conclusion
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    References
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-comments" class="md-nav__link">
+    General comments
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#additional-resources" class="md-nav__link">
+    Additional resources
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#popular-science-pitch" class="md-nav__link">
+    Popular-science pitch
+  </a>
+  
+    <nav class="md-nav" aria-label="Popular-science pitch">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-pitch" class="md-nav__link">
+    Example pitch
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#presentations" class="md-nav__link">
+    Presentations
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
+  
                 
                 
                 <h1 id="the-experimental-method">The experimental method<a class="headerlink" href="#the-experimental-method" title="Permanent link">&para;</a></h1>
@@ -1435,6 +1812,58 @@
                   
                 
               
+
+  <!-- Giscus -->
+  <h2 id="__comments">Comments</h2>
+  <script src="https://giscus.app/client.js"
+          data-repo="Andy-UTAS/POLUS"
+          data-repo-id="R_kgDOGkAZ2A"
+          data-category="Announcements"
+          data-category-id="DIC_kwDOGkAZ2M4CQ_Eu"
+          data-mapping="pathname"
+          data-strict="1"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="bottom"
+          data-theme="preferred_color_scheme"
+          data-lang="en"
+          crossorigin="anonymous"
+          async>
+  </script>
+  <!-- Replace with generated snippet -->
+
+  <!-- Synchronize Giscus theme with palette -->
+  <script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    /* Set palette on initial load */
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+      var theme = palette.color.scheme === "slate" ? "dark" : "light"
+      giscus.setAttribute("data-theme", theme)
+
+
+    }
+
+    /* Register event handlers after documented loaded */
+    document.addEventListener("DOMContentLoaded", function() {
+      var ref = document.querySelector("[data-md-component=palette]")
+      ref.addEventListener("change", function() {
+        var palette = __md_get("__palette")
+        if (palette && typeof palette.color === "object") {
+          var theme = palette.color.scheme === "slate" ? "dark" : "light"
+
+          /* Instruct Giscus to change theme */
+          var frame = document.querySelector(".giscus-frame")
+          frame.contentWindow.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app"
+          )
+        }
+      })
+    })
+  </script>
+
               
                 
 
@@ -1512,7 +1941,7 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.tabs", "navigation.sections", "navigation.indexes", "toc.integrate", "search.highlight", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.709b4209.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.tabs", "navigation.sections", "navigation.indexes", "search.highlight", "content.code.annotate", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.709b4209.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.2b46852b.min.js"></script>
