@@ -17,9 +17,9 @@ Writing markdown is not particularly difficult once one knows the tricks of the 
 This page has a sole purpose: to serve as a reference page for common markdown functions.
 
 ### Markdown cheat sheet
-[<i class="fab fa-markdown fa-5x"></i>](https://jove2021.cloud.edu.au/ "Github of rendered markdown"){ .md-button .md-button--primary class="text-center" style="margin-left: 21.5%"}
-[<i class="fab fa-github fa-5x"></i>](https://jove2021.cloud.edu.au/ "Github of markdown code"){ .md-button .md-button--primary class="text-center" style="margin-left: 7.5%"}
-[<i class="fab fa-python fa-5x"></i>](https://github.com/Andy-UTAS/POLUS/blob/master/docs/reference/experiment/model_log/examplelog.ipynb "Markdown on Jove"){ .md-button .md-button--primary class="text-center" style="margin-left: 7.5%"}
+[<i class="fab fa-markdown fa-5x"></i>](https://github.com/Andy-UTAS/POLUS/blob/master/includes/markdown%20cheat%20sheet.md "Github of rendered markdown"){ .md-button .md-button--primary class="text-center" style="margin-left: 21.5%"}
+[<i class="fab fa-github fa-5x"></i>](https://github.com/Andy-UTAS/POLUS/blob/master/includes/markdown%20cheat%20sheet.md?plain=1 "Github of markdown code"){ .md-button .md-button--primary class="text-center" style="margin-left: 7.5%"}
+[<i class="fab fa-python fa-5x"></i>](https://jove2021.cloud.edu.au/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FAndy-UTAS%2FPOLUS&urlpath=tree%2FPOLUS%2Fdocs%2Freference%2Fmarkdown%2FMarkdown+cheat+sheet.ipynb&branch=master "Markdown on Jove"){ .md-button .md-button--primary class="text-center" style="margin-left: 7.5%"}
 
 The cheat sheet is best viewed on this site, as it shows both the markdown code and rendered outcome, but you can also access the raw markdown or pure rendered form of this cheat sheet on GitHub, or access a Jupyter notebook of the markdown to experiment yourself.
 
