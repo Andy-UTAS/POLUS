@@ -28,7 +28,7 @@ Laboratory work is a cornerstone of an education in the natural sciences. Unlike
 
 ### Safety
 
-If you have a question regarding safety (or anything else), do not hesitate to consult with your demonstrator(s) or contact the [physics lab team](mailto:physics.labs@utas.edu.au) .
+If you have a question regarding safety (or anything else), do not hesitate to consult with your demonstrator(s) or contact the [physics lab team](mailto:physics.labs@utas.edu.au).
 
 #### General safety
 The [UTAS safety and wellbeing](https://www.utas.edu.au/safety-and-wellbeing) page is the best resource of all things related to health and safety at the university. Note that it is a requirement that all members of the university community complete the [Safety and Wellbeing Induction](https://mylo.utas.edu.au/d2l/home/501512) module at the beginning of each year.

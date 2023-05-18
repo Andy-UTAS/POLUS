@@ -12,6 +12,16 @@ Hysteresis in a physical system arises when the internal state of the system dep
     </figcaption>
 </figure>
 
+## Experiment in a nutshell
+
+In order to measure hysteresis in iron, one must first understand what is hysteresis. Expect to dedicate some time understanding exactly what is the phenomenon, with careful attention being applied to understanding how you might measure it. Once you are satisfied with what you are to measure:
+* Know what you want to measure and plot. What are the axes of the plot? How are you going to record data, and how are you going to alter the independent variable?
+* Construct the system in a piecewise manner: e.g. build a circuit that allows you to produce a variable current from a fixed current supply. Then send this variable current to your iron sample, then figure out how to reverse the direction of the current. Doing this is a step-by-step process will help you to understand the purpose of each component in the circuit.
+* Research/discuss the basics of analogue-to-digital conversion and the implications of using a finite bit-depth over different voltage ranges.
+* Use the degaussing circuit! If you do not know why this is important: learn why this is important!
+
+This experiment commonly produces excellent results, but a bit of time and effort is required to learn to drive it.
+
 ## Additional resources
 
 <figure markdown>

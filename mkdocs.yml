@@ -1,5 +1,5 @@
 site_name: POLUS - UTAS physics
-site_url: https://utasphys.cloud.edu.au/POLUS/
+site_url: https://polus.utasphys.cloud.edu.au
 repo_url: https://github.com/Andy-UTAS/POLUS
 repo_name:  Andy-UTAS/POLUS
 edit_uri: ""
@@ -8,6 +8,8 @@ nav:
     - Home: index.md
     - 'Part I':
       - partI/index.md
+      - partI/s1e01.md
+      - partI/s1e02.md
       - partI/s1e04.md
       - partI/s1e05.md
       - partI/s2e02.md
@@ -15,6 +17,11 @@ nav:
       - partII/index.md
       - partII/adiabatic.md
       - partII/ediffraction.md
+      - partII/entropy.md
+      - partII/eonm.md
+      - partII/hysteresis.md
+      - partII/induction.md
+      - partII/michelson.md
       - partII/TDR.md
       - partII/ultrasound.md
     - 'Part III':
@@ -37,6 +44,8 @@ nav:
       - reference/hardware.md
       - reference/software.md
       - reference/computation.md
+      - reference/git.md
+      - reference/markdown.md
       - reference/computing.md
       - reference/faqs.md
     - 'Playhouse':
@@ -67,13 +76,14 @@ theme:
     - navigation.tabs # Use tabs rather than sections
     - navigation.sections # Render sections as groups
     - navigation.indexes # Include section index pages
-    - toc.integrate # Integrate the table of contents into the left index
+    #- toc.integrate # Integrate the table of contents into the left index
     - search.highlight
     - content.code.annotate
+    - announce.dismiss
   highlightjs: True
   icon:
     repo: fontawesome/brands/git-alt
-  # custom_dir: overrides # Initially here for banner usage, but this was not very good
+#  custom_dir: overrides # Initially here for banner usage, but this was not very good
 
 plugins:
   - mkdocs-video # allows for video
@@ -82,6 +92,7 @@ plugins:
       # global_password: 'thisisapassword'
   - git-revision-date-localized:
       type: date
+  # - page-to-pdf
 
 markdown_extensions:
   - mdx_math:
@@ -91,27 +102,28 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.highlight:
-      linenums: true # Enabeles line numbers in code
-      linenums_style: pymdownx-inline # Makes the line numbers in code not shit (renders properly and copies well)
-      anchor_linenums: True
   - def_list # For definition lists
   - pymdownx.tasklist: # For lists with checkboxes
       custom_checkbox: true
+  - pymdownx.highlight:
+      # linenums: true # Enabeles line numbers in code
+      linenums_style: pymdownx-inline # Makes the line numbers in code not shit (renders properly and copies well)
+      anchor_linenums: true
   - pymdownx.inlinehilite
-  - pymdownx.tabbed # Enabeles content tabs
+  - pymdownx.snippets: # Allows for a global list of acronyms
+      auto_append:
+        - includes/abbreviations.md
   - pymdownx.superfences # Enables nesting of code and content in tabs
-  - pymdownx.snippets # Allows for a global list of acronyms
+  - pymdownx.tabbed # Enabeles content tabs
   - pymdownx.caret
-  - pymdownx.keys
+  - pymdownx.keys # Rendering of keyboard keys
   - pymdownx.mark
   - pymdownx.tilde
-
   - admonition
-  - attr_list
   - pymdownx.details
   - pymdownx.extra
   - abbr
+  - attr_list
   - footnotes
   - meta
 

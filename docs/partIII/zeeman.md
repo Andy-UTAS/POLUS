@@ -29,4 +29,14 @@ The anomalous Zeeman splitting of the green line of mercury is observed using a 
 
 ## Content
 
+Etalon[^1]
+C:\Users\ajm32\OneDrive - University of Tasmania\Physics\Teaching\mkdocs\POLUS\docs\partIII\zeeman\LightMachinery - Etalon specifications.pdf
+<figure markdown>
+<a href = 'zeeman\LightMachinery-Etalon_specifications.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
+    <figcaption>Etalon specifications
+    </figcaption>
+</figure>
+
+[^1]: [Light Machinery](https://lightmachinery.com/) part number OP-7423-3371-5: Fused Silica, finesse >30, FSR $1\unit{cm}^{-1}, Thickness $3.371\unit{mm}$
+
 --8<-- "includes/abbreviations.md"

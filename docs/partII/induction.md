@@ -12,6 +12,15 @@ A changing magnetic flux creates a measurable electric current in a loop of wire
     </figcaption>
 </figure>
 
+## Experiment in a nutshell
+
+A changing magnetic flux will induce a current: it is known. Rotating a coil in a constant magnetic field will produce a change in magnetic flux, and by measuring the induced current, one can infer the strength of the static field. In principle, the experiment is straightforward, but some worthwhile considerations:
+
+* Consider carefully the orientation of the coil and its axis of rotation
+* Determine how one can assess the effect of any drift on the integrator
+* Take a set a measurements, a carefully quantify the spread of these results and qualify the origin of the spread
+* The origin of magnetic fields is an important: for where do they come, and what are the implications for your experiment?
+
 ## Additional resources
 
 <figure markdown>

@@ -106,9 +106,34 @@ From here, a notebook session should be spawned upon logging in. It is worth not
 
 ## Markdown
 
+`[Markdown](https://en.wikipedia.org/wiki/Markdown)` is a _[markup language](https://en.wikipedia.org/wiki/Markup_language)_ which can be used to simply and beautifully format text^[3], with a major advantage being that even when it is not rendered, it is easily readable by humans, unlike say, HTML. Another advantage to many in the sciences is that when one is using ``[Jupyter](#using-python)`` notebooks to aim with programming in `python`, one can use `markdown` to embed formatted text in the notebook, making the code eminently readable. Indeed, it is for this reason that [experimental logbooks are required to be prepared using markdown](reference/experiment/#model-log-book).
+
+Provided below are some tips and tricks for preparing `markdown` content, but there are countless excellent resources[^4] on the web for learning markdown, so you are encourage to look around.
+
+### How do I markdown?
+
+### Markdown cheat sheet
+
+<figure markdown>
+<a href = 'https://jove2021.cloud.edu.au/'> <i class="fab fa-markdown fa-5x"></i> </a>
+    <figcaption>Github of rendered markdown</a>
+    </figcaption>
+</figure>
+
+<figure markdown>
+<a href = 'https://jove2021.cloud.edu.au/'> <i class="fab fa-github fa-5x"></i> </a>
+    <figcaption>Github of markdown code</a>
+    </figcaption>
+</figure>
+
+<figure markdown>
+  [<i class="fab fa-python fa-5x"></i></i>](https://github.com/Andy-UTAS/POLUS/blob/master/docs/reference/experiment/model_log/examplelog.ipynb){ .md-button .md-button--primary class="text-center" style="margin-left: 0%"}
+  <figcaption>Markdown on Jove</figcaption>
+</figure>
+
 ### Images
 
- and can be imported via
+can be imported via
 
 ```
 ![image][path/to/image.svg]
@@ -129,10 +154,10 @@ From here, a notebook session should be spawned upon logging in. It is worth not
 
 ```
 $$
-\begin{align}
-V_{in} & =V_C+V_R \\
-& = \frac{q}{C} + IR
-\end{align}
+    \begin{align}
+        V_{in} & =V_C+V_R \\
+        & = \frac{q}{C} + IR
+    \end{align}
 $$
 ```
 

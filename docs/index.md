@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Welcome to POLUS: the physics lab portal
 
 POLUS, in addition to being the [titan of rational intelligence](https://en.wikipedia.org/wiki/Coeus), is a central location for resources pertinent to the undergraduate laboratory program at UTAS. At this moment in time, it is very much a work in progress, but it is envisaged that this will be a one-stop shop for lab materials and the first port of call for additional resources.
@@ -5,6 +10,20 @@ POLUS, in addition to being the [titan of rational intelligence](https://en.wiki
 ![](images/header.jpg)
 
 ---
+
+!!! tip "Using this website"
+
+    This site has been designed to be the first port of call of any and all questions. The pages for each experiments should contain all of the resources that you require to not only complete the experiment, but also understand the relevant physical concepts, and where appropriate, provide resources for your interest.
+
+    The bulk of the content on the site is devoted to support and resources, mostly housed in the [reference](reference) section. It is encouraged that you look through the pages to get an idea of what is there, but as a taster, you can find:
+
+    * [A discussion of uncertainties and error propagation](reference/experiment/#estimating-uncertainty)
+    * [Instructions on how to prepare an experimental logbook, including an annotated example](reference/experiment/#logbooks)
+    * [A detailed discussion on what is an oscilloscope, how they function, and how to use them here at UTAS](reference/hardware/#rigol-ds2102e-oscilloscope)
+    * [All of the software (plus more!) used throughout the labs](reference/software/)
+    * [Descriptions and examples of how to perform common computational tasks using `python`](reference/computing/)
+
+    The site also provides a single location to access safety information - including a [checklist](safety/inductions/#checklist) which should be completed before attending your first laboratory class.
 
 ## A home for experimental physics at UTAS
 
@@ -37,6 +56,8 @@ Navigating workplace health and safety in the physics lab should not be a chore.
 [<i class="fas fa-user-astronaut fa-5x"></i>](playhouse/index.md){ .md-button .md-button--primary class="text-center" style="margin-left: 45%"}
 
 Science is a community-based endeavour. Content created by the physics community that is of interest to the physics community is both welcomed and encouraged. Please get in contact if you would like to share some of your content!
+
+
 
 ---
 

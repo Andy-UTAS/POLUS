@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1131.15 967.22">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-3, .cls-2 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-4 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 75px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" width="1131.15" height="967.22"/>
+  <g>
+    <line class="cls-3" x1="207.18" y1="482.29" x2="31.83" y2="482.29"/>
+    <line class="cls-3" x1="163.35" y1="511.05" x2="75.67" y2="511.05"/>
+  </g>
+  <circle class="cls-3" cx="572.91" cy="842.47" r="73"/>
+  <polyline class="cls-3" points="645.91 150.87 119.51 150.87 119.51 482.29"/>
+  <polyline class="cls-3" points="500.72 842.47 119.51 842.47 119.51 511.05"/>
+  <polyline class="cls-3" points="645.91 842.47 623.78 842.47 617.41 831.55 604.68 853.38 591.96 831.55 579.26 853.38 566.54 831.55 553.83 853.38 541.11 831.55 528.4 853.38 522.05 842.47 499.91 842.47"/>
+  <text class="cls-4" transform="translate(711.99 517.17)"><tspan x="0" y="0">A</tspan></text>
+  <polyline class="cls-3" points="781.94 842.47 1003.13 842.47 1003.13 615.4"/>
+  <polyline class="cls-3" points="645.91 842.47 781.94 842.47 781.94 615.4"/>
+  <text class="cls-4" transform="translate(936.24 517.17)"><tspan x="0" y="0">B</tspan></text>
+  <polyline class="cls-3" points="781.94 150.87 1003.13 150.87 1003.13 377.94"/>
+  <polyline class="cls-3" points="645.91 150.87 781.94 150.87 781.94 377.94"/>
+  <g>
+    <circle class="cls-2" cx="1003.57" cy="615.4" r="15.11"/>
+    <line class="cls-3" x1="1003.57" y1="376.81" x2="1113.55" y2="564.08"/>
+    <circle class="cls-2" cx="1003.57" cy="376.81" r="15.11"/>
+  </g>
+  <g>
+    <circle class="cls-2" cx="782.38" cy="615.4" r="15.11"/>
+    <line class="cls-3" x1="782.38" y1="376.81" x2="892.36" y2="564.08"/>
+    <circle class="cls-2" cx="782.38" cy="376.81" r="15.11"/>
+  </g>
+</svg>

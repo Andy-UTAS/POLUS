@@ -1,4 +1,4 @@
-# Charge-to-mass ration of the electron
+# Charge-to-mass ratio of the electron
 
 ![](eonm/header.jpg){: .center}
 
@@ -11,6 +11,19 @@ This experiment uses a kinematic analysis of the helical path followed by electr
     <figcaption>Lab notes
     </figcaption>
 </figure>
+
+
+## Experiment in a nutshell
+
+One of the goals of this experiment is to measure the charge-to-mass ration of the electron $e/m_e$. The apparatus supplies a time-varying electric field and an external magnetic field can be imposed perpendicular to the electric field. An electron beam is sent parallel to the magnetic field, and the energy of this beam - and thus the electron velocity - can be varied through adjustment of the accelerating voltage of the cathode ray tube. Understanding the kinematics of the electron beam in the combined electric and magnetic fields is important to performing the experiment, so ensure to spend time working through this.
+
+Measurement of the charge-to-mass ratio will require:
+
+* The magnetic field is parallel (or anti-parallel) to the magnetic field. Ensure to consider _all_ magnetic fields
+* Measurements of the electron energy and supplied magnetic field are carefully made under the appropriate conditions
+* Careful analysis of the relationship between the electron energy and magnetic field experienced by the electron
+
+A suitable plot will permit the extraction of the charge-to-mass ratio and allow you to infer information about the local magnetic environment. 
 
 ## Additional resources
 
