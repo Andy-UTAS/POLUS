@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://utasphys.cloud.edu.au/POLUS/reference/git/">
+        <link rel="canonical" href="https://polus.utasphys.cloud.edu.au/reference/git/">
       
       <link rel="icon" href="../../logo.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
@@ -276,13 +276,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../" class="md-tabs__link">
+      <a href="../" class="md-tabs__link md-tabs__link--active">
         Reference
       </a>
     </li>
@@ -389,6 +391,10 @@
         
           
         
+          
+        
+          
+        
       
       
         
@@ -409,6 +415,34 @@
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partI/s1e01/" class="md-nav__link">
+        S1E01: Measurement
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partI/s1e02/" class="md-nav__link">
+        S1E04: Collisions
+      </a>
+    </li>
+  
+
             
           
             
@@ -913,18 +947,22 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
       
       
       
         
           
             
+          
+        
           
         
           
@@ -1014,6 +1052,95 @@
       <a href="../computation/" class="md-nav__link">
         Computation
       </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Version control (Git)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Version control (Git)
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git" class="md-nav__link">
+    Git
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#github" class="md-nav__link">
+    GitHub
+  </a>
+  
+    <nav class="md-nav" aria-label="GitHub">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-remote-repository" class="md-nav__link">
+    Creating a remote repository
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-a-remote-repository" class="md-nav__link">
+    Adding a remote repository
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1195,7 +1322,7 @@
 
 <h1 id="version-control-git">Version control (Git)<a class="headerlink" href="#version-control-git" title="Permanent link">&para;</a></h1>
 <p>Have you ever been working on a project, and then realised that what was there previously was actually better? This may be due to making a mistake in your recent work, or you may have just been in the zone last time and only appreciated this after you had scrapped the work you did previously only to replace it with absolute junk and hit save. Or perhaps you are trying to work collaboratively with someone else, or many other people on complex projects which have many constituent parts - as is common in software development - and you are having difficulty knowing which files have been changed, and which parts of the file have been changed. Enter: version control.</p>
-<p><img alt="" class="center" src="../computing/header.png" /></p>
+<p><img alt="" class="center" src="header.gif" /></p>
 <hr />
 <h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
 <p>The undertaking of complex projects has always demanded that one fastidiously keep track of progress, and the growth of collaborative projects which are increasingly undertaken non-locally, that is, they are not undertaken at the same place or on the same device, has seen the development of excellent ways of not only tracking progress, but also distributing the progress of one member of a team to all other members of the team. The most common way to accomplish this is by using <em>distributed version control</em>, which essentially boils down to all files which within a project - including the history of all files - being mirrored on any device which is used to contribute to the project. Beyond this, there are clever means and standard protocols to ensure problems such as conflicting changes to files arising from simultaneous editing are handled and don't break the whole system. These methods of working are standard across all industries and once you start using them, you will see why.</p>
@@ -1246,7 +1373,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 12, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 18, 2023</span>
       
     
   </small>
@@ -1271,6 +1398,42 @@
       </main>
       
         <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../computation/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Computation" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Computation
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../markdown/" class="md-footer__link md-footer__link--next" aria-label="Next: Markdown" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Markdown
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
