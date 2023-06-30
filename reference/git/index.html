@@ -15,7 +15,7 @@
     
     
       
-        <title>Version control (Git) - POLUS - UTAS physics</title>
+        <title>Version control (git) - POLUS - UTAS physics</title>
       
     
     
@@ -104,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Version control (Git)
+              Version control (git)
             
           </span>
         </div>
@@ -1073,12 +1073,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Version control (Git)
+          Version control (git)
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Version control (Git)
+        Version control (git)
       </a>
       
         
@@ -1107,6 +1107,19 @@
   <a href="#git" class="md-nav__link">
     Git
   </a>
+  
+    <nav class="md-nav" aria-label="Git">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    Getting started
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1276,6 +1289,19 @@
     Git
   </a>
   
+    <nav class="md-nav" aria-label="Git">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    Getting started
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1320,7 +1346,7 @@
                   
 
 
-<h1 id="version-control-git">Version control (Git)<a class="headerlink" href="#version-control-git" title="Permanent link">&para;</a></h1>
+<h1 id="version-control-git">Version control (git)<a class="headerlink" href="#version-control-git" title="Permanent link">&para;</a></h1>
 <p>Have you ever been working on a project, and then realised that what was there previously was actually better? This may be due to making a mistake in your recent work, or you may have just been in the zone last time and only appreciated this after you had scrapped the work you did previously only to replace it with absolute junk and hit save. Or perhaps you are trying to work collaboratively with someone else, or many other people on complex projects which have many constituent parts - as is common in software development - and you are having difficulty knowing which files have been changed, and which parts of the file have been changed. Enter: version control.</p>
 <p><img alt="" class="center" src="header.gif" /></p>
 <hr />
@@ -1338,35 +1364,72 @@
 </dd>
 <dt><code>Github</code></dt>
 <dd>
-<p>is a hosting service for Git repositories</p>
+<p>is a hosting service for git repositories</p>
 </dd>
 </dl>
 <p>In a crude sense, git is the <em>tool</em> whilst GitHub is the <em>service</em> for projects that use git.</p>
 </div>
-<p>Navigate to the directory to</p>
-<div class="highlight"><span class="filename">Initialise a directory</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git init
+<p>We begin by looking at using git, and then will move on to how to use GitHub. This resource is really a <em>how to get started</em> page, not a full <em>how to use</em> guide, but following one of those - for example, the <a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">git documentation</a> or <a href="https://githubtraining.github.io/training-manual/#/01_getting_ready_for_class">GitHub training manual</a> - will teach you all that you could ever want to know.</p>
+<h3 id="getting-started">Getting started<a class="headerlink" href="#getting-started" title="Permanent link">&para;</a></h3>
+<p>Suppose that you have a directory containing content for a project: this could be a simple text document, a complex website (like this one!), or a lab lobgook and associated data, and we want to have some version control over the project. To do this, we are going to use git, and specifically the git command line. If you are using a lab machine, git will be installed; however, if you are using your own machine, git can be downloaded from <a href="https://git-scm.com/downloads">here</a>. When you first run download and run git, it is important to set some global parameters, as these will be used for all git actions. It is worth noting that this only needs to be done once on your initial setup, or again whenever you use a new machine. Begin by setting your name and email via:</p>
+<div class="highlight"><span class="filename">Set your identity</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git config --global user.name &quot;John Doe&quot;
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>git config --global user.email johndoe@example.com
 </code></pre></div>
-<div class="highlight"><span class="filename">Add all contents of the directory</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git add .
+<p>and you can check this worked by executing the command</p>
+<div class="highlight"><span class="filename">Verify your identity</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git config user.name
 </code></pre></div>
-<div class="highlight"><span class="filename">Perform initial commit</span><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>git commit -m &quot;Initial commit&quot;
+<p>which in this case should return <code>John Doe</code>. With our git setup, we can now look to creating a <em>repository</em>. You will need to begin by navigating to the directory containing your project, e.g.</p>
+<div class="highlight"><span class="filename">Navigating to the project directory</span><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>cd C:/path/to/directoy
+</code></pre></div>
+<p><img alt="" class="center" src="2.png" /></p>
+<p>and then the repository can be initialised using</p>
+<div class="highlight"><span class="filename">Initialise a directory</span><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>git init
+</code></pre></div>
+<p><img alt="" class="center" src="4.png" /></p>
+<p>which will create a new directory <code>.git</code> to store all the version control information. With the presumption that there is content in the directory, we can go ahead and add all files in the directory via</p>
+<div class="highlight"><span class="filename">Add all contents of the directory</span><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>git add .
+</code></pre></div>
+<p><img alt="" class="center" src="5.png" /></p>
+<p>which now means that any changes to these files will be included in our version control. Importantly, we must now <em>commit</em> these changes (that is, adding the files) which can be done using the <code>commit</code> command</p>
+<div class="highlight"><span class="filename">Perform initial commit</span><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>git commit -m &quot;Initial commit&quot;
+</code></pre></div>
+<p><img alt="" class="center" src="6.png" /></p>
+<p>Finally, we are going to change the <em>branch</em> to <code>main</code>, which as the name suggests is the main branch of our repository:</p>
+<div class="highlight"><span class="filename">Change the branch</span><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>git branch -M main
+</code></pre></div>
+<p><img alt="" class="center" src="7.png" /></p>
+<p>Whilst this all may seem like voodoo if you are unfamiliar with version control, it will hopefully become clear through the usage. As a blunt instrument, the above commands of</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>git add .
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>git commit -m &quot;Comment to describe changes&quot;
+</code></pre></div>
+<p>can be used to update the entire directory, which after following the initial setup is often the desired outcome.</p>
+<p>To try and elucidate the status of files during the editing process, shown below is an illustration of the lifecycle of the status of files in the repository:</p>
+<p><img alt="" class="center" src="lifecycle.png" /></p>
+<p>and should you wish to ever verify the status of files in the repository, you can execute</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>git status
 </code></pre></div>
 <h2 id="github">GitHub<a class="headerlink" href="#github" title="Permanent link">&para;</a></h2>
-<p>https://github.com/</p>
+<p>In the section above, we have created a local git repository for our work (<img alt="🥳" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f973.svg" title=":partying_face:" />) but often, this is insufficient as we may want others to access the content. This is where services like <a href="https://github.com/">GitHub</a> come in, as they allow us to store our git repositories online. In order to use GitHub, you will need to <a href="https://github.com/join">create an account</a>. From here, there are a few ways to proceed, but we are going to continue with what is conceptually the simplest:
+1. We are going to make a repository on GitHub
+2. We are going to <em>push</em> our existing local repository to GitHub</p>
 <h3 id="creating-a-remote-repository">Creating a remote repository<a class="headerlink" href="#creating-a-remote-repository" title="Permanent link">&para;</a></h3>
+<p>Creating repositories is a simple process, with the most difficult bit being providing a useful name and useful file structure. For example, in the context of labs, do you want a repository for each experiment, or one repository for all experiments? These are decisions that you will have to make - and live with - but once you have the idea of what you want to do, you can select <code>New</code> and then follow the instructions or the animation below:</p>
 <figure>
-<p><img alt="mokugoconnect" src="github.gif" />
+<p><img alt="" src="github.gif" />
   </p>
 <figcaption>Creating a repository on GitHub</figcaption>
 </figure>
+<p>You now have an (empty) online repository.</p>
 <h3 id="adding-a-remote-repository">Adding a remote repository<a class="headerlink" href="#adding-a-remote-repository" title="Permanent link">&para;</a></h3>
-<div class="highlight"><span class="filename">Add an existing remote repository</span><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>git remote add origin &lt;URL&gt;
+<p>The final step to hosting your content on GitHub is to <em>push</em> your local content. To do this, you must first tell git where to push the content:</p>
+<div class="highlight"><span class="filename">Add an existing remote repository</span><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>git remote add origin &lt;URL&gt;
 </code></pre></div>
-<div class="highlight"><span class="filename">Push content to remote repository</span><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>git push -u origin master
+<p><img alt="" class="center" src="8.png" /></p>
+<p>and then execute the push</p>
+<div class="highlight"><span class="filename">Push content to remote repository</span><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>git push -u origin master
 </code></pre></div>
-<div class="highlight"><span class="filename">Change remote repository</span><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>git remote set-url origin &lt;url&gt;
-</code></pre></div>
-<div class="highlight"><span class="filename">Remove remote repository</span><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>git remote remove origin
-</code></pre></div>
+<p><img alt="" class="center" src="9.png" /></p>
+<p>And that's it! <img alt="🍾" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f37e.svg" title=":champagne:" /> Your content will now be accessible on GitHub, ready for collaboration or distribution.</p>
 
   <hr>
 <div class="md-source-file">
