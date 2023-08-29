@@ -7,7 +7,7 @@ This experiment uses a kinematic analysis of the helical path followed by electr
 ---
 
 <figure markdown>
-<a href = 'Legacy\e-m_notes.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
+<a href = 'Legacy/e-m_notes.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
     <figcaption>Lab notes
     </figcaption>
 </figure>
@@ -23,12 +23,12 @@ Measurement of the charge-to-mass ratio will require:
 * Measurements of the electron energy and supplied magnetic field are carefully made under the appropriate conditions
 * Careful analysis of the relationship between the electron energy and magnetic field experienced by the electron
 
-A suitable plot will permit the extraction of the charge-to-mass ratio and allow you to infer information about the local magnetic environment. 
+A suitable plot will permit the extraction of the charge-to-mass ratio and allow you to infer information about the local magnetic environment.
 
 ## Additional resources
 
 <figure markdown>
-<a href = 'Legacy\e-m_image.pdf'> <i class="fas fa-image fa-3x"></i> </a>
+<a href = 'Legacy/e-m_image.pdf'> <i class="fas fa-image fa-3x"></i> </a>
     <figcaption>Image of apparatus
     </figcaption>
 </figure>

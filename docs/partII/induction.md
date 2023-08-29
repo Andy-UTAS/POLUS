@@ -7,7 +7,7 @@ A changing magnetic flux creates a measurable electric current in a loop of wire
 ---
 
 <figure markdown>
-<a href = 'Legacy\induction_notes.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
+<a href = 'Legacy/induction_notes.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
     <figcaption>Lab notes
     </figcaption>
 </figure>
@@ -24,31 +24,31 @@ A changing magnetic flux will induce a current: it is known. Rotating a coil in 
 ## Additional resources
 
 <figure markdown>
-<a href = 'Legacy\induction_image.pdf'> <i class="fas fa-image fa-3x"></i> </a>
+<a href = 'Legacy/induction_image.pdf'> <i class="fas fa-image fa-3x"></i> </a>
     <figcaption>Image of apparatus
     </figcaption>
 </figure>
 
 <figure markdown>
-<a href = 'Legacy\B and W charts NSW Vic Tas.pdf'> <i class="fas fa-book-open fa-3x"></i> </a>
+<a href = 'Legacy/B and W charts NSW Vic Tas.pdf'> <i class="fas fa-book-open fa-3x"></i> </a>
     <figcaption>Magnetic field charts for New South Wales, Victoria, and Tasmania
     </figcaption>
 </figure>
 
 <figure markdown>
-<a href = 'Legacy\Geomagnetic fields horizontal.docx'> <i class="fas fa-book-open fa-3x"></i> </a>
+<a href = 'Legacy/Geomagnetic fields horizontal.docx'> <i class="fas fa-book-open fa-3x"></i> </a>
     <figcaption>Horizontal intensity of the Earth's magnetic field
     </figcaption>
 </figure>
 
 <figure markdown>
-<a href = 'Legacy\Magnetic fields vertical.docx'> <i class="fas fa-book-open fa-3x"></i> </a>
+<a href = 'Legacy/Magnetic fields vertical.docx'> <i class="fas fa-book-open fa-3x"></i> </a>
     <figcaption>Vertical intensity of the Earth's magnetic field
     </figcaption>
 </figure>
 
 <figure markdown>
-<a href = 'Legacy\Resistor Colour Codes.pdf'> <i class="fas fa-book-open fa-3x"></i> </a>
+<a href = 'Legacy/Resistor Colour Codes.pdf'> <i class="fas fa-book-open fa-3x"></i> </a>
     <figcaption>Information on resistor colour codes
     </figcaption>
 </figure>

@@ -114,7 +114,8 @@ markdown_extensions:
       auto_append:
         - includes/abbreviations.md
   - pymdownx.superfences # Enables nesting of code and content in tabs
-  - pymdownx.tabbed # Enabeles content tabs
+  - pymdownx.tabbed: # Enabeles content tabs
+      alternate_style: true
   - pymdownx.caret
   - pymdownx.keys # Rendering of keyboard keys
   - pymdownx.mark

@@ -8,22 +8,27 @@
       
       
       
-        <link rel="canonical" href="https://utasphys.cloud.edu.au/POLUS/reference/git/">
+        <link rel="canonical" href="https://polus.utasphys.cloud.edu.au/reference/git/">
+      
+      
+        <link rel="prev" href="../computation/">
+      
+      
+        <link rel="next" href="../markdown/">
       
       <link rel="icon" href="../../logo.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
     
     
       
-        <title>Version control (Git) - POLUS - UTAS physics</title>
+        <title>Version control (git) - POLUS - UTAS physics</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.472b142f.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.26e3688c.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.08040f6c.min.css">
-        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
       
       
 
@@ -104,36 +109,38 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Version control (Git)
+              Version control (git)
             
           </span>
         </div>
       </div>
     </div>
     
-      <form class="md-header__option" data-md-component="palette">
-        
+      
+        <form class="md-header__option" data-md-component="palette">
           
+            
+            
+            
+            <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+            
+              <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+              </label>
+            
           
+            
+            
+            
+            <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+            
+              <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+              </label>
+            
           
-          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
-          
-            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
-            </label>
-          
-        
-          
-          
-          
-          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
-          
-            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
-            </label>
-          
-        
-      </form>
+        </form>
+      
     
     
     
@@ -163,7 +170,7 @@
           <div class="md-search-result__meta">
             Initializing search
           </div>
-          <ol class="md-search-result__list"></ol>
+          <ol class="md-search-result__list" role="presentation"></ol>
         </div>
       </div>
     </div>
@@ -175,7 +182,7 @@
         <a href="https://github.com/Andy-UTAS/POLUS" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     Andy-UTAS/POLUS
@@ -194,7 +201,7 @@
           
             
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
-  <div class="md-tabs__inner md-grid">
+  <div class="md-grid">
     <ul class="md-tabs__list">
       
         
@@ -276,13 +283,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../" class="md-tabs__link">
+      <a href="../" class="md-tabs__link md-tabs__link--active">
         Reference
       </a>
     </li>
@@ -338,7 +347,7 @@
       <a href="https://github.com/Andy-UTAS/POLUS" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     Andy-UTAS/POLUS
@@ -374,13 +383,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
       
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
       
       
         
           
             
+          
+        
+          
+        
           
         
           
@@ -402,13 +416,41 @@
           
         </div>
       
-      <nav class="md-nav" aria-label="Part I" data-md-level="1">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
           Part I
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partI/s1e01/" class="md-nav__link">
+        S1E01: Measurement
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partI/s1e02/" class="md-nav__link">
+        S1E04: Collisions
+      </a>
+    </li>
+  
+
             
           
             
@@ -470,8 +512,9 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
       
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
       
       
         
@@ -510,7 +553,7 @@
           
         </div>
       
-      <nav class="md-nav" aria-label="Part II" data-md-level="1">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
           Part II
@@ -662,8 +705,9 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
       
       
         
@@ -700,7 +744,7 @@
           
         </div>
       
-      <nav class="md-nav" aria-label="Part III" data-md-level="1">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
           Part III
@@ -838,8 +882,9 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
       
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
       
       
         
@@ -864,7 +909,7 @@
           
         </div>
       
-      <nav class="md-nav" aria-label="Safety" data-md-level="1">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
           Safety
@@ -913,18 +958,23 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
       
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
       
       
         
           
             
+          
+        
           
         
           
@@ -954,7 +1004,7 @@
           
         </div>
       
-      <nav class="md-nav" aria-label="Reference" data-md-level="1">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
           Reference
@@ -1023,6 +1073,108 @@
               
   
   
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Version control (git)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Version control (git)
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git" class="md-nav__link">
+    Git
+  </a>
+  
+    <nav class="md-nav" aria-label="Git">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    Getting started
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#github" class="md-nav__link">
+    GitHub
+  </a>
+  
+    <nav class="md-nav" aria-label="GitHub">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-remote-repository" class="md-nav__link">
+    Creating a remote repository
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-a-remote-repository" class="md-nav__link">
+    Adding a remote repository
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
   
     <li class="md-nav__item">
       <a href="../markdown/" class="md-nav__link">
@@ -1078,8 +1230,9 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
       
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
       
       
         
@@ -1096,7 +1249,7 @@
           
         </div>
       
-      <nav class="md-nav" aria-label="Playhouse" data-md-level="1">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_7">
           <span class="md-nav__icon md-icon"></span>
           Playhouse
@@ -1149,6 +1302,19 @@
     Git
   </a>
   
+    <nav class="md-nav" aria-label="Git">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    Getting started
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1193,13 +1359,13 @@
                   
 
 
-<h1 id="version-control-git">Version control (Git)<a class="headerlink" href="#version-control-git" title="Permanent link">&para;</a></h1>
+<div><h1 id="version-control-git">Version control (git)<a class="headerlink" href="#version-control-git" title="Permanent link">¶</a></h1>
 <p>Have you ever been working on a project, and then realised that what was there previously was actually better? This may be due to making a mistake in your recent work, or you may have just been in the zone last time and only appreciated this after you had scrapped the work you did previously only to replace it with absolute junk and hit save. Or perhaps you are trying to work collaboratively with someone else, or many other people on complex projects which have many constituent parts - as is common in software development - and you are having difficulty knowing which files have been changed, and which parts of the file have been changed. Enter: version control.</p>
-<p><img alt="" class="center" src="../computing/header.png" /></p>
-<hr />
-<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p><img alt="" class="center" src="header.gif"></p>
+<hr>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">¶</a></h2>
 <p>The undertaking of complex projects has always demanded that one fastidiously keep track of progress, and the growth of collaborative projects which are increasingly undertaken non-locally, that is, they are not undertaken at the same place or on the same device, has seen the development of excellent ways of not only tracking progress, but also distributing the progress of one member of a team to all other members of the team. The most common way to accomplish this is by using <em>distributed version control</em>, which essentially boils down to all files which within a project - including the history of all files - being mirrored on any device which is used to contribute to the project. Beyond this, there are clever means and standard protocols to ensure problems such as conflicting changes to files arising from simultaneous editing are handled and don't break the whole system. These methods of working are standard across all industries and once you start using them, you will see why.</p>
-<h2 id="git">Git<a class="headerlink" href="#git" title="Permanent link">&para;</a></h2>
+<h2 id="git">Git<a class="headerlink" href="#git" title="Permanent link">¶</a></h2>
 <p>Perhaps unsurprisingly, there are quite a few options for distributed version control, but the largest by far is the free and open source software <a href="https://git-scm.com/">git</a>.</p>
 <div class="admonition warning">
 <p class="admonition-title">git versus GitHub</p>
@@ -1211,42 +1377,79 @@
 </dd>
 <dt><code>Github</code></dt>
 <dd>
-<p>is a hosting service for Git repositories</p>
+<p>is a hosting service for git repositories</p>
 </dd>
 </dl>
 <p>In a crude sense, git is the <em>tool</em> whilst GitHub is the <em>service</em> for projects that use git.</p>
 </div>
-<p>Navigate to the directory to</p>
-<div class="highlight"><span class="filename">Initialise a directory</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git init
+<p>We begin by looking at using git, and then will move on to how to use GitHub. This resource is really a <em>how to get started</em> page, not a full <em>how to use</em> guide, but following one of those - for example, the <a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">git documentation</a> or <a href="https://githubtraining.github.io/training-manual/#/01_getting_ready_for_class">GitHub training manual</a> - will teach you all that you could ever want to know.</p>
+<h3 id="getting-started">Getting started<a class="headerlink" href="#getting-started" title="Permanent link">¶</a></h3>
+<p>Suppose that you have a directory containing content for a project: this could be a simple text document, a complex website (like this one!), or a lab lobgook and associated data, and we want to have some version control over the project. To do this, we are going to use git, and specifically the git command line. If you are using a lab machine, git will be installed; however, if you are using your own machine, git can be downloaded from <a href="https://git-scm.com/downloads">here</a>. When you first run download and run git, it is important to set some global parameters, as these will be used for all git actions. It is worth noting that this only needs to be done once on your initial setup, or again whenever you use a new machine. Begin by setting your name and email via:</p>
+<div class="highlight"><span class="filename">Set your identity</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git config --global user.name "John Doe"
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>git config --global user.email johndoe@example.com
 </code></pre></div>
-<div class="highlight"><span class="filename">Add all contents of the directory</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git add .
+<p>and you can check this worked by executing the command</p>
+<div class="highlight"><span class="filename">Verify your identity</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git config user.name
 </code></pre></div>
-<div class="highlight"><span class="filename">Perform initial commit</span><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>git commit -m &quot;Initial commit&quot;
+<p>which in this case should return <code>John Doe</code>. With our git setup, we can now look to creating a <em>repository</em>. You will need to begin by navigating to the directory containing your project, e.g.</p>
+<div class="highlight"><span class="filename">Navigating to the project directory</span><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>cd C:/path/to/directoy
 </code></pre></div>
-<h2 id="github">GitHub<a class="headerlink" href="#github" title="Permanent link">&para;</a></h2>
-<p>https://github.com/</p>
-<h3 id="creating-a-remote-repository">Creating a remote repository<a class="headerlink" href="#creating-a-remote-repository" title="Permanent link">&para;</a></h3>
+<p><img alt="" class="center" src="2.png"></p>
+<p>and then the repository can be initialised using</p>
+<div class="highlight"><span class="filename">Initialise a directory</span><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>git init
+</code></pre></div>
+<p><img alt="" class="center" src="4.png"></p>
+<p>which will create a new directory <code>.git</code> to store all the version control information. With the presumption that there is content in the directory, we can go ahead and add all files in the directory via</p>
+<div class="highlight"><span class="filename">Add all contents of the directory</span><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>git add .
+</code></pre></div>
+<p><img alt="" class="center" src="5.png"></p>
+<p>which now means that any changes to these files will be included in our version control. Importantly, we must now <em>commit</em> these changes (that is, adding the files) which can be done using the <code>commit</code> command</p>
+<div class="highlight"><span class="filename">Perform initial commit</span><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>git commit -m "Initial commit"
+</code></pre></div>
+<p><img alt="" class="center" src="6.png"></p>
+<p>Finally, we are going to change the <em>branch</em> to <code>main</code>, which as the name suggests is the main branch of our repository:</p>
+<div class="highlight"><span class="filename">Change the branch</span><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>git branch -M main
+</code></pre></div>
+<p><img alt="" class="center" src="7.png"></p>
+<p>Whilst this all may seem like voodoo if you are unfamiliar with version control, it will hopefully become clear through the usage. As a blunt instrument, the above commands of</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>git add .
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>git commit -m "Comment to describe changes"
+</code></pre></div>
+<p>can be used to update the entire directory, which after following the initial setup is often the desired outcome.</p>
+<p>To try and elucidate the status of files during the editing process, shown below is an illustration of the lifecycle of the status of files in the repository:</p>
+<p><img alt="" class="center" src="lifecycle.png"></p>
+<p>and should you wish to ever verify the status of files in the repository, you can execute</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>git status
+</code></pre></div>
+<h2 id="github">GitHub<a class="headerlink" href="#github" title="Permanent link">¶</a></h2>
+<p>In the section above, we have created a local git repository for our work (<img alt="🥳" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f973.svg" title=":partying_face:">) but often, this is insufficient as we may want others to access the content. This is where services like <a href="https://github.com/">GitHub</a> come in, as they allow us to store our git repositories online. In order to use GitHub, you will need to <a href="https://github.com/join">create an account</a>. From here, there are a few ways to proceed, but we are going to continue with what is conceptually the simplest:
+1. We are going to make a repository on GitHub
+2. We are going to <em>push</em> our existing local repository to GitHub</p>
+<h3 id="creating-a-remote-repository">Creating a remote repository<a class="headerlink" href="#creating-a-remote-repository" title="Permanent link">¶</a></h3>
+<p>Creating repositories is a simple process, with the most difficult bit being providing a useful name and useful file structure. For example, in the context of labs, do you want a repository for each experiment, or one repository for all experiments? These are decisions that you will have to make - and live with - but once you have the idea of what you want to do, you can select <code>New</code> and then follow the instructions or the animation below:</p>
 <figure>
-<p><img alt="mokugoconnect" src="github.gif" />
+<p><img alt="" src="github.gif">
   </p>
 <figcaption>Creating a repository on GitHub</figcaption>
 </figure>
-<h3 id="adding-a-remote-repository">Adding a remote repository<a class="headerlink" href="#adding-a-remote-repository" title="Permanent link">&para;</a></h3>
-<div class="highlight"><span class="filename">Add an existing remote repository</span><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>git remote add origin &lt;URL&gt;
+<p>You now have an (empty) online repository.</p>
+<h3 id="adding-a-remote-repository">Adding a remote repository<a class="headerlink" href="#adding-a-remote-repository" title="Permanent link">¶</a></h3>
+<p>The final step to hosting your content on GitHub is to <em>push</em> your local content. To do this, you must first tell git where to push the content:</p>
+<div class="highlight"><span class="filename">Add an existing remote repository</span><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>git remote add origin &lt;URL&gt;
 </code></pre></div>
-<div class="highlight"><span class="filename">Push content to remote repository</span><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>git push -u origin master
+<p><img alt="" class="center" src="8.png"></p>
+<p>and then execute the push</p>
+<div class="highlight"><span class="filename">Push content to remote repository</span><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>git push -u origin master
 </code></pre></div>
-<div class="highlight"><span class="filename">Change remote repository</span><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>git remote set-url origin &lt;url&gt;
-</code></pre></div>
-<div class="highlight"><span class="filename">Remove remote repository</span><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>git remote remove origin
-</code></pre></div>
+<p><img alt="" class="center" src="9.png"></p>
+<p>And that's it! <img alt="🍾" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f37e.svg" title=":champagne:"> Your content will now be accessible on GitHub, ready for collaboration or distribution.</p></div>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 12, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 18, 2023</span>
       
     
   </small>
@@ -1263,10 +1466,10 @@
           
         </div>
         
-          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
             Back to top
-          </a>
+          </button>
         
       </main>
       
@@ -1297,20 +1500,30 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.tabs", "navigation.sections", "navigation.indexes", "search.highlight", "content.code.annotate", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.tabs", "navigation.sections", "navigation.indexes", "search.highlight", "content.code.annotate", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
       
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS_HTML"></script>
+        
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS_HTML"></script>
+        
       
-        <script src="https://unpkg.com/thebelab@0.5.0/lib/index.js"></script>
+        
+          <script src="https://unpkg.com/thebelab@0.5.0/lib/index.js"></script>
+        
       
-        <script src="../../scripts/mathjaxhelper.js"></script>
+        
+          <script src="../../scripts/mathjaxhelper.js"></script>
+        
       
-        <script src="../../scripts/thebelabhelper.js"></script>
+        
+          <script src="../../scripts/thebelabhelper.js"></script>
+        
       
-        <script src="../../scripts/x3dom.js"></script>
+        
+          <script src="../../scripts/x3dom.js"></script>
+        
       
     
   </body>

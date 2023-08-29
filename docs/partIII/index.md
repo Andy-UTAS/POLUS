@@ -8,59 +8,16 @@ The part III labs are associated with 300-level subjects. Emphasis is placed on 
 
 ## Structure
 
-Lab work is undertaken as part of the core third-year physics subjects [KYA321](https://www.utas.edu.au/courses/cse/units/kya321-wave-mechanics-and-quantum-mechanics) *wave mechanics and quantum mechanics* and [KYA320](https://www.utas.edu.au/courses/cse/units/kya320-advanced-electromagnetism) *advanced electromagnetism* which run in semesters one and two respectively, in addition to the biennial [KYA322](https://www.utas.edu.au/courses/cse/units/kya322-statistical-physics-and-solid-state-physics?year=2022) *statistical physics and solid-state physics* and [KYA323](https://www.utas.edu.au/courses/cse/units/kya323-atomic-and-nuclear-physics) *atomic and nuclear physics* courses. In all cases, lab work accounts for 25% of the subject mark and 36 hours of laboratory time is allocated for the semester. In actuality, experiments are conducted over a two-week period, with each experiment accounting for 16 contact hours. Experiments are conducted in collaboration with another student, but the program is designed to foster collaboration and to cultivate a collegiate environment amongst all participants. Experiments are undertaken according to a flexible schedule, with access organised on an ad-hoc basis, with the exception being a weekly mandatory discussion session, which will be used to plan and discuss experiments, technical aspects of experimental science, and give "whiteboard" presentations.
-
-
-https://forms.office.com/Pages/ResponsePage.aspx?id=VV3rFZEZvEaNp6slI03uCE23LC8PLrNAuajI0gWhJChURFk3QlVRMzBYNFlFMjNXMFVSRExFU040WC4u
+Lab work is undertaken as part of the core third-year physics subjects [KYA321](https://www.utas.edu.au/courses/cse/units/kya321-wave-mechanics-and-quantum-mechanics) *wave mechanics and quantum mechanics* and [KYA320](https://www.utas.edu.au/courses/cse/units/kya320-advanced-electromagnetism) *advanced electromagnetism* which run in semesters one and two respectively. In both cases, lab work accounts for 25% of the subject mark and 36 hours of laboratory time is allocated for the semester. In actuality, experiments are conducted over a three-week period, with each experiment accounting for 16 contact hours. Experiments are conducted in collaboration with another student, but the program is designed to foster collaboration and to cultivate a collegiate environment amongst all participants. Experiments are undertaken according to a flexible schedule, with access organised on an ad-hoc basis, with the exception being a weekly mandatory discussion session, which will be used to plan and discuss experiments, technical aspects of experimental science, and give "whiteboard" presentations.
 
 ### Current implementation
 
-The text below is taken from the MyLO pages for KYA320 and KYA323, but, for the sanity of all involved, it is best to think of the lab program as a separate lab subject that operates in the background of the physics subjects that are currently being run. In short: as part of a physics major, you must complete 3 experiments and complete all [assessments]($assessments).
+The text below is taken from the MyLO pages for KYA320/KYA321, but, for the sanity of all involved, it is best to think of the lab program as a separate lab subject that operates in the background of the physics subjects that are currently being run. In short: as part of a physics major, you must complete 3 experiments and complete all [assessments]($assessments).
 
-!!! abstract "Semester two, 2022"
+!!! abstract "Semester two, 2023"
 
-    Experiments are a cornerstone of science, and during your third-year studies, you will undertake a series of experiments which allow one to probe at complex phenomenon and build your ability to employ the scientific method.
-
-    Labs are conducted in pairs, and the primary mode of assessment will be your experimental logbook, with a hurdle requirement being that you provide a brief presentation for each experiment.
-
-    All information for the lab program is hosted on the [lab website](../), including the [available experiments](#experiments) (and associated documentation), [reference material](../reference/experiment/) for to aid in the execution of experiments and the preparation of materials to be assessed, along with general content such as FAQs and guides for usage of hardware, software, common coding tasks, and more.
-
-    Labs are co-ordinated by Andy McCulloch, and all enquiries should be directed to the [physics lab mailbox](mailto:physics.labs@utas.edu.au).
-
-    ---
-
-    ## Summary
-
-    You must complete *two experiments* for the semester. Each experiment involves the production of a logbook and has a hurdle requirement of an informal presentation. Additionally, you must produce a formal lab report based on an experiment of your choice from any time in the year; this task includes a round of assessed peer assessment and a presentation.
-
-    ## Schedule
-
-    Labs will run in three _blocks_ of labs, each lasting for three weeks. The dates for semester two, 2022 are as follows:
-
-    Experiment block one: weeks 2, 3, and 4 (July 18th - August 5th), with logbooks to be submitted to the block one dropbox by the end of Friday, August 5th
-    Experiment block two: weeks 5, 6, and 7 (August 8th - August 26th), with logbooks to be submitted to the block two dropbox by the end of Friday, August 26th
-    Experiment block three: weeks 8, 9, and 10 (September 5th - September 23rd), with logbooks to be submitted to the block three dropbox by the end of Friday, September 23rd
-
-    During each block, whiteboard presentations are to be undertaken during the common lab session (Monday, 0900 - 1200 in the part III lab) in second week of the block, or explicitly:
-
-    Experiment block one: Monday July 25th
-    Experiment block two: Monday August 15th
-    Experiment block three: Monday September 12th
-
-    IT IS A REQUIREMENT THAT ALL STUDENTS ATTEND ALL PRESENTATION SESSIONS, EVEN IF YOU ARE NOT CONDUCTING AN EXPERIMENT DURING THE BLOCK
-
-    A final block is to be dedicated to scientific communication:
-
-    Week 11: report preparation. Submission for peer assessment to the relevant dropbox by the end of Friday, September 30th
-    Week 12: Peer assessment and editing. Peer assessment feedback due for submission to the appropriate dropbox by the end of Tuesday, October 4th, and final report to be submitted to the dropbox by the end of Friday, October 7th
-    Week 13: Lab report presentations. Presentations are to take place in the final common session, on Monday, October 10th.
-    Assessment
-
-    The weighting of assessments for this semester is as follows:
-
-    Experiment one (30%)
-    Experiment two (30%)
-    Scientific communication: report (20%), presentation (10%), and peer assessment (10%)
+    <!-- --8<-- "includes/partIIs1.md" -->
+    --8<-- "includes/partIIIs2.md"
 
 ## Experiments
 
@@ -97,20 +54,20 @@ As part of each experiment, you will be expected to maintain an experimental log
 === "Semester one"
     | Task | Weighting | Due date |
     | :-----: | :-----| :----- |
-    | [Logbook #1](#experimental-logbooks) | $80%$ |
-    | [Whiteboard presentation #1](#whiteboard-presentations) | Hurdle |
-    | [Pop-science pitch](#popular-science-pitch) | $20%$ |
+    | [Logbook #1](#experimental-logbooks) | $80%$ | Week 9 |
+    | [Whiteboard presentation #1](#whiteboard-presentations) | Hurdle | Week 8 |
+    | [Pop-science pitch](#popular-science-pitch) | $20%$ | Week 12 |
 
 
 === "Semester two"
     | Task | Weighting | Due date |
     | :-----: | :-----: | :----- |
-    | [Logbook #2](#experimental-logbooks) | $30%$ |
-    | [Whiteboard presentation #2](#whiteboard-presentations) | Hurdle |
-    | [Logbook #3](#experimental-logbooks) | $30%$ |
-    | [Whiteboard presentation #3](#whiteboard-presentations) | Hurdle |
-    | [Report](#report): peer assessment/submitted | $10%/20%$ | Week 12 |
-    | [Presentation](#presentations) | $20%$ | Week 13 |
+    | [Logbook #2](#experimental-logbooks) | $30%$ | Week 5 |
+    | [Whiteboard presentation #2](#whiteboard-presentations) | Hurdle | Week 4 |
+    | [Logbook #3](#experimental-logbooks) | $30%$ | Week 8 |
+    | [Whiteboard presentation #3](#whiteboard-presentations) | Hurdle | Week 7 |
+    | [Report](#report): peer assessment/submitted | $10%/20%$ | Week 12 | Week 11 |
+    | [Presentation](#presentations) | $20%$ | Week 13 | Week 12 |
 
 ### Experimental logbooks
 

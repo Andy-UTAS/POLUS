@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 411.3 141.63">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-family: SymbolMT, Symbol;
+      }
+
+      .cls-3 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-4, .cls-6 {
+        font-size: 18px;
+      }
+
+      .cls-4, .cls-6, .cls-7 {
+        fill: #231f20;
+      }
+
+      .cls-8 {
+        fill: none;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" width="411.3" height="141.63"/>
+  <polyline class="cls-8" points="180.53 40.85 180.53 90.65 149.18 90.65 147.3 87.43 143.54 93.87 139.79 87.43 136.03 93.87 132.28 87.43 128.53 93.87 124.77 87.43 121.02 93.87 119.15 90.65 72.82 90.65"/>
+  <g>
+    <polygon class="cls-8" points="72.82 101.21 72.82 80.09 57.44 90.65 72.82 101.21"/>
+    <line class="cls-8" x1="56.66" y1="80.09" x2="56.66" y2="101.21"/>
+  </g>
+  <text class="cls-4" transform="translate(50.46 71.96)"><tspan x="0" y="0">LED</tspan></text>
+  <text class="cls-6" transform="translate(111.57 71.96)"><tspan class="cls-5" x="0" y="0">220 </tspan><tspan class="cls-2" x="31.52" y="0">W</tspan></text>
+  <g>
+    <rect class="cls-8" x="143.29" y="11.3" width="74.48" height="29.56"/>
+    <text class="cls-4" transform="translate(161.57 31.36)"><tspan x="0" y="0">GPIO</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-8" x="225.53" y="11.3" width="74.48" height="29.56"/>
+    <text class="cls-4" transform="translate(246.05 31.36)"><tspan x="0" y="0">ADC</tspan></text>
+  </g>
+  <line class="cls-8" x1="9.87" y1="116.63" x2="41.18" y2="116.63"/>
+  <line class="cls-8" x1="15.36" y1="124.4" x2="35.69" y2="124.4"/>
+  <line class="cls-8" x1="22.56" y1="132.17" x2="28.49" y2="132.17"/>
+  <polyline class="cls-8" points="25.53 116.63 25.53 90.65 57.44 90.65"/>
+  <line class="cls-8" x1="241.04" y1="116.41" x2="272.36" y2="116.41"/>
+  <line class="cls-8" x1="246.54" y1="124.18" x2="266.87" y2="124.18"/>
+  <line class="cls-8" x1="253.74" y1="131.95" x2="259.67" y2="131.95"/>
+  <polyline class="cls-8" points="256.7 116.41 256.7 90.43 256.7 91.04 303.03 91.04 304.9 94.27 308.66 87.82 312.41 94.27 316.16 87.82 319.92 94.27 323.67 87.82 327.42 94.27 331.18 87.82 333.06 91.04 366.36 91.04 366.36 40.85"/>
+  <g>
+    <polyline class="cls-8" points="300.01 27.04 319.48 27.04 319.48 75.52"/>
+    <polygon class="cls-7" points="316.57 73.54 319.48 84.38 322.38 73.54 316.57 73.54"/>
+  </g>
+  <g>
+    <rect class="cls-8" x="329.13" y="11.3" width="74.48" height="29.56"/>
+    <text class="cls-4" transform="translate(348.66 31.36)"><tspan x="0" y="0">3.3</tspan><tspan class="cls-3" x="22.19" y="0"> </tspan><tspan x="25.36" y="0">V</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2613.84 1277">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke-width: 5px;
+      }
+
+      .cls-3, .cls-2, .cls-4 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        letter-spacing: .01em;
+      }
+
+      .cls-6 {
+        letter-spacing: .01em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2, .cls-4 {
+        stroke-width: 7.25px;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        font-family: MyriadPro-Bold, 'Myriad Pro';
+        font-weight: 700;
+      }
+
+      .cls-10, .cls-11 {
+        font-size: 65.29px;
+      }
+
+      .cls-10, .cls-11, .cls-12 {
+        fill: #231f20;
+      }
+
+      .cls-13 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" width="2613.84" height="1277"/>
+  <g>
+    <g>
+      <g>
+        <line class="cls-4" x1="381.1" y1="933.4" x2="494.7" y2="933.4"/>
+        <line class="cls-4" x1="401.03" y1="961.58" x2="474.76" y2="961.58"/>
+        <line class="cls-4" x1="427.15" y1="989.76" x2="448.65" y2="989.76"/>
+      </g>
+      <text class="cls-11" transform="translate(45.42 755.99)"><tspan x="0" y="0">V</tspan></text>
+      <text class="cls-11" transform="translate(81.85 777.73) scale(.58)"><tspan x="0" y="0">in</tspan></text>
+      <polyline class="cls-4" points="437.9 572.26 437.9 570.42 437.9 402.38 449.59 395.57 426.21 381.96 449.59 368.35 426.21 354.74 449.59 341.12 426.21 327.51 449.59 313.89 426.21 300.26 437.9 293.45 437.9 179.73"/>
+      <text class="cls-11" transform="translate(172.77 725.09)"><tspan x="0" y="0">Base</tspan></text>
+      <text class="cls-11" transform="translate(480.78 646.61)"><tspan class="cls-13" x="0" y="0">C</tspan><tspan x="37.15" y="0">olle</tspan><tspan class="cls-5" x="136.53" y="0">c</tspan><tspan class="cls-8" x="166.63" y="0">t</tspan><tspan x="187.85" y="0">or</tspan></text>
+      <text class="cls-11" transform="translate(480.78 885.75)"><tspan x="0" y="0">Emit</tspan><tspan class="cls-8" x="123.47" y="0">t</tspan><tspan class="cls-7" x="144.69" y="0">er</tspan></text>
+      <line class="cls-4" x1="440.04" y1="536.4" x2="770.9" y2="536.4"/>
+      <text class="cls-11" transform="translate(782.36 543.4)"><tspan x="0" y="0">V</tspan></text>
+      <text class="cls-11" transform="translate(818.79 565.14) scale(.58)"><tspan x="0" y="0">out</tspan></text>
+      <text class="cls-11" transform="translate(403.1 145.97)"><tspan x="0" y="0">V</tspan></text>
+      <text class="cls-11" transform="translate(439.53 167.71) scale(.58)"><tspan class="cls-9" x="0" y="0">c</tspan><tspan x="28.86" y="0">c</tspan></text>
+      <line class="cls-4" x1="119.08" y1="748.23" x2="375.77" y2="748.23"/>
+      <circle class="cls-4" cx="410.41" cy="745.95" r="99.34"/>
+      <line class="cls-4" x1="375.91" y1="686.83" x2="375.91" y2="809.68"/>
+      <polyline class="cls-4" points="437.89 562.76 437.89 670.54 437.9 671.19 374.79 732.98"/>
+      <polyline class="cls-4" points="437.89 932.87 437.89 825.09 437.9 824.44 374.79 762.65"/>
+      <g>
+        <line class="cls-4" x1="375.91" y1="765.33" x2="415.26" y2="802.91"/>
+        <polygon class="cls-12" points="395.67 814.22 437.84 824.49 425.66 782.83 395.67 814.22"/>
+      </g>
+    </g>
+    <text class="cls-11" transform="translate(174.76 1126.23)"><tspan x="0" y="0">NPN bipolar jun</tspan><tspan class="cls-6" x="430.08" y="0">c</tspan><tspan x="460.18" y="0">tion</tspan><tspan x="156.7" y="78.35">t</tspan><tspan class="cls-15" x="178.31" y="78.35">r</tspan><tspan x="199.34" y="78.35">ansis</tspan><tspan class="cls-8" x="334.04" y="78.35">t</tspan><tspan x="355.25" y="78.35">or</tspan></text>
+    <text class="cls-10" transform="translate(42.93 114.89)"><tspan x="0" y="0">a)</tspan></text>
+  </g>
+  <g>
+    <g>
+      <g>
+        <line class="cls-4" x1="1193.45" y1="933.4" x2="1307.05" y2="933.4"/>
+        <line class="cls-4" x1="1213.38" y1="961.58" x2="1287.12" y2="961.58"/>
+        <line class="cls-4" x1="1239.5" y1="989.76" x2="1261" y2="989.76"/>
+      </g>
+      <polyline class="cls-4" points="1250.25 627.02 1250.25 570.42 1250.25 402.38 1261.94 395.57 1238.56 381.96 1261.94 368.35 1238.56 354.74 1261.94 341.12 1238.56 327.51 1261.94 313.89 1238.56 300.26 1250.25 293.45 1250.25 179.73"/>
+      <line class="cls-4" x1="1252.39" y1="536.4" x2="1583.25" y2="536.4"/>
+      <text class="cls-11" transform="translate(1594.71 543.4)"><tspan x="0" y="0">V</tspan></text>
+      <text class="cls-11" transform="translate(1631.14 565.14) scale(.58)"><tspan x="0" y="0">out</tspan></text>
+      <text class="cls-11" transform="translate(1215.45 145.97)"><tspan x="0" y="0">V</tspan></text>
+      <text class="cls-11" transform="translate(1251.89 167.71) scale(.58)"><tspan class="cls-9" x="0" y="0">c</tspan><tspan x="28.86" y="0">c</tspan></text>
+      <circle class="cls-2" cx="1249.77" cy="626.66" r="15.11"/>
+      <line class="cls-4" x1="1249.77" y1="865.24" x2="1139.79" y2="677.98"/>
+      <circle class="cls-2" cx="1249.77" cy="865.24" r="15.11"/>
+      <line class="cls-3" x1="1249.77" y1="880.35" x2="1249.77" y2="932.87"/>
+    </g>
+    <text class="cls-11" transform="translate(1307.16 1126.23)"><tspan x="0" y="0">V</tspan></text>
+    <text class="cls-11" transform="translate(1343.59 1147.97) scale(.58)"><tspan x="0" y="0">in</tspan></text>
+    <text class="cls-11" transform="translate(1373.62 1126.23)"><tspan x="0" y="0" xml:space="preserve"> = off</tspan></text>
+    <text class="cls-10" transform="translate(1069.79 114.89)"><tspan class="cls-14" x="0" y="0">b</tspan><tspan x="38.52" y="0">)</tspan></text>
+  </g>
+  <g>
+    <text class="cls-11" transform="translate(2175.37 1126.23)"><tspan x="0" y="0">V</tspan></text>
+    <text class="cls-11" transform="translate(2211.81 1147.97) scale(.58)"><tspan x="0" y="0">in</tspan></text>
+    <text class="cls-11" transform="translate(2241.84 1126.23)"><tspan x="0" y="0" xml:space="preserve"> = on</tspan></text>
+    <g>
+      <g>
+        <line class="cls-4" x1="2033.92" y1="933.4" x2="2147.52" y2="933.4"/>
+        <line class="cls-4" x1="2053.85" y1="961.58" x2="2127.59" y2="961.58"/>
+        <line class="cls-4" x1="2079.97" y1="989.76" x2="2101.47" y2="989.76"/>
+      </g>
+      <polyline class="cls-4" points="2090.72 627.02 2090.72 570.42 2090.72 402.38 2102.41 395.57 2079.03 381.96 2102.41 368.35 2079.03 354.74 2102.41 341.12 2079.03 327.51 2102.41 313.89 2079.03 300.26 2090.72 293.45 2090.72 179.73"/>
+      <line class="cls-4" x1="2092.86" y1="536.4" x2="2423.72" y2="536.4"/>
+      <text class="cls-11" transform="translate(2435.18 543.4)"><tspan x="0" y="0">V</tspan></text>
+      <text class="cls-11" transform="translate(2471.61 565.14) scale(.58)"><tspan x="0" y="0">out</tspan></text>
+      <text class="cls-11" transform="translate(2055.92 145.97)"><tspan x="0" y="0">V</tspan></text>
+      <text class="cls-11" transform="translate(2092.36 167.71) scale(.58)"><tspan class="cls-9" x="0" y="0">c</tspan><tspan x="28.86" y="0">c</tspan></text>
+      <circle class="cls-2" cx="2090.24" cy="626.66" r="15.11"/>
+      <line class="cls-4" x1="2090.24" y1="865.24" x2="2090.24" y2="641.77"/>
+      <circle class="cls-2" cx="2090.24" cy="865.24" r="15.11"/>
+      <line class="cls-3" x1="2090.24" y1="880.35" x2="2090.24" y2="932.87"/>
+    </g>
+    <text class="cls-10" transform="translate(1933.92 114.89)"><tspan x="0" y="0">c)</tspan></text>
+  </g>
+</svg>

@@ -17,8 +17,8 @@ The text below is taken from the [MyLO page for KYA211](https://mylo.utas.edu.au
 
 !!! abstract "Semester one, 2023"
 
-    --8<-- "includes/partIIs1.md"
-    <!-- --8<-- "includes/partIIs2.md" -->
+    <!-- --8<-- "includes/partIIs1.md" -->
+    --8<-- "includes/partIIs2.md"
 
 
 ## Experiments

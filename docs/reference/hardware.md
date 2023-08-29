@@ -24,8 +24,9 @@ Where possible, device manuals as prepared by the manufactures have been sourced
 
     | Device | Purpose |
     | :-----: | :----- |
+    | [Barometer](#barometer) | Atmospheric pressure measurement |
     | Callipers | Precise measurement |
-    | Barometer | Atmospheric pressure measurement |
+    | [Integrating amplifier](#integrating-amplifier) | Atmospheric pressure measurement |
     | Regulator | Pressure regulation of high-pressure gases |
 
 === "Part III"
@@ -39,8 +40,16 @@ Where possible, device manuals as prepared by the manufactures have been sourced
 #### Barometer
 
 <figure markdown>
-<a href = 'Barometer notes.pdf'> <i class="fas fa-book fa-3x"></i> </a>
+<a href = 'Barometer notes.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
     <figcaption>Barometer usage note
+    </figcaption>
+</figure>
+
+#### Integrating amplifier
+
+<figure markdown>
+<a href = 'Integrator.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
+    <figcaption>Integrating amplifier usage note
     </figcaption>
 </figure>
 
@@ -142,7 +151,7 @@ Power supplies are used to power devices, and provide current or voltage to a ci
 #### Pico Technology ADC20 and 2000
 
 <figure markdown>
-<a href = 'PicoLogger notes.pdf'> <i class="fas fa-book fa-3x"></i> </a>
+<a href = 'PicoLogger notes.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
     <figcaption>PicoScope usage note
     </figcaption>
 </figure>
@@ -150,7 +159,7 @@ Power supplies are used to power devices, and provide current or voltage to a ci
 #### Rigol DS2102E (oscilloscope)
 
 <figure markdown>
-<a href = 'DS2102E notes.pdf'> <i class="fas fa-book fa-3x"></i> </a>
+<a href = 'DS2102E notes.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
     <figcaption>DS2102E usage note
     </figcaption>
 </figure>
@@ -168,7 +177,7 @@ Power supplies are used to power devices, and provide current or voltage to a ci
 #### Rigol DG1032Z (signal generator)
 
 <figure markdown>
-<a href = 'DG1000Z User's Guide.pdf'> <i class="fas fa-book fa-3x"></i> </a>
+<a href = 'DG1000Z.pdf'> <i class="fas fa-book fa-3x"></i> </a>
     <figcaption>DG1000Z user guide (instruction manual)
     </figcaption>
 </figure>
@@ -176,7 +185,7 @@ Power supplies are used to power devices, and provide current or voltage to a ci
 #### Spectrum techniques UCS-30
 
 <figure markdown>
-<a href = 'UCS30 notes.pdf'> <i class="fas fa-book fa-3x"></i> </a>
+<a href = 'UCS30 notes.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
     <figcaption>UCS30 usage note
     </figcaption>
 </figure>

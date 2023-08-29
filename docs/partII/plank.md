@@ -10,7 +10,7 @@ The relation between work, temperature, and entropy is explored by testing the a
 ---
 
 <figure markdown>
-<a href = 'Legacy\Entropy_notes.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
+<a href = 'Legacy/Entropy_notes.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
     <figcaption>Lab notes
     </figcaption>
 </figure>
@@ -18,7 +18,7 @@ The relation between work, temperature, and entropy is explored by testing the a
 ## Additional resources
 
 <figure markdown>
-<a href = 'Legacy\Entropy_image.pdf'> <i class="fas fa-image fa-3x"></i> </a>
+<a href = 'Legacy/Entropy_image.pdf'> <i class="fas fa-image fa-3x"></i> </a>
     <figcaption>Image of apparatus
     </figcaption>
 </figure>

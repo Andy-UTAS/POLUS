@@ -2,7 +2,7 @@
 
 ![](digital/header.png){: .center}
 
-Electronic systems underpin modern life, from seemingly banale devices such as fridges and cooktops, through to our most advanced devices such as supercomputers and space robots. It is therefore worthwhile that we spend some time to appreciate how is it exactly that these devices function? What are the basic building blocks which allow for the construction of all manner of wonderous widgets?
+Electronic systems underpin modern life, from seemingly banal devices such as fridges and cooktops, through to our most advanced devices such as supercomputers and space robots. It is therefore worthwhile that we spend some time to appreciate how is it exactly that these devices function? What are the basic building blocks which allow for the construction of all manner of wonderous widgets?
 
 !!! info "Objectives and learning outcomes"
     * Obtain familiarity with the basic concepts of digital systems
@@ -21,7 +21,7 @@ the fact that the transistor count - and as we shall see, the number of calculat
 
 ### Backgound
 
-Early experiments and systems which manipulated electric and magnetic fields are inherently _analogue_. The basic analogue componenets come in three flavours:
+Early experiments and systems which manipulated electric and magnetic fields are inherently _analogue_. The basic analogue components come in three flavours:
 
 1. Resistance
 2. Capacitance
@@ -30,7 +30,7 @@ Early experiments and systems which manipulated electric and magnetic fields are
 !!! question "Exerscise 1"
     Explain the physics origins of each of the above electromagnetic properties of materials
 
-Mordern electronics rely largely on _digital_ systems, which in contrast to their analogue sybling, are much simpler, and are inherently ready to be connected together to make complex systems. We are not going to go too far into the weeds of how exactly one builds a machine for computation, but we are going to have a bit of a glance.
+Mordern electronics rely largely on _digital_ systems, which in contrast to their analogue sibling, are much simpler, and are inherently ready to be connected together to make complex systems. We are not going to go too far into the weeds of how exactly one builds a machine for computation, but we are going to have a bit of a glance.
 
 ### Logic
 
@@ -62,14 +62,14 @@ We are not going to go through all the possible ways that one might construct lo
 ### Microcontrollers
 We have just seen that a collection of switches allows us to create logic gates. The secret sauces which have let computation grow into the juggernaut that we know it to be are (information theory)[https://en.wikipedia.org/wiki/Information_theory] and transistors. The former we are not going to cover as it is a field onto itself, but the latter is much more unsterstanable: in short, transistors are effectively little switches, and our ability to make more transistors per unit area has drastically increased since we started making them[^1], so our ability to build systems capable of logical operations has also increased drastically. This is the story of computational power: better fabrication techquies for transistors means more powerful devices, simply as there are more little pieces of computation inside.
 
-A story which runs parallel to the development of computing hardware is software. At the end of the day, programing all of the logical operations required to complete a given task is tough work, and there is no way around having to do this: machine code is the only language that a computer speaks. However, as computaitonal power grows, the amount of power we are willing to dedicate to making our lives easier increases. A good example of this is an old operating system: if you look at early versions of windows, linux, or OS X, they typically look a little janky, laking polish. This isn't because it wasn't possible to do these things, it was because the amount of power required to do those things would mean performance for important tasks would be compromised; however, with a few years passing, one typically has much more computing power to play with, so for acomplishing the same important tasks, one can have a _very_ shiny operating system. The same can be said for coding languages: we now commonly use "shiny" languages, which are not the most efficient languages, but are drastically easier to code. For example, `python` is the language of choice for most scientific applications, and whilst using a lower level language such as `C` would likely result in a faster computation, when both programs run faster than $100~\textrm{ms}$, the computation time often doesn't matter, and `python` has all the creature comforts of a high-level language.
+A story which runs parallel to the development of computing hardware is software. At the end of the day, programming all of the logical operations required to complete a given task is tough work, and there is no way around having to do this: machine code is the only language that a computer speaks. However, as computaitonal power grows, the amount of power we are willing to dedicate to making our lives easier increases. A good example of this is an old operating system: if you look at early versions of windows, linux, or OS X, they typically look a little janky, laking polish. This isn't because it wasn't possible to do these things, it was because the amount of power required to do those things would mean performance for important tasks would be compromised; however, with a few years passing, one typically has much more computing power to play with, so for accomplishing the same important tasks, one can have a _very_ shiny operating system. The same can be said for coding languages: we now commonly use "shiny" languages, which are not the most efficient languages, but are drastically easier to code. For example, `python` is the language of choice for most scientific applications, and whilst using a lower level language such as `C` would likely result in a faster computation, when both programs run faster than $100~\textrm{ms}$, the computation time often doesn't matter, and `python` has all the creature comforts of a high-level language.
 
 <figure markdown>
   ![](digital/microcontroller.jpg)
   <figcaption>A microcontroller at home on a PCB</figcaption>
 </figure>
 
-We have discussed the construction of computational devices, and the development of cozy coding languages, and it the nexus of these that the user-friendly microcontroller was born. Microcontrollers are collections of logic gates which can be controlled to perform specific operations; however, programming them was not always easy. Moreover, When it came to deciding which microcontoller to use, there were many considerations (and hence a large number of microcontrollers in the wild). Delightfully, there has been somewhat of a revolution in the last decade with mass-produced, low-cost, and highly-accessible - easily coded - microcontollers being brought to market. It is here that we have our jumping off point: microcontollers (little computers) that we can easily control (using code) to control and measure all manner of things - which is a cornerstone of experimental physics.
+We have discussed the construction of computational devices, and the development of cosy coding languages, and it the nexus of these that the user-friendly microcontroller was born. Microcontrollers are collections of logic gates which can be controlled to perform specific operations; however, programming them was not always easy. Moreover, When it came to deciding which microcontoller to use, there were many considerations (and hence a large number of microcontrollers in the wild). Delightfully, there has been somewhat of a revolution in the last decade with mass-produced, low-cost, and highly-accessible - easily coded - microcontollers being brought to market. It is here that we have our jumping off point: microcontollers (little computers) that we can easily control (using code) to control and measure all manner of things - which is a cornerstone of experimental physics.
 
 ## Apparatus
 
