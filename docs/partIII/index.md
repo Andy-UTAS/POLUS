@@ -8,15 +8,15 @@ The part III labs are associated with 300-level subjects. Emphasis is placed on 
 
 ## Structure
 
-Lab work is undertaken as part of the core third-year physics subjects [KYA321](https://www.utas.edu.au/courses/cse/units/kya321-wave-mechanics-and-quantum-mechanics) *wave mechanics and quantum mechanics* and [KYA320](https://www.utas.edu.au/courses/cse/units/kya320-advanced-electromagnetism) *advanced electromagnetism* which run in semesters one and two respectively. In both cases, lab work accounts for 25% of the subject mark and 36 hours of laboratory time is allocated for the semester. In actuality, experiments are conducted over a three-week period, with each experiment accounting for 16 contact hours. Experiments are conducted in collaboration with another student, but the program is designed to foster collaboration and to cultivate a collegiate environment amongst all participants. Experiments are undertaken according to a flexible schedule, with access organised on an ad-hoc basis, with the exception being a weekly mandatory discussion session, which will be used to plan and discuss experiments, technical aspects of experimental science, and give "whiteboard" presentations.
+Lab work is undertaken as part of the core third-year physics subjects [KYA321](https://www.utas.edu.au/courses/cse/units/kya321-wave-mechanics-and-quantum-mechanics) *wave mechanics and quantum mechanics* and [KYA320](https://www.utas.edu.au/courses/cse/units/kya320-advanced-electromagnetism) *advanced electromagnetism* which run in semesters one and two respectively. In both cases, lab work accounts for 25% of the subject mark and 36 hours of laboratory time is allocated for the semester. In actuality, experiments are conducted over a three-week period, with each experiment accounting for 16 contact hours. Experiments are conducted in collaboration with another student, but the program is designed to foster collaboration and to cultivate a collegiate environment amongst all participants. Experiments are undertaken according to a flexible schedule, with access organised on an ad-hoc basis, with the exception being a weekly discussion session, which will be used to plan and discuss experiments, technical aspects of experimental science, and give "whiteboard" presentations.
 
 ### Current implementation
 
-The text below is taken from the MyLO pages for KYA320/KYA321, but, for the sanity of all involved, it is best to think of the lab program as a separate lab subject that operates in the background of the physics subjects that are currently being run. In short: as part of a physics major, you must complete 3 experiments and complete all [assessments]($assessments).
+The text below is taken from the MyLO pages for KYA321/KYA320 and outlines how the lab program will run
 
-!!! abstract "Semester two, 2023"
+!!! abstract "Semester two, 2024"
 
-    <!-- --8<-- "includes/partIIs1.md" -->
+    <!-- --8<-- "includes/partIIIs1.md" -->
     --8<-- "includes/partIIIs2.md"
 
 ## Experiments
@@ -32,7 +32,6 @@ Over the course of the two subjects, it is expected that you will complete five 
     | [Microwave waveguides](waveguides) |	Electromagnetism | The aim of this experiment is to measure the characteristics of a section of waveguide and subsequently examine the reflection, transmission and adsorption due to an obstacle placed in the guide. |
     | [Nuclear magnetic resonance](nmr) |	Atomic physics, quantum mechanics | Magnetic Resonance Imaging (MRI) is a powerful tool in modern healthcare. This experiment examines the underlying physics, allowing students to investigate the magnetic field characteristics required, and measure the spin relaxation times of a sample (mineral oil). |
     | [The production and characterisation of X-rays](xray) | Atomic physics | Atoms bombarded by electrons with energies on the order of 10-100 keV are observed to produce X-rays by the Bremsstrahlung mechanism, and also through ionization from inner shell energy levels. In this experiment a Geiger-Müller tube is used to detect the characteristic X-rays produced by a copper sample. Scattering these X-rays through a lithium fluoride crystal allows the student to measure the energy dispersion of these X-rays. |
-    | [Scattering of $\alpha$ radiation](alpha) | 	Nuclear physics | Students test the angular dependence of scattering for gold, silver and aluminium foil. They may also measure the energy distribution of pulses from the silicon semiconductor detector in order to investigate the source spectrum and energy resolution of the detector. The experiment provides an introduction to the techniques of energy measurement for fast charged particles, the use of pulse height analysis and vacuum systems. It also increases awareness of statistical problems associated with nuclear measurements. |
     | [Solar spectroscopy](solar) | 	Astrophysics, optics | Students obtain digital Solar spectra through the whole visual region and use these to identify all strong lines and their species, together with undertaking a particular study of the violet resonance lines of ionized calcium to estimate the calcium abundance in the Sun. |
     | [The Zeeman effect in Mercury](zeeman) |	Atomic physics, optics, quantum mechanics | The anomalous Zeeman splitting of the green line of mercury is observed using a Fabry-Perot Interferometer. The value of the Bohr magneton is obtained and the polarization of the line is studied. The experiment complements the lectures on the Zeeman effect and gives experience in the measurement of magnetic fields and in high-resolution spectroscopy. |
 
@@ -54,9 +53,8 @@ As part of each experiment, you will be expected to maintain an experimental log
 === "Semester one"
     | Task | Weighting | Due date |
     | :-----: | :-----| :----- |
-    | [Logbook #1](#experimental-logbooks) | $80%$ | Week 9 |
+    | [Logbook #1](#experimental-logbooks) | $100%$ | Week 9 |
     | [Whiteboard presentation #1](#whiteboard-presentations) | Hurdle | Week 8 |
-    | [Pop-science pitch](#popular-science-pitch) | $20%$ | Week 12 |
 
 
 === "Semester two"

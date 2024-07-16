@@ -16,19 +16,20 @@ You must complete *two experiments* for the semester. Each experiment involves t
 
 Labs will run in three _blocks_ of labs, each lasting for three weeks. The dates for semester two, 2022 are as follows:
 
-* Experiment block one: weeks 3, 4, and 5 (July 24th - August 13th), with logbooks to be submitted to the block one dropbox by the end of Sunday, August 13th
-* Experiment block two: weeks 6, 7, and 8 (August 14th - September 10th), with logbooks to be submitted to the block two dropbox by the end of Sunday, September 10th
+* Experiment block one: weeks 3, 4, and 5 (August 5th - August 25th), with logbooks to be submitted to the block one dropbox by the end of Sunday, August 25th
+* Experiment block two: weeks 6, 7, and 8 (August 26th - September 22nd), with logbooks to be submitted to the block two dropbox by the end of Sunday, September 22nd
 
 During each block, whiteboard presentations are to be undertaken during the common lab session (Monday, 1400 - 1700 in the part III lab) in second week of the block, or explicitly:
 
-* Experiment block one: Monday July 31st
-* Experiment block two: Monday August 21sh
+* Experiment block one: Monday August 12th
+* Experiment block two: Monday September 9th
 
 A final _block_ is to be dedicated to scientific communication:
 
-* Week 10: report preparation. Submission for peer assessment to the relevant dropbox by the end of Friday, September 22nd
-* Week 11: Peer assessment and editing. Peer assessment feedback due for submission to the appropriate dropbox by the end of Tuesday, September 26th, and final report to be submitted to the dropbox by the end of Sunday, October 1st
-* Week 12: Lab report presentations. Presentations are to take place in the final common session, on Monday, October 2nd.
+* Week 10: report preparation. Submission for peer assessment using the embedded FeedbackFruits app on MyLO by the end of Friday, October 4th
+* Week 11: Peer assessment. Feedback due for submission by the end of Friday, October 11th
+* Week 12: Editing. Your final report is to be submitted to the dropbox by the end of Friday, October 18th
+* Week 13: Lab report presentations. Presentations are to take place in the final common session, on Monday, October 21st
 
 The weighting of assessments for this semester is as follows:
 

@@ -1,43 +1,33 @@
 Experiments are a cornerstone of science, and during your second-year studies, you will undertake a series of experiments which allow one to probe at physical phenomena and hone your ability to employ the scientific method.
 
-Labs are conducted in pairs, and the primary mode of assessment will be your experimental logbook.
+Labs are conducted in pairs, and the primary mode of assessment will be your experimental logbook, with a hurdle requirement being that you provide a brief presentation for each experiment.
 
-All information for the lab program is hosted on the [lab website](https://polus.utasphys.cloud.edu.au/partII/), including the [available experiments](https://polus.utasphys.cloud.edu.au/partII/#experiments) (and associated documentation), [reference material](https://polus.utasphys.cloud.edu.au/reference/) for to aid in the execution of experiments and the preparation of materials to be assessed, along with general content such as FAQs and guides for usage of hardware, software, common coding tasks, and more.
+All information for the lab program is hosted on the [lab website](https://polus.utasphys.cloud.edu.au/partII/), including the [available experiments](https://polus.utasphys.cloud.edu.au/partIII/#experiments) (and associated documentation), [reference material](https://polus.utasphys.cloud.edu.au/reference/) for to aid in the execution of experiments and the preparation of materials to be assessed, along with general content such as FAQs and guides for usage of hardware, software, common coding tasks, and more.
 
-The part II labs are co-ordinated by the subject coordinator, and all enquiries should be directed to the [physics lab mailbox](mailto:physics.labs@utas.edu.au).
+The part III labs are co-ordinated by Andy McCulloch, and all enquiries should be directed to the [physics lab mailbox](mailto:physics.labs@utas.edu.au).
+
 ---
 
 ## Summary
 
-You must complete **two experiments** for the semester. Each experiment involves the production of a logbook and additionally, at the end of the semester you must deliver an informal presentation based on an experiment of your choice from the semester.
+You must complete **one experiment** for the semester.
 
 ## Schedule
 
-Lab sessions are scheduled at the following times, with the following demonstrators:
+A common lab session is scheduled for 0900 - 1200 on Mondays; if you have clashes with this session, please contact [Andy](mailto:physics.labs@utas.edu.au).
 
-|  Laboratory Sessions  |  Demonstrators  |
-|  ----  |  ----  |
-|  Wednesdays 1000 - 1300  |  Andy & Simin  |
-|  Fridays 1200 - 1500  |  Ian & Earl  |
+An introductory lab session will be held in week 8 (April 22nd - 28th) will provide detailed practical information for the lab program, including lab safety, labs practicalities, experimental technique - including logbook preparation - and more.
 
-If you have clashes with the above sessions, please contact the&nbsp;Lab Coordinator.&nbsp;
+Labs will run in a single _block_ of labs, lasting for three weeks. An experiment involves the production of a logbook and has a hurdle requirement of an informal presentation. The dates for semester one, 2024 are as follows:
 
-An introductory lab session will be held in week 6 (March 27th - April 2nd) will provide detailed practical information for the lab program, including lab safety, labs practicalities, experimental technique - including logbook preparation - and more.
+* Experiment block one: weeks 9, 10, and 11 (April 29th - May 19th), with logbooks to be submitted to the block one dropbox by the end of Sunday, May 19th
 
-Labs will run in two _blocks_ of labs, each lasting for three weeks. The dates for semester one, 2023 are as follows:
+During the block, whiteboard presentations are to be undertaken during the common lab session (Monday, 0900 - 1200 in the part III lab) in second week of the block, or explicitly:
 
-* Experiment block one: weeks 7, 8, and 9 (April 3rd - April 30th), with logbooks to be submitted to the relevant dropbox by 1700 on the day following your experiment
-* Experiment block two: weeks 10, 11, and 12 (May 1st - May 21st), with logbooks to be submitted to the relevant dropbox by 1700 on the day following your experiment
-
-A final session is to be dedicated to scientific communication:
-
-* Week 13: Informal whiteboard presentations, Wednesday May 24th and Friday May 26th
-Assessment
+* Experiment block one: week 10, Monday July 31st at 1000
 
 ## Assessment
 
 The weighting of assessments for this semester is as follows:
 
-* Experiment one (45%)
-* Experiment two (45%)
-* Scientific communication: presentation (10%)
+* Experiment one (100%)

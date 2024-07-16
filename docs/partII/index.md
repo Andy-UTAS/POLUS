@@ -8,14 +8,13 @@ The part II labs are associated with 200-level subjects. Emphasis is placed on s
 
 ## Structure
 
-Lab work is undertaken as part of subjects [KYA211](https://www.utas.edu.au/courses/cse/units/kya211-waves-and-kinetic-theory) *waves and kinetic theory* and [KYA212](https://www.utas.edu.au/courses/cse/units/kya212-electromagnetism-and-thermodynamics) *electromagnetism and thermodynamics* which run in semesters one and two respectively. Lab work accounts for 15% and 20% of the subject respectively, with the expectation that three and four labs will be completed in the respective subjects. Three hours of laboratory time is allocated each week during the semester; however, experiments are conducted over a two-week period. Experiments are conducted in collaboration with another student, but the program is designed to foster collaboration and to cultivate a collegiate environment amongst all participants.
+Lab work is undertaken as part of subjects [KYA211](https://www.utas.edu.au/courses/cse/units/kya211-waves-and-kinetic-theory) *waves and kinetic theory* and [KYA212](https://www.utas.edu.au/courses/cse/units/kya212-electromagnetism-and-thermodynamics) *electromagnetism and thermodynamics* which run in semesters one and two respectively. Lab work accounts for 10% and 20% of the subject respectively, with the expectation that two and three labs will be completed in the respective subjects. Three hours of laboratory time is allocated each week during the semester; however, experiments are conducted over a three-week period. Experiments are conducted in collaboration with another student, but the program is designed to foster collaboration and to cultivate a collegiate environment amongst all participants.
 
 ### Current implementation
 
-The text below is taken from the [MyLO page for KYA211](https://mylo.utas.edu.au/d2l/home/561867), but, for the sanity of all involved, it is best to think of the lab program as a separate lab subject that operates in the background of the physics subjects that are currently being run. In short: as part of a physics major, you must complete 3 experiments and complete all [assessments](#assessments).
+The text below is taken from the [MyLO page for KYA211](https://mylo.utas.edu.au/d2l/home/643983) and outlines how the lab program will run this semester:
 
-
-!!! abstract "Semester one, 2023"
+!!! abstract "Semester two, 2024"
 
     <!-- --8<-- "includes/partIIs1.md" -->
     --8<-- "includes/partIIs2.md"
@@ -52,12 +51,13 @@ Over the course of the two subjects, it is expected that you will complete seven
     | The Mach-Zehnder interferometer | Wave mechanics, Optics | | :material-star-outline: :material-star-outline: :material-star-outline: |
     | Holography |	Wave mechanics, Optics | | :material-star-outline: :material-star-outline: :material-star-outline: |
 
-Prior to performing any experiments, it is a requirement that you have completed the [lab induction](../safety/inductions/).
+!!! warning "Lab induction"
+    Prior to performing any experiments, it is a requirement that you have completed the [lab induction](../safety/inductions/).
 
 ## Assessment
-As part of each experiment, you will be expected to maintain an experimental logbook upon which you will be assessed. Log books are to be written _during_ practical sessions, with the expectation that the vast majority - ideally the entirety - of the work will be completed during the allocated classes. Reports are required to be submitted by 1300 the day after your final lab session for a given experiment. Your logbook will be returned prior to your next experiment, and part of your assessment will be based upon how you address your markers comments.
+As part of each experiment, you will be expected to maintain an experimental logbook upon which you will be assessed. Logbooks are to be written _during_ practical sessions, with the expectation that the vast majority - ideally the entirety - of the work will be completed during the allocated classes. Logbooks are required to be submitted the day after your final lab session for a given experiment. Your logbook will be returned prior to your next experiment, and part of your assessment will be based upon how you address your markers comments.
 
-In addition to your logbook, once per semester you will be required to select one of the completed experiments and prepare a formal report and to give a short group presentation.
+In addition to your logbook, once per semester you will be required to select one of the completed experiments and communicate this to your peers.
 
 Information on how to prepare, and what is expected for a log, a report and a presentation can be found in the [reference section of POLUS](../reference/experiment/#communication).
 

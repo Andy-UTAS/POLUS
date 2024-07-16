@@ -4,8 +4,8 @@
 
 ## What needs to be done before I can do lab work?
 
-- [ ] University-wide [Safety and Wellbeing Induction](https://mylo.utas.edu.au/d2l/home/501512)
-- [ ] University-wide [laboratory and workshop induction module](https://mylo.utas.edu.au/d2l/home/499939)
+- [ ] University-wide [Safety and Wellbeing Induction](https://utasphys.cloud.edu.au/safetyandwellbeing)
+- [ ] University-wide [laboratory and workshop induction module](https://utasphys.cloud.edu.au/labinduction)
     * [ ] Upload the completion certificate to the relevant dropbox on MyLO
 - [ ] Subject specific lab and building induction, which will be run at the beginning of the first session
 
@@ -31,13 +31,13 @@ Laboratory work is a cornerstone of an education in the natural sciences. Unlike
 If you have a question regarding safety (or anything else), do not hesitate to consult with your demonstrator(s) or contact the [physics lab team](mailto:physics.labs@utas.edu.au).
 
 #### General safety
-The [UTAS safety and wellbeing](https://www.utas.edu.au/safety-and-wellbeing) page is the best resource of all things related to health and safety at the university. Note that it is a requirement that all members of the university community complete the [Safety and Wellbeing Induction](https://mylo.utas.edu.au/d2l/home/501512) module at the beginning of each year.
+The [UTAS safety and wellbeing](https://www.utas.edu.au/safety-and-wellbeing) page is the best resource of all things related to health and safety at the university. Note that it is a requirement that all members of the university community complete the [Safety and Wellbeing Induction](https://utasphys.cloud.edu.au/safetyandwellbeing) module at the beginning of each year.
 
 #### Laboratory safety
 
 _The risks posed by undergraduate laboratory experiments have been examined in line with the university's risk management framework, and the risk assessment is available on request._
 
-It is a university requirement that all laboratory participants complete the "Green level induction" of the [Laboratory and Workshop Inductions](https://mylo.utas.edu.au/d2l/home/499939) module on MyLO, which provides a broad overview to safety in laboratory and workshop environments. More locally, in order to participate in the laboratory program, one must:
+It is a university requirement that all laboratory participants complete the "Green level induction" of the [Laboratory and Workshop Inductions](https://utasphys.cloud.edu.au/labinduction) module on MyLO, which provides a broad overview to safety in laboratory and workshop environments. More locally, in order to participate in the laboratory program, one must:
 
 * Follow all instructions given by the laboratory demonstrator(s)
 * Work under the supervision of a demonstrator
@@ -84,8 +84,8 @@ The part III lab induction will take place during the first "common session" of 
 
 ## Checklist
 
-- [x] University-wide [Safety and Wellbeing Induction](https://mylo.utas.edu.au/d2l/home/501512)
-- [x] University-wide [laboratory and workshop induction module](https://mylo.utas.edu.au/d2l/home/499939)
+- [x] University-wide [Safety and Wellbeing Induction](https://utasphys.cloud.edu.au/safetyandwellbeing)
+- [x] University-wide [laboratory and workshop induction module](https://utasphys.cloud.edu.au/labinduction)
     * [x] Upload the completion certificate to the relevant dropbox on MyLO
 - [x] Subject specific lab and building induction, which will be run at the beginning of the first session
 
