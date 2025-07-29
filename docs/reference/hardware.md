@@ -63,6 +63,7 @@ Different devices with different levels of sophistication are used across the di
 
     | Device | Model | Description |
     | :-----: | :-----: | :----- |
+    | Multimeter | [Tenma 72-14500](#pocketmm) | Digitial pocket multimeter |
     | Software-defined instrument | [Moku:Go](#mokugo) | Multipurpose device |
     | Hardware interface | [Vernier Labpro](#vernier-labpro) | Collect data from sensors |
 
@@ -70,9 +71,10 @@ Different devices with different levels of sophistication are used across the di
 
     | Device | Model | Description |
     | :-----: | :-----: | :----- |
-    | Digital (storage) oscilloscope | [Rigol DS2102E](#rigol-ds2102e-oscilloscope) | Electronic test instrument,  advanced measurement device |
     | Arbitrary waveform generator | [Rigol DG1032Z](#rigol-dg1032z-signal-generator) | Signal generator |
     | Data logger | [Pico Technology ADC20 and 2000](#pico-technology-adc20-and-2000) | Measurement device |
+    | Digital (storage) oscilloscope | [Rigol DS2102E](#rigol-ds2102e-oscilloscope) | Electronic test instrument,  advanced measurement device |
+    | Multimeter | [Duratool D03122](#duratool-d03122-multimeter) | Digitial multimeter |
 
 === "Part III"
 
@@ -85,6 +87,14 @@ Different devices with different levels of sophistication are used across the di
     | Software-defined instrument | [Moku:Lab](#mokulab) | Multipurpose device |
 
 ### Devices
+
+#### Duratool D03122 (multimeter)
+
+<figure markdown>
+<a href = 'Duratool-D03122.pdf'> <i class="fas fa-book fa-3x"></i> </a>
+    <figcaption>D03122 user guide (instruction manual)
+    </figcaption>
+</figure>
 
 #### Moku:Go
 
@@ -147,6 +157,15 @@ Power supplies are used to power devices, and provide current or voltage to a ci
 
 ##### Additional resources
 [:material-web: manufacturer's website](https://www.liquidinstruments.com/products/hardware-platforms/mokulab/)
+
+
+#### Tenma 72-14500 (pocket multimeter)
+
+<figure markdown>
+<a href = 'TENMA-7214500.pdf'> <i class="fas fa-book fa-3x"></i> </a>
+    <figcaption>72-14500 user guide (instruction manual)
+    </figcaption>
+</figure>
 
 #### Pico Technology ADC20 and 2000
 

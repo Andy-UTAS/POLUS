@@ -27,9 +27,9 @@ POLUS, in addition to being the [titan of rational intelligence](https://en.wiki
 
 ## A home for experimental physics at UTAS
 
-The [raison d'être](https://en.wikipedia.org/wiki/Raison_d%27%C3%AAtre) of POLUS consists of four principle motivations, outlined below.
+The [_raison d'être_](https://en.wikipedia.org/wiki/Raison_d%27%C3%AAtre) of POLUS consists of four principle motivations, outlined below.
 
-### Experimental content
+### 1. Experimental content
 
 <!-- [<i class="fas fa-atom fa-5x"></i>](#){ .md-button .md-button--primary class="text-center" style="margin-left: 45%"} -->
 
@@ -39,24 +39,23 @@ The [raison d'être](https://en.wikipedia.org/wiki/Raison_d%27%C3%AAtre) of POLU
 
 This site hosts the notes for experiments, in addition to their source files, which can be downloaded and used both as a reference and as an educational resource. Additional material will also be added as it is developed, including computational resources and extension projects..
 
-### Reference material
+### 2. Reference material
 
 [<i class="fas fa-book-open fa-5x"></i>](reference/index.md){ .md-button .md-button--primary class="text-center" style="margin-left: 44%"}
 
 A library of curated content that is pertinent to experimental physics and experimentation more generally is provided to help develop knowledge in the area. Content ranges from equipment operating manuals through to example reports with commentary.
 
-### Safety resources
+### 3. Safety resources
 
 [<i class="fas fa-skull-crossbones fa-5x"></i>](safety/index.md){ .md-button .md-button--primary class="text-center" style="margin-left: 45%"}
 
 Navigating workplace health and safety in the physics lab should not be a chore. On the site, detailed information on how to work safely and also how to develop an understanding of the safety framework are presented.
 
-### User-generated content
+### 4. User-generated content
 
 [<i class="fas fa-user-astronaut fa-5x"></i>](playhouse/index.md){ .md-button .md-button--primary class="text-center" style="margin-left: 45%"}
 
 Science is a community-based endeavour. Content created by the physics community that is of interest to the physics community is both welcomed and encouraged. Please get in contact if you would like to share some of your content!
-
 
 
 ---

@@ -106,9 +106,9 @@ From here, a notebook session should be spawned upon logging in. It is worth not
 
 ## Markdown
 
-`[Markdown](https://en.wikipedia.org/wiki/Markdown)` is a _[markup language](https://en.wikipedia.org/wiki/Markup_language)_ which can be used to simply and beautifully format text^[3], with a major advantage being that even when it is not rendered, it is easily readable by humans, unlike say, HTML. Another advantage to many in the sciences is that when one is using ``[Jupyter](#using-python)`` notebooks to aim with programming in `python`, one can use `markdown` to embed formatted text in the notebook, making the code eminently readable. Indeed, it is for this reason that [experimental logbooks are required to be prepared using markdown](reference/experiment/#model-log-book).
+_[Markdown](https://en.wikipedia.org/wiki/Markdown)_ is a _[markup language](https://en.wikipedia.org/wiki/Markup_language)_ which can be used to simply and beautifully format text^[3], with a major advantage being that even when it is not rendered, it is easily readable by humans, unlike say, HTML. Another advantage to many in the sciences is that when one is using [Jupyter](#using-python) notebooks to program in `python`, one can use `markdown` to embed formatted text in the notebook, making the code eminently readable. Indeed, it is for this reason that [experimental logbooks are required to be prepared using markdown](reference/experiment/#model-log-book).
 
-Provided below are some tips and tricks for preparing `markdown` content, but there are countless excellent resources[^4] on the web for learning markdown, so you are encourage to look around.
+Provided below are some tips and tricks for preparing `markdown` content, but there are countless excellent resources on the web for learning markdown, so you are encourage to look around.
 
 ### How do I markdown?
 
@@ -135,7 +135,7 @@ Provided below are some tips and tricks for preparing `markdown` content, but th
 
 can be imported via
 
-```
+``` markdown
 ![image][path/to/image.svg]
 ```
 
@@ -170,5 +170,6 @@ There are no shortage of amazing computational resources to be found both on- an
 
 [^1]: The [jupyter documentation](https://docs.jupyter.org/en/latest/) is excellent
 [^2]: Jove is an [alternate name for the Roman god Jupyter](https://en.wikipedia.org/wiki/Jove_(disambiguation))
+[^3]: This site largely written in markdown!
 
 --8<-- "includes/abbreviations.md"

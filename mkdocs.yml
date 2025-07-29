@@ -6,34 +6,39 @@ edit_uri: ""
 
 nav:
     - Home: index.md
-    - 'Part I':
-      - partI/index.md
-      - partI/s1e01.md
-      - partI/s1e02.md
-      - partI/s1e04.md
-      - partI/s1e05.md
-      - partI/s2e02.md
-    - 'Part II':
-      - partII/index.md
-      - partII/adiabatic.md
-      - partII/ediffraction.md
-      - partII/entropy.md
-      - partII/eonm.md
-      - partII/hysteresis.md
-      - partII/induction.md
-      - partII/michelson.md
-      - partII/TDR.md
-      - partII/ultrasound.md
-    - 'Part III':
-      - partIII/index.md
-      - partIII/gamma.md
-      - partIII/muon.md
-      - partIII/waveguides.md
-      - partIII/nmr.md
-      - partIII/xray.md
-      - partIII/alpha.md
-      - partIII/solar.md
-      - partIII/zeeman.md
+    - 'First-year labs':
+      - fyl/index.md
+      - 'KYA101':
+        - fyl/KYA101/s1e01.md
+        - fyl/KYA101/s1e02.md
+        - fyl/KYA101/s1e04.md
+        - fyl/KYA101/s1e05.md
+      - 'KYA102':
+        - fyl/KYA102/s2e02.md
+    - 'Second-year labs':
+      - syl/index.md
+      - 'KYA211':
+        - syl/kya211/adiabatic.md
+        - syl/kya211/ediffraction.md
+        - syl/kya211/TDR.md
+        - syl/kya211/ultrasound.md
+      - 'KYA212':
+        - syl/kya212/entropy.md
+        - syl/kya212/eonm.md
+        - syl/kya212/hysteresis.md
+        - syl/kya212/induction.md
+        - syl/kya212/michelson.md
+
+    - 'Third-year labs':
+      - tyl/index.md
+      - tyl/gamma.md
+      - tyl/muon.md
+      - tyl/waveguides.md
+      - tyl/nmr.md
+      - tyl/xray.md
+      - tyl/alpha.md
+      - tyl/solar.md
+      - tyl/zeeman.md
     - 'Safety':
       - safety/index.md
       - safety/labsafety.md
@@ -100,8 +105,8 @@ markdown_extensions:
   - toc:
       permalink: True
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - def_list # For definition lists
   - pymdownx.tasklist: # For lists with checkboxes
       custom_checkbox: true
