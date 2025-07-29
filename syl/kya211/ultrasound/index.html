@@ -1,0 +1,2194 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://polus.utasphys.cloud.edu.au/syl/kya211/ultrasound/">
+      
+      
+        <link rel="prev" href="../TDR/">
+      
+      
+        <link rel="next" href="../../kya212/entropy/">
+      
+      
+      <link rel="icon" href="../../../logo.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.31">
+    
+    
+      
+        <title>Ultrasonic ranging - POLUS - UTAS physics</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.3cba04c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ultrasonic-ranging" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="POLUS - UTAS physics" class="md-header__button md-logo" aria-label="POLUS - UTAS physics" data-md-component="logo">
+      
+  <img src="../../../logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            POLUS - UTAS physics
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Ultrasonic ranging
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Andy-UTAS/POLUS" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Andy-UTAS/POLUS
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../fyl/" class="md-tabs__link">
+          
+  
+    
+  
+  First-year labs
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+    
+  
+  Second-year labs
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../tyl/" class="md-tabs__link">
+          
+  
+    
+  
+  Third-year labs
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../safety/" class="md-tabs__link">
+          
+  
+    
+  
+  Safety
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../reference/" class="md-tabs__link">
+          
+  
+    
+  
+  Reference
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../playhouse/" class="md-tabs__link">
+          
+  
+    
+  
+  Playhouse
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="POLUS - UTAS physics" class="md-nav__button md-logo" aria-label="POLUS - UTAS physics" data-md-component="logo">
+      
+  <img src="../../../logo.png" alt="logo">
+
+    </a>
+    POLUS - UTAS physics
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Andy-UTAS/POLUS" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Andy-UTAS/POLUS
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../fyl/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    First-year labs
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            First-year labs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    KYA101
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            KYA101
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../fyl/KYA101/s1e01/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    S1E01: Measurement
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../fyl/KYA101/s1e02/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    S1E04: Collisions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../fyl/KYA101/s1e04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    S1E04: Collisions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../fyl/KYA101/s1e05/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    S1E05: Rotational motion
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    KYA102
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            KYA102
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../fyl/KYA102/s2e02/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    S2E02: Frequency dependent circuits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Second-year labs
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Second-year labs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    KYA211
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            KYA211
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../adiabatic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The adiabatic index of gasses
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ediffraction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Electron diffraction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../TDR/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Time-domain reflectometry
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Ultrasonic ranging
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Ultrasonic ranging
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objectives
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Equipment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#principal-data-taken" class="md-nav__link">
+    <span class="md-ellipsis">
+      Principal Data Taken
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#things-to-watch-out-for" class="md-nav__link">
+    <span class="md-ellipsis">
+      Things to Watch Out For
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-the-transducers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting Up the Transducers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introductory-experiment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introductory Experiment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#procedure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Procedure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#calculations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Calculations
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    KYA212
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            KYA212
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kya212/entropy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Disorder measurement: entropy changes of a rubber band
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kya212/eonm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Charge-to-mass ratio of the electron
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kya212/hysteresis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hysteresis of iron
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kya212/induction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Induction and the Earth's magnetic field
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kya212/michelson/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Michelson interferometer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../tyl/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Third-year labs
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Third-year labs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tyl/gamma/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    γ-ray spectroscopy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tyl/muon/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The lifetime of the muon
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tyl/waveguides/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Microwave waveguides
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tyl/nmr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Nuclear magnetic resonance
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tyl/xray/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The production and characterisation of X-rays
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tyl/alpha/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Scattering of α radiation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tyl/solar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Solar spectroscopy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tyl/zeeman/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Zeeman effect in Mercury
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../safety/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Safety
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Safety
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../safety/labsafety/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Safety in physics laboratories
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../safety/inductions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lab inductions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../reference/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Reference
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Reference
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../reference/experiment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The experimental method
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../reference/hardware/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hardware
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../reference/software/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Software
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../reference/computation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Computation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../reference/git/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Version control (git)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../reference/markdown/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Markdown
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../reference/computing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Computing in physics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../reference/faqs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Frequently asked questions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../playhouse/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Playhouse
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Playhouse
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objectives
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Equipment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#principal-data-taken" class="md-nav__link">
+    <span class="md-ellipsis">
+      Principal Data Taken
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#things-to-watch-out-for" class="md-nav__link">
+    <span class="md-ellipsis">
+      Things to Watch Out For
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-the-transducers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting Up the Transducers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introductory-experiment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introductory Experiment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#procedure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Procedure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#calculations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Calculations
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<div><h1 id="ultrasonic-ranging">Ultrasonic ranging<a class="headerlink" href="#ultrasonic-ranging" title="Permanent link">¶</a></h1>
+<p><img alt="" class="center" src="header.jpg"></p>
+<p>This experiment looks into some of the problems involved in using ultrasonic sound waves to measure the distance of an object from an ultrasonic transmitter.</p>
+<hr>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">¶</a></h2>
+<h3 id="objectives">Objectives<a class="headerlink" href="#objectives" title="Permanent link">¶</a></h3>
+<ul>
+<li>To observe and record time lap between signal transmitted and signal received.</li>
+<li>To measure speed of sound in air at two different temperatures.</li>
+<li>To estimate effects of temperature and humidity on speed of sound in air.</li>
+</ul>
+<h3 id="equipment">Equipment<a class="headerlink" href="#equipment" title="Permanent link">¶</a></h3>
+<p>The basic equipment is simple, consisting of an ultrasonic transmitter  and a  receiver, an Arduino Uno board to drive the transmitter, an amplifier attached to the receiver, and an oscilloscope for measuring the travel time of a burst of ultrasonic waves.  You will control the transmitted  signal from the Arduino using very simple code which is based on the C/C++ language.
+Some technical information on the ultrasonic transducers (probably more than you want to know!) is in an information folder on the equipment trolley. There are myriad  Arduino resources online.
+Both transmitter and receiver have been mounted inside plastic tubes.  Since you will want to know the exact positions of the transmitting and receiving surfaces inside the tubes, we have engraved grooves on the outside of the tubes, in the correct positions.  Please do not poke anything down either tube.</p>
+<h3 id="principal-data-taken">Principal Data Taken<a class="headerlink" href="#principal-data-taken" title="Permanent link">¶</a></h3>
+<ul>
+<li>Time delay between sending and receiving a signal versus the distance travelled.</li>
+<li>Temperature and humidity of the ambient air.</li>
+</ul>
+<h3 id="things-to-watch-out-for">Things to Watch Out For<a class="headerlink" href="#things-to-watch-out-for" title="Permanent link">¶</a></h3>
+<ul>
+<li>The bench set up for this experiment is mobile, as you will need to vary the distance between sender and receiver. However, you will need to have power, so beware of cables on the floor and other students in the laboratory.</li>
+<li>Transducers, Arduino board, oscilloscope and computer are all already wired up. There is no need for you to connect or disconnect anything.</li>
+</ul>
+<h2 id="setting-up-the-transducers">Setting Up the Transducers<a class="headerlink" href="#setting-up-the-transducers" title="Permanent link">¶</a></h2>
+<p>The transducers are designed to operate at about 40 kHz.  It is advantageous, however, to  "fine tune"  your pair so that they are operating at peak efficiency.</p>
+<p>Switch on the signal generator, and place transmitter and receiver facing each other less than a metre apart.  Make sure that the transmitter is connected to the signal generator and that the receiver is connected to its amplifier (small metal box), which must be powered up.  Use the  C.R.O. to observe the amplifier output.</p>
+<p>Boot up the computer, and start the Arduino <abbr title="Integrated Development Environment">IDE</abbr>. Load the file called tone_pin8.ino. The file should be located at <code>C:\\Users\Public\Public Documents\Ultrasonic\tone\_pin8.ino</code>.</p>
+<p>This file has comments next to the commands which should explain what each one does.
+In the preamble variables are defined: FREQ in Hertz, duty and period in microseconds.</p>
+<ul>
+<li><code>FREQ</code> allows you to set the frequency of the ultrasound emitted. Edit the value to about 40 kHz.</li>
+<li><code>duty</code> or duty cycle, sets how long each ultrasonic pulse lasts.</li>
+<li><code>period</code> sets the time between the  pulses.</li>
+</ul>
+<p>The "setup" section configures the hardware on the board, the "loop" section has commands which are repeated endlessly.</p>
+<p>Save the file (shortcut; <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-s">S</kbd></span>). The new parameters are loaded on the board by  uploading the sketch file to the Arduino, (shortcut; <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-u">U</kbd></span>).</p>
+<p>Experiment with values of {\it duty} and {\it period} to familiarise your self with what they represent. Now alter frequency until you find value which gives the maximum receiver output amplitude - and write it down in your lab notes!</p>
+<p>The transducers are now "tuned".</p>
+<h2 id="introductory-experiment">Introductory Experiment<a class="headerlink" href="#introductory-experiment" title="Permanent link">¶</a></h2>
+<p>Move the equipment trolley to a position about 1 metre from a smooth wall, or even better, a large pane of glass.   Arrange the transmitter and receiver to be equidistant from the wall, one on either side of the sound absorbing screen.  Use whatever simple tests you can devise to satisfy yourself that the receiver is indeed detecting a signal reflected off the wall.</p>
+<p>Just observing the reflected signal tells you nothing about the travel time of a particular wavefront from transmitter to wall and back, because all wavefronts are identical.
+Devise a means of measuring the travel time of the leading wave front of a particular burst of ultrasound.  You will need to think carefully about what the trigger controls on the C.R.O. do, and about the significance of the various modes of trigger operation.
+It may also help to consider the following questions :</p>
+<ul>
+<li>Roughly how long, in milliseconds, will it take the first wave front of a burst to travel to the wall and back?</li>
+<li>During this time, what will the output of the receiver be?</li>
+<li>How can you trigger a sweep of the C.R.O. at the instant that you start a burst of ultrasound?</li>
+</ul>
+<p>You will also need to consider the period of the ultrasound bursts.  Does your next burst from the transmitter occur  before the reflection arrives at the receiver, confusing the temporal association of the transmitted with the reflected burst?
+Observe the time between your burst of ultrasound and the reflection. Is your prediction of travel time confirmed?
+You should discuss in your report how you confirmed that the time measurement taken was indeed for the same burst.</p>
+<p>The transmitter doesn't perform optimally  when it is fed with a chopped sine wave and the amplitude of the sine wave is rather large at around 5V.  Zoom in on the oscilloscope and look at the  ~40 kHz waveform from the Arduino. The reflected signal isn't an exact copy,  something akin to ringing is occurring in the transmitter, in addition to dispersion in the air and by the reflecting surface.</p>
+<p>Note that a certain amount of ultrasound penetrates through and diffracts around the sound-proof screen, so that the received signal is not zero during the "off" periods.  By moving the transmitter and receiver about you should be able to minimise this unwanted signal.</p>
+<h2 id="procedure">Procedure<a class="headerlink" href="#procedure" title="Permanent link">¶</a></h2>
+<p>Using your setup, which should now be optimally tuned, you will measure the velocity of sound in the air  and investigate its dependence on the temperature and humidity of the air in which it propagates.</p>
+<ol>
+<li>You now have a sort of sonar apparatus. Set it up so that the sound emitted reflects directly back to the receiver. Measure the transit distance using the measuring tape provided. Note that the groove on the transducer tube can be used to ascertain the position of the transducer in the tube. <em>Do not stick measuring tape inside the tube.</em> Measure transit time from the oscilloscope. Repeat the measurements over as wide a range of transmitter-to-wall distances as possible. You will plot a graph from this data and fit a linear function to it. You should be able to measure out to about 4-5 metres from the reflecting surface.</li>
+<li>Before and after your observations  you should make some meteorological observations.  On the trolley you should find a digital thermometer and humidity instrument, so keep a record of these values (it can be programmed to sample and record these values, it has a USB interface for communication) . One meteorological observation we are <em>not</em> asking you to make is a measurement of the barometric pressure.  Why not?</li>
+<li>You should take a set of readings in a cold dark room for example, and another set in a warm environment, where the ambient temperatures differ as much as possible. A set of readings on a different day with different humidity would also be instructive.</li>
+</ol>
+<h2 id="calculations">Calculations<a class="headerlink" href="#calculations" title="Permanent link">¶</a></h2>
+<p>Having done all the above, you can now consider analysing your transit time measurements.</p>
+<p>First consider the following possible source of error.  The oscilloscope time-base may be inaccurate.  The calibration of time-base speeds around 1 ms. per cm. can be checked by feeding the C.R.O. with a wave of accurately known frequency and comparing its period with the period indicated on the C.R.O. screen. The Rhodes and Schwarz SMX signal generator in Lab 2 is a quality reference instrument. (This error applies more to the old analogue oscilloscopes, rather than the digital models, but worth checking). If a correction is necessary make sure that you get it the right way round; it is easy to make a mistake.</p>
+<p>Plot transit time versus distance.  (The free R statistical software, or perhaps Python, are to be preferred over Excel, if you wish to become familiar with scientific grade tools)  Use your graph or software to calculate the speed of sound.  (This is rather a back to front approach for a ranging experiment.  In practice one would measure the transit time and calculate the distance using an assumed speed of sound, but we are concerned with variations in the speed.)</p>
+<p>Remember to note estimates of distance and time measurement errors, as well as temperature and  humidity error. These will contribute to an error in velocity. (Once again R has excellent tools for these kinds of calculations.)</p>
+<p>Carefully read the section in Kaye and Laby<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> on the speed of sound in air.  A diagram from a paper by Harris<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> is included with these notes.  (A copy of the complete paper is in the information folder.) The Handbook of Chemistry and Physics<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> contains some useful tables too.  What meteorological parameters particularly affect the speed of sound in air?</p>
+<p>Use your meteorological observations and the information in Kaye and Laby or elsewhere to estimate the speed of sound in your work area during your experiment.  How does it compare with the value you obtain?</p>
+<p>Alternatively, start with your value of velocity and correct it to  0<script type="math/tex">^{\circ}</script>C and zero humidity.  How does this compare with the book value? How many standard deviations (from your error estimate) is your value from the theoretical?</p>
+<div class="admonition example">
+<p class="admonition-title">Discuss the following in your report</p>
+<ul>
+<li>With reference to the expression for speed of sound in any gas, show why pressure is not important in determining the speed of sound; by using the value for the gas constant R and the molecular mass of dry air, derive an expression for the speed that only depends on temperature.</li>
+<li>Especially concerning humidity , you could discuss the composition of air in terms of monatomic, diatomic and triatomic  molecules,  and how this affects the gamma value; the ratio of the specific heat of gas at constant pressure,  to that at constant volume.  How does the  percentage of water molecules in the air affect the molecular mass?</li>
+<li>What is the effect of audio frequency on the speed of sound?</li>
+<li>What are the relative magnitudes of the effects of temperature and humidity?</li>
+</ul>
+</div>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>G. W. C. Kaye and T. H. Laby, <em>Tables of physical and chemical constants and some mathematical functions</em>, (Longmans, Green and Company, London, 1926) <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:2">
+<p>C. M. Harris, <em>Effects of humidity on the velocity of sound in air</em>, The Journal of the Acoustical Society of America <strong>49</strong>, 3B (1971) <a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+<li id="fn:3">
+<p>W.M. Haynes, D.R. Lide, T.J. Bruno, <em>CRC Handbook of Chemistry and Physics</em>, (CRC Press, Ohio, 2016) <a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">↩</a></p>
+</li>
+<li id="fn:4">
+<p>D. A. Bohn, <em>Environmental effects on the Speed of Sound</em>,   Journal of the Audio Engineering Society <strong>36</strong>, 4 (1988) <a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">↩</a></p>
+</li>
+</ol>
+</div></div>
+
+
+
+
+
+
+
+  
+    
+  
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 29, 2025</span>
+  </span>
+
+    
+    
+    
+    
+  </aside>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Content prepared and curated by <a href="mailto:andrew.mcculloch@utas.edu.au">A J McCulloch</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.top", "navigation.tabs", "navigation.sections", "navigation.indexes", "search.highlight", "content.code.annotate", "announce.dismiss"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS_HTML"></script>
+      
+        <script src="https://unpkg.com/thebelab@0.5.0/lib/index.js"></script>
+      
+        <script src="../../../scripts/mathjaxhelper.js"></script>
+      
+        <script src="../../../scripts/thebelabhelper.js"></script>
+      
+        <script src="../../../scripts/x3dom.js"></script>
+      
+    
+  </body>
+</html>
