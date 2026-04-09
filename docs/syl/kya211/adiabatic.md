@@ -6,6 +6,14 @@ The period of a ball bearing undergoing lightly-damped, forced oscillations due 
 
 ---
 
+<figure markdown>
+<a href = 'RUCHARDT.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
+    <figcaption>Lab notes
+    </figcaption>
+</figure>
+
+---
+
 ## Introduction
 
 ### Objectives

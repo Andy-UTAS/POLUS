@@ -6,6 +6,14 @@ A thin piece of highly-ordered material is considered as a diffraction screen wi
 
 ---
 
+<figure markdown>
+<a href = 'ELECTRON_DIFFRACTION.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
+    <figcaption>Lab notes
+    </figcaption>
+</figure>
+
+---
+
 ## Introduction
 
 ### Objectives

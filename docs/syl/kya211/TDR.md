@@ -6,6 +6,14 @@ The properties of waveforms travelling through cables with different characteris
 
 ---
 
+<figure markdown>
+<a href = 'TDR.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
+    <figcaption>Lab notes
+    </figcaption>
+</figure>
+
+---
+
 ## Introduction
 
 ### Objectives

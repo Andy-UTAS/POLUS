@@ -14,7 +14,7 @@
       
       
       <link rel="icon" href="../../logo.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.31">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
     
     
       
@@ -22,7 +22,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -48,7 +48,7 @@
     
       <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -95,7 +95,7 @@
     </a>
     <label class="md-header__button md-icon" for="__drawer">
       
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
@@ -123,7 +123,7 @@
     <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
       </label>
     
   
@@ -133,7 +133,7 @@
     <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
       </label>
     
   
@@ -141,30 +141,32 @@
       
     
     
-      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
       <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
         
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
       <nav class="md-search__options" aria-label="Search">
         
         <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
       </nav>
       
@@ -181,13 +183,14 @@
     </div>
   </div>
 </div>
+      
     
     
       <div class="md-header__source">
         <a href="https://github.com/Andy-UTAS/POLUS" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     Andy-UTAS/POLUS
@@ -213,9 +216,11 @@
   
   
   
+  
     <li class="md-tabs__item">
       <a href="../.." class="md-tabs__link">
         
+  
   
     
   
@@ -230,11 +235,13 @@
   
   
   
+  
     
     
       <li class="md-tabs__item">
         <a href="../../fyl/" class="md-tabs__link">
           
+  
   
     
   
@@ -250,11 +257,13 @@
   
   
   
+  
     
     
       <li class="md-tabs__item">
         <a href="../" class="md-tabs__link">
           
+  
   
     
   
@@ -270,11 +279,13 @@
   
   
   
+  
     
     
       <li class="md-tabs__item">
         <a href="../../tyl/" class="md-tabs__link">
           
+  
   
     
   
@@ -290,11 +301,13 @@
   
   
   
+  
     
     
       <li class="md-tabs__item">
         <a href="../../safety/" class="md-tabs__link">
           
+  
   
     
   
@@ -310,11 +323,13 @@
   
   
   
+  
     
     
       <li class="md-tabs__item">
         <a href="../../reference/" class="md-tabs__link">
           
+  
   
     
   
@@ -330,11 +345,13 @@
   
   
   
+  
     
     
       <li class="md-tabs__item">
         <a href="../../playhouse/" class="md-tabs__link">
           
+  
   
     
   
@@ -380,7 +397,7 @@
       <a href="https://github.com/Andy-UTAS/POLUS" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     Andy-UTAS/POLUS
@@ -400,8 +417,10 @@
       <a href="../.." class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Home
+    
   </span>
   
 
@@ -429,6 +448,7 @@
       
     
     
+    
       
       
         
@@ -442,13 +462,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../fyl/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     First-year labs
+    
   </span>
   
 
@@ -489,6 +510,7 @@
       
     
     
+    
       
       
         
@@ -505,8 +527,10 @@
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
             
   
+  
   <span class="md-ellipsis">
     KYA101
+    
   </span>
   
 
@@ -530,8 +554,10 @@
       <a href="../../fyl/KYA101/s1e01/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     S1E01: Measurement
+    
   </span>
   
 
@@ -551,8 +577,10 @@
       <a href="../../fyl/KYA101/s1e02/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     S1E04: Collisions
+    
   </span>
   
 
@@ -572,8 +600,10 @@
       <a href="../../fyl/KYA101/s1e04/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     S1E04: Collisions
+    
   </span>
   
 
@@ -593,8 +623,10 @@
       <a href="../../fyl/KYA101/s1e05/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     S1E05: Rotational motion
+    
   </span>
   
 
@@ -625,6 +657,7 @@
       
     
     
+    
       
       
         
@@ -641,8 +674,10 @@
           <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
             
   
+  
   <span class="md-ellipsis">
     KYA102
+    
   </span>
   
 
@@ -666,8 +701,10 @@
       <a href="../../fyl/KYA102/s2e02/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     S2E02: Frequency dependent circuits
+    
   </span>
   
 
@@ -711,6 +748,7 @@
       
     
     
+    
       
       
         
@@ -724,13 +762,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     Second-year labs
+    
   </span>
   
 
@@ -771,6 +810,7 @@
       
     
     
+    
       
       
         
@@ -787,8 +827,10 @@
           <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
             
   
+  
   <span class="md-ellipsis">
     KYA211
+    
   </span>
   
 
@@ -812,8 +854,10 @@
       <a href="../kya211/adiabatic/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     The adiabatic index of gasses
+    
   </span>
   
 
@@ -833,8 +877,10 @@
       <a href="../kya211/ediffraction/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Electron diffraction
+    
   </span>
   
 
@@ -854,8 +900,10 @@
       <a href="../kya211/TDR/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Time-domain reflectometry
+    
   </span>
   
 
@@ -875,8 +923,10 @@
       <a href="../kya211/ultrasound/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Ultrasonic ranging
+    
   </span>
   
 
@@ -915,6 +965,7 @@
       
     
     
+    
       
       
         
@@ -931,8 +982,10 @@
           <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
             
   
+  
   <span class="md-ellipsis">
     KYA212
+    
   </span>
   
 
@@ -956,8 +1009,10 @@
       <a href="../kya212/entropy/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Disorder measurement: entropy changes of a rubber band
+    
   </span>
   
 
@@ -977,8 +1032,10 @@
       <a href="../kya212/eonm/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Charge-to-mass ratio of the electron
+    
   </span>
   
 
@@ -998,8 +1055,10 @@
       <a href="../kya212/hysteresis/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Hysteresis of iron
+    
   </span>
   
 
@@ -1019,8 +1078,10 @@
       <a href="../kya212/induction/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Induction and the Earth's magnetic field
+    
   </span>
   
 
@@ -1040,8 +1101,10 @@
       <a href="../kya212/michelson/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     The Michelson interferometer
+    
   </span>
   
 
@@ -1097,6 +1160,7 @@
       
     
     
+    
       
       
         
@@ -1110,13 +1174,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../tyl/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     Third-year labs
+    
   </span>
   
 
@@ -1148,8 +1213,10 @@
       <a href="../../tyl/gamma/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     γ-ray spectroscopy
+    
   </span>
   
 
@@ -1169,8 +1236,10 @@
       <a href="../../tyl/muon/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     The lifetime of the muon
+    
   </span>
   
 
@@ -1190,8 +1259,10 @@
       <a href="../../tyl/waveguides/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Microwave waveguides
+    
   </span>
   
 
@@ -1211,8 +1282,10 @@
       <a href="../../tyl/nmr/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Nuclear magnetic resonance
+    
   </span>
   
 
@@ -1232,8 +1305,10 @@
       <a href="../../tyl/xray/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     The production and characterisation of X-rays
+    
   </span>
   
 
@@ -1253,8 +1328,10 @@
       <a href="../../tyl/alpha/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Scattering of α radiation
+    
   </span>
   
 
@@ -1274,8 +1351,10 @@
       <a href="../../tyl/solar/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Solar spectroscopy
+    
   </span>
   
 
@@ -1295,8 +1374,10 @@
       <a href="../../tyl/zeeman/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     The Zeeman effect in Mercury
+    
   </span>
   
 
@@ -1332,6 +1413,7 @@
       
     
     
+    
       
       
         
@@ -1345,13 +1427,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../safety/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     Safety
+    
   </span>
   
 
@@ -1383,8 +1466,10 @@
       <a href="../../safety/labsafety/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Safety in physics laboratories
+    
   </span>
   
 
@@ -1404,8 +1489,10 @@
       <a href="../../safety/inductions/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Lab inductions
+    
   </span>
   
 
@@ -1453,6 +1540,7 @@
       
     
     
+    
       
       
         
@@ -1466,13 +1554,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../reference/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     Reference
+    
   </span>
   
 
@@ -1504,8 +1593,10 @@
       <a href="../../reference/experiment/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     The experimental method
+    
   </span>
   
 
@@ -1525,8 +1616,10 @@
       <a href="../../reference/hardware/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Hardware
+    
   </span>
   
 
@@ -1546,8 +1639,10 @@
       <a href="../../reference/software/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Software
+    
   </span>
   
 
@@ -1567,8 +1662,10 @@
       <a href="../../reference/computation/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Computation
+    
   </span>
   
 
@@ -1588,8 +1685,10 @@
       <a href="../../reference/git/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Version control (git)
+    
   </span>
   
 
@@ -1609,8 +1708,10 @@
       <a href="../../reference/markdown/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Markdown
+    
   </span>
   
 
@@ -1630,8 +1731,10 @@
       <a href="../../reference/computing/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Computing in physics
+    
   </span>
   
 
@@ -1651,8 +1754,10 @@
       <a href="../../reference/faqs/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Frequently asked questions
+    
   </span>
   
 
@@ -1684,6 +1789,7 @@
       
     
     
+    
       
       
         
@@ -1697,13 +1803,14 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../../playhouse/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     Playhouse
+    
   </span>
   
 
@@ -1903,6 +2010,7 @@
                   
 
 
+
 <div><h1 id="digital-systems-an-introduction">Digital systems: an introduction<a class="headerlink" href="#digital-systems-an-introduction" title="Permanent link">¶</a></h1>
 <p><img alt="" class="center" src="header.png"></p>
 <p>Electronic systems underpin modern life, from seemingly banal devices such as fridges and cooktops, through to our most advanced devices such as supercomputers and space robots. It is therefore worthwhile that we spend some time to appreciate how is it exactly that these devices function? What are the basic building blocks which allow for the construction of all manner of wonderous widgets?</p>
@@ -2032,7 +2140,7 @@
 <p>If Thonny still does not connect to your Pico, consult with your demonstrator.</p>
 </details>
 <p>Remaining in the <code>Shell</code> tab, type the following lines:</p>
-<p></p><div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><a href="#__codelineno-0-1"><span class="linenos" data-linenos="1 "></span></a><span class="kn">from</span> <span class="nn">machine</span> <span class="kn">import</span> <span class="n">Pin</span>
+<p></p><div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><a href="#__codelineno-0-1"><span class="linenos" data-linenos="1 "></span></a><span class="kn">from</span><span class="w"> </span><span class="nn">machine</span><span class="w"> </span><span class="kn">import</span> <span class="n">Pin</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2"></a><a href="#__codelineno-0-2"><span class="linenos" data-linenos="2 "></span></a><span class="n">led</span> <span class="o">=</span> <span class="n">Pin</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="n">Pin</span><span class="o">.</span><span class="n">OUT</span><span class="p">)</span>
 </code></pre></div>
 If you are unframiliar with code, this may all look a bit strange, but we are going to break it down. The first line imports the <code class="highlight"><span class="n">Pin</span></code> class from the <code class="highlight"><span class="n">machine</span></code> module, meaning that there is a bunch of code hidden in the background relating to controlling input and output pins of the Pico, but we get to use much more understandable code to actually make it go. Explicitly, this takes the form of the second line where we make an object, and it so happens that pin number 25 on the Pico is connected to an <abbr title="Light-Emitting Diode">LED</abbr> that is on-board, and we want to have this pin have current flow (or not), turning on (or off) the <abbr title="Light-Emitting Diode">LED</abbr>, so we telling the microcontroller
@@ -2051,7 +2159,7 @@ If you are unframiliar with code, this may all look a bit strange, but we are go
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">led</span><span class="o">.</span><span class="n">toggle</span><span class="p">()</span>
 </code></pre></div>
 <p>until the end of days. The benefits of using <code>MicroPython</code> start to become apparent when we integrate standard <code>Python</code> modules such as the <code>time</code> module. Semantically, we want to import the time module, and then use it make a delay for turning the <abbr title="Light-Emitting Diode">LED</abbr> on and off. We will also now shift to executing an entire program rather than just individual lines of code. Rather than exectuing the code in the <code>Shell</code> window, write the entire program in the main window and then save the file. When prompted as the where to save the file, select <code>Raspberry Pi Pico</code> so the code is save on the Pico itself.</p>
-<div class="highlight"><span class="filename">Hello, World!</span><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1"></a><a href="#__codelineno-3-1"><span class="linenos" data-linenos="1 "></span></a><span class="kn">from</span> <span class="nn">machine</span> <span class="kn">import</span> <span class="n">Pin</span>
+<div class="highlight"><span class="filename">Hello, World!</span><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1"></a><a href="#__codelineno-3-1"><span class="linenos" data-linenos="1 "></span></a><span class="kn">from</span><span class="w"> </span><span class="nn">machine</span><span class="w"> </span><span class="kn">import</span> <span class="n">Pin</span>
 <a id="__codelineno-3-2" name="__codelineno-3-2"></a><a href="#__codelineno-3-2"><span class="linenos" data-linenos="2 "></span></a><span class="n">led</span> <span class="o">=</span> <span class="n">Pin</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="n">Pin</span><span class="o">.</span><span class="n">OUT</span><span class="p">)</span>
 <a id="__codelineno-3-3" name="__codelineno-3-3"></a><a href="#__codelineno-3-3"><span class="linenos" data-linenos="3 "></span></a>
 <a id="__codelineno-3-4" name="__codelineno-3-4"></a><a href="#__codelineno-3-4"><span class="linenos" data-linenos="4 "></span></a><span class="n">led</span><span class="o">.</span><span class="n">toggle</span><span class="p">()</span>
@@ -2059,8 +2167,8 @@ If you are unframiliar with code, this may all look a bit strange, but we are go
 <details class="example">
 <summary>With nothing other than the code above, try to import the <code>time</code> module, and use it to switch the <abbr title="Light-Emitting Diode">LED</abbr> on and off every second. The function <code class="highlight"><span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">()</span></code> may be of some use</summary>
 <p><code>Python</code> (and by extension, <code>MicroPython</code>) are somewhat intuitive languages, so in order to accomplish the given task, we could try something along the lines of</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a><a href="#__codelineno-4-1"><span class="linenos" data-linenos="1 "></span></a><span class="kn">from</span> <span class="nn">machine</span> <span class="kn">import</span> <span class="n">Pin</span>
-<a id="__codelineno-4-2" name="__codelineno-4-2"></a><span class="hll"><a href="#__codelineno-4-2"><span class="linenos" data-linenos="2 "></span></a><span class="kn">import</span> <span class="nn">time</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a><a href="#__codelineno-4-1"><span class="linenos" data-linenos="1 "></span></a><span class="kn">from</span><span class="w"> </span><span class="nn">machine</span><span class="w"> </span><span class="kn">import</span> <span class="n">Pin</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2"></a><span class="hll"><a href="#__codelineno-4-2"><span class="linenos" data-linenos="2 "></span></a><span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
 </span><a id="__codelineno-4-3" name="__codelineno-4-3"></a><a href="#__codelineno-4-3"><span class="linenos" data-linenos="3 "></span></a>
 <a id="__codelineno-4-4" name="__codelineno-4-4"></a><a href="#__codelineno-4-4"><span class="linenos" data-linenos="4 "></span></a><span class="n">led</span> <span class="o">=</span> <span class="n">Pin</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="n">Pin</span><span class="o">.</span><span class="n">OUT</span><span class="p">)</span>
 <a id="__codelineno-4-5" name="__codelineno-4-5"></a><a href="#__codelineno-4-5"><span class="linenos" data-linenos="5 "></span></a>
@@ -2069,8 +2177,8 @@ If you are unframiliar with code, this may all look a bit strange, but we are go
 </span><a id="__codelineno-4-8" name="__codelineno-4-8"></a><span class="hll"><a href="#__codelineno-4-8"><span class="linenos" data-linenos="8 "></span></a><span class="n">led</span><span class="o">.</span><span class="n">toggle</span><span class="p">()</span>
 </span></code></pre></div>
 <p>where the highlighted lines are the only lines added to our previous program. To make this a truely labour-saving device, we could use a <code class="highlight"><span class="k">while</span></code> loop:</p>
-<div class="highlight"><span class="filename">BlinkyBill.py</span><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kn">from</span> <span class="nn">machine</span> <span class="kn">import</span> <span class="n">Pin</span>
-<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="kn">import</span> <span class="nn">time</span>
+<div class="highlight"><span class="filename">BlinkyBill.py</span><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">machine</span><span class="w"> </span><span class="kn">import</span> <span class="n">Pin</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
 <a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>
 <a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="n">led</span> <span class="o">=</span> <span class="n">Pin</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="n">Pin</span><span class="o">.</span><span class="n">OUT</span><span class="p">)</span>
 <a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>
@@ -2105,8 +2213,8 @@ If you are unframiliar with code, this may all look a bit strange, but we are go
 <details class="example">
 <summary>Use the above recipe to try and create a program to pulse the <abbr title="Light-Emitting Diode">LED</abbr>, then try it!</summary>
 <p>An example program to pulse the <abbr title="Light-Emitting Diode">LED</abbr> is</p>
-<div class="highlight"><span class="filename">LED_lighthouse.py</span><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1"></a><a href="#__codelineno-6-1"><span class="linenos" data-linenos=" 1 "></span></a><span class="kn">from</span> <span class="nn">machine</span> <span class="kn">import</span> <span class="n">Pin</span><span class="p">,</span> <span class="n">PWM</span>
-<a id="__codelineno-6-2" name="__codelineno-6-2"></a><a href="#__codelineno-6-2"><span class="linenos" data-linenos=" 2 "></span></a><span class="kn">import</span> <span class="nn">time</span>
+<div class="highlight"><span class="filename">LED_lighthouse.py</span><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1"></a><a href="#__codelineno-6-1"><span class="linenos" data-linenos=" 1 "></span></a><span class="kn">from</span><span class="w"> </span><span class="nn">machine</span><span class="w"> </span><span class="kn">import</span> <span class="n">Pin</span><span class="p">,</span> <span class="n">PWM</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2"></a><a href="#__codelineno-6-2"><span class="linenos" data-linenos=" 2 "></span></a><span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
 <a id="__codelineno-6-3" name="__codelineno-6-3"></a><a href="#__codelineno-6-3"><span class="linenos" data-linenos=" 3 "></span></a>
 <a id="__codelineno-6-4" name="__codelineno-6-4"></a><a href="#__codelineno-6-4"><span class="linenos" data-linenos=" 4 "></span></a><span class="n">pwm</span> <span class="o">=</span> <span class="n">PWM</span><span class="p">(</span><span class="n">Pin</span><span class="p">(</span><span class="mi">25</span><span class="p">))</span>
 <a id="__codelineno-6-5" name="__codelineno-6-5"></a><a href="#__codelineno-6-5"><span class="linenos" data-linenos=" 5 "></span></a>
@@ -2154,8 +2262,8 @@ If you are unframiliar with code, this may all look a bit strange, but we are go
 <figcaption>A circuit control the LED brightness with a potentiometer</figcaption>
 </figure>
 <p>The right-hand side of above circuit will sample that the potentiometer output, which is measured using an ADC, the details of which are provided <a href="../../reference/hardware/#pico-technology-adc20-and-2000">elsewhere on this site</a>, but the summary is that a signal continuous in both time and voltage is <em>sampled</em> which results in a signal discritised in both time and voltage. The accuracy of the voltage represenation will be determined by the <em>resolution</em> of the ADC, which is essentially determined by the maximum measurable voltage over the bit depth. For a Pico, the digitised signal will range in value from <script type="math/tex">0 - 65025</script> which represent signals of <script type="math/tex">0-3.3\textrm{V}</script> respectively. In order to programatically read the voltage, we simply need to import the <code class="highlight"><span class="n">ADC</span></code> class and then tell the Pico which pin to read. Try running the below code, ensuring to verify the ADC pin on the <a href="#led-lighthouse">Pico pinout</a>:</p>
-<div class="highlight"><span class="filename">Potentiometer read</span><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kn">from</span> <span class="nn">machine</span> <span class="kn">import</span> <span class="n">ADC</span><span class="p">,</span> <span class="n">Pin</span>
-<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="kn">import</span> <span class="nn">time</span>
+<div class="highlight"><span class="filename">Potentiometer read</span><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">machine</span><span class="w"> </span><span class="kn">import</span> <span class="n">ADC</span><span class="p">,</span> <span class="n">Pin</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
 <a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>
 <a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="n">adc</span> <span class="o">=</span> <span class="n">ADC</span><span class="p">(</span><span class="n">Pin</span><span class="p">(</span><span class="mi">26</span><span class="p">))</span>
 <a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>
@@ -2219,9 +2327,9 @@ and use the snippets of code that we have used thus far to periodically switch a
       
   <span class="md-source-file__fact">
     <span class="md-icon" title="Last update">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 29, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="July 29, 2025 05:04:00 UTC">July 29, 2025</span>
   </span>
 
     
@@ -2244,7 +2352,7 @@ and use the snippets of code that we have used thus far to periodically switch a
         
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
   Back to top
 </button>
         
@@ -2278,10 +2386,12 @@ and use the snippets of code that we have used thus far to periodically switch a
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.tabs", "navigation.sections", "navigation.indexes", "search.highlight", "content.code.annotate", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.tabs", "navigation.sections", "navigation.indexes", "search.highlight", "content.code.annotate", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS_HTML"></script>
       

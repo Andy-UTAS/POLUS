@@ -6,6 +6,14 @@ This experiment looks into some of the problems involved in using ultrasonic sou
 
 ---
 
+<figure markdown>
+<a href = 'ULTRASONIC_RANGING.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
+    <figcaption>Lab notes
+    </figcaption>
+</figure>
+
+---
+
 ## Introduction
 
 ### Objectives

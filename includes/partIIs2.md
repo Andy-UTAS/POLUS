@@ -1,34 +1,33 @@
-Experiments are a cornerstone of scientific understanding. During your second-year studies, your experimental laboratories will be geared towards enabling an independent exploration of physical phenomena and developing your skills and confidence in experimental analysis.
+[//]: # (Last updated 23/03/2026, but needs to have things tweaked for 2026)
 
-All information for the lab program is hosted on the [lab website](https://polus.utasphys.cloud.edu.au/partII/), including the [available experiments](https://polus.utasphys.cloud.edu.au/partII/#experiments) (and associated documentation), [reference material](https://polus.utasphys.cloud.edu.au/reference/) for to aid in the execution of experiments and the preparation of materials to be assessed, along with general content such as FAQs and guides for usage of hardware, software, common coding tasks, and more.
+Experiments are a cornerstone of science, and during your second-year studies, you will undertake a series of experiments which allow one to probe at physical phenomena and hone your ability to employ the scientific method.
+
+Labs are conducted in pairs, and the primary mode of assessment will be your experimental logbook.
+
+All information for the lab program is hosted on the [lab website](https://polus.utasphys.cloud.edu.au/partII/), including the [available experiments](https://polus.utasphys.cloud.edu.au/syl/#experiments) (and associated documentation), [reference material](https://polus.utasphys.cloud.edu.au/reference/) to aid in the execution of experiments and the preparation of materials to be assessed, along with general content such as FAQs and guides for usage of hardware, software, common coding tasks, and more.
 
 ---
 
-## Overview
-
-Working in pairs, you will complete **three experiments** for the semester. Each experiment involves the production of a logbook and additionally, at the end of the semester you must produce a formal lab report based on an experiment of your choice from the semester; this task includes a round of assessed peer assessment and a presentation.
+## Experiments
+A complete list of experiments can be found [here](https://polus.utasphys.cloud.edu.au/syl/#experiments) and it is **your responsibility prior to week 6** to decide which labs you would like to do, and submit you preferences via [this form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=VV3rFZEZvEaNp6slI03uCE23LC8PLrNAuajI0gWhJChUMTU4RDhHVUUxRjA3M0hDU0xXTEFMNTNBTy4u).
 
 ## Schedule
 
-Labs will run in **three blocks of 3 weeks**. The dates for semester two, 2024 are as follows:
+Labs will be run in three blocks of 3 weeks, with each block assigned to complete one experiment. Prior to commencing each new block, you must complete the pre-lab exercises for the upcoming experiment. These should be submitted to the relevant dropbox on the Friday before your lab, with feedback provided shortly thereafter. Additionally, a final block is to be dedicated to scientific communication, which includes the preparation of a report, and a presentation of said report.
 
-* Experiment block one: weeks 2, 3, and 4, with logbooks to be submitted to the relevant dropbox by the end of the day following your experiment
-* Experiment block two: weeks 5, 6, and 7, with logbooks to be submitted to the relevant dropbox by the end of the day following your experiment
-* Experiment block three: weeks 8, 9, and 10, with logbooks to be submitted to the relevant dropbox by the end of the day following your experiment
-
-A **final _block_** is to be dedicated to scientific communication:
-
-* Week 11: report preparation, with submission for peer assessment by the end of Friday.
-* Week 12: Peer assessment and editing, with peer assessment feedback due by the end of Wednesday and submission of your final report by the end of Sunday.
-* Week 13: Lab report presentations.
+![](KYA212timeline.png)
 
 ## Assessment
 
-Assessment will primarily be performed through the development and submission of <u>**logbooks**<\u>, which you will build over the course of each 3-week experiment to detail your methodology, results, discussion and general thoughts. In addition to the material on the website, you can discuss how to approach writing and structuring your experimental logbook with your demonstrator.
+| Assessment Task      | Date                          | Weighting |
+| :---------- | :----------------------------------- | :----------: |
+| Experiment I prelabs | Week 1  | 7.5% |
+| Experiment I logbook | Week 4  | 17.5% |
+| Experiment II prelabs | Week 4  | 7.5% |
+| Experiment II logbook | Week 7  | 17.5% |
+| Experiment III prelabs | Week 7  | 7.5% |
+| Experiment III logbook | Week 10  | 17.5% |
+| Report | Week 12  | 17.5% |
+| Presentation | Week 12  | 7.5% |
 
-Combined with the final session presentation, weighting for assessments are:
-
-* Experiment one (25%)
-* Experiment two (25%)
-* Experiment three (25%)
-* Scientific communication: report (15%), presentation (5%), and peer assessment (5%)
+Assessment will be performed through the development and submission of _logbooks_, which you will build over the course of each 3-week experiment to detail your methodology, results, discussion and general thoughts. The completion of the pre-lab exercises will form part of the mark for your logbook grade. In addition to the [material on the website](https://polus.utasphys.cloud.edu.au/reference/experiment/#logbooks), you can discuss how to approach writing and structuring your experimental logbook with your demonstrator.

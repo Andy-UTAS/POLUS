@@ -7,7 +7,7 @@ This experiment uses a kinematic analysis of the helical path followed by electr
 ---
 
 <figure markdown>
-<a href = 'Legacy/e-m_notes.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
+<a href = 'KYA212__Charge_to_mass.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
     <figcaption>Lab notes
     </figcaption>
 </figure>

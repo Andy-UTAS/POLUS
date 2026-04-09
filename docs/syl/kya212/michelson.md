@@ -7,7 +7,7 @@ The wave nature of light at visible wavelengths is demonstrated by use of a dual
 ---
 
 <figure markdown>
-<a href = 'Legacy/Michelson_notes.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
+<a href = 'KYA212__Michelson.pdf'> <i class="fas fa-file-pdf fa-3x"></i> </a>
     <figcaption>Lab notes
     </figcaption>
 </figure>
